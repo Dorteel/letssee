@@ -1,0 +1,9 @@
+sensor_msgs/Image image
+string prompt
+string model_id
+string prompt_template
+string schema_id
+---
+bool success
+string response
+string error_message

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {"type": "string"},
+          "confidence": {
+            "type": "number",
+            "enum": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "required": ["label"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["objects"],
+  "additionalProperties": false
+}

@@ -1,3 +1,9 @@
 .venv/
 __pycache__/
 rgb_cube.html
+models/*/*/**
+!models/*/*/.gitkeep
+.pytest_cache/
+build/
+install/
+log/

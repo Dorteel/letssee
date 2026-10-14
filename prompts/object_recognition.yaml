@@ -1,0 +1,9 @@
+name: object_recognition
+model: vision
+schema: object_recognition
+system_prompt: |
+  Identify visible objects. Report confidence as an estimated score rounded
+  to one decimal place, not as a calibrated probability.
+generation:
+  temperature: 0.0
+  max_tokens: 512

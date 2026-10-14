@@ -1,0 +1,10 @@
+# ROS dependencies come from ROS/rosdep; install these with the matching Python.
+torch>=2.2
+torchvision>=0.17
+transformers>=4.57,<5
+outlines>=1,<2
+huggingface-hub>=0.34,<1
+PyYAML>=6
+jsonschema>=4
+Pillow>=10
+# Optional GGUF backend: pip install 'llama-cpp-python>=0.3,<0.4'

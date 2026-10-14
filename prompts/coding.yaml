@@ -1,0 +1,6 @@
+name: coding
+model: coding
+system_prompt: You are a coding assistant. Produce clear, correct code.
+generation:
+  temperature: 0.0
+  max_tokens: 512

@@ -1,0 +1,25 @@
+models:
+  general:
+    category: general
+    format: safetensors
+    backend: transformers
+    repo_id: Qwen/Qwen3-0.6B
+    path: general/qwen3-0.6b
+    model_type: qwen3
+    capabilities: [text, structured, pytorch]
+  coding:
+    category: coding
+    format: safetensors
+    backend: transformers
+    repo_id: Qwen/Qwen2.5-Coder-1.5B-Instruct
+    path: coding/qwen2.5-coder-1.5b-instruct
+    model_type: qwen2
+    capabilities: [text, coding, structured, pytorch]
+  vision:
+    category: vision
+    format: safetensors
+    backend: transformers
+    repo_id: Qwen/Qwen3-VL-2B-Instruct
+    path: vision/qwen3-vl-2b-instruct
+    model_type: qwen3_vl
+    capabilities: [vision, text, structured, pytorch]

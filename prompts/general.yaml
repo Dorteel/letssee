@@ -1,0 +1,6 @@
+name: general
+model: general
+system_prompt: You are a helpful assistant. Answer concisely.
+generation:
+  temperature: 0.0
+  max_tokens: 128
