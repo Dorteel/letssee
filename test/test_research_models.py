@@ -275,6 +275,39 @@ def test_native_wrappers_are_loaded_once(tmp_path):
     vlm.assert_called_once_with(str(tmp_path), "cpu")
 
 
+def test_selected_model_overrides_template_and_blocks_other_models(tmp_path):
+    models = LocalModels(ROOT, tmp_path, selected_model="coding")
+    assert models.loaded == {}
+    backend = MagicMock()
+    backend.generate.return_value = "hi"
+    models.loaded["coding"] = backend
+    assert models.generate("hi", prompt_template="general") == "hi"
+    assert set(models.loaded) == {"coding"}
+    with pytest.raises(ValueError, match="restricted to model 'coding'"):
+        models.generate("hi", model_id="general")
+    with pytest.raises(ValueError, match="restricted to model 'coding'"):
+        models.get("vision")
+    assert backend.generate.call_count == 1
+    with pytest.raises(ValueError, match="Unknown model"):
+        LocalModels(ROOT, tmp_path, selected_model="missing")
+
+
+def test_selected_model_is_lazy_and_initialized_once(tmp_path):
+    llm, vlm = MagicMock(), MagicMock()
+    with patch.dict("sys.modules", {
+        "letssee_llm.local_llm": SimpleNamespace(LocalLLM=llm),
+        "letssee_llm.local_vlm": SimpleNamespace(LocalVLM=vlm),
+    }):
+        models = LocalModels(ROOT, tmp_path, selected_model="coding")
+        llm.assert_not_called()
+        with patch.object(models.library, "verify", return_value=tmp_path):
+            assert models.get("coding") is models.get("coding")
+            with pytest.raises(ValueError, match="restricted"):
+                models.get("vision")
+        llm.assert_called_once()
+        vlm.assert_not_called()
+
+
 @pytest.mark.parametrize("tokens,temperature", [(0, 0), (-1, 0), (1.5, 0), (10, -1), (10, float("nan"))])
 def test_invalid_generation_parameters(tokens, temperature):
     with pytest.raises(ValueError):

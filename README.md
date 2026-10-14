@@ -170,6 +170,63 @@ from source. To download into the installed default location, pass
 Each node handles requests sequentially; separate nodes have separate model
 instances and memory use.
 
+## Launch one selected service
+
+Build and source the workspace:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+cd /home/dorteel/ros2_ws
+colcon build --packages-select letssee
+source install/setup.bash
+```
+
+Select the local model root and activate the Python environment with the inference
+dependencies. The launch file exposes `service` (`llm` or `vlm`) and `model`
+(registry ID); defaults are `llm` and `general`:
+
+```bash
+export LETSSEE_MODEL_ROOT=/home/dorteel/ros2_ws/src/letssee/models
+source /home/dorteel/ros2_ws/src/letssee/.venv/bin/activate
+ros2 launch letssee llm.launch.py service:=llm model:=coding
+```
+
+Alternatively, start only the vision service:
+
+```bash
+ros2 launch letssee llm.launch.py service:=vlm model:=vision
+```
+
+The launch file uses the active `python3` for the selected executable. If using
+the temporary validation environment, prepend `/tmp/letssee-model-env/bin` to
+PATH instead of activating `.venv`. No model is loaded during launch: the chosen
+model loads on its first request and remains cached. Unknown IDs or incompatible
+capabilities fail before a service starts.
+
+Minimal end-to-end `hi` example: keep the coding launch running, then in a second
+terminal source ROS and `install/setup.bash` as above and call:
+
+```bash
+ros2 service call /llm/generate_text letssee/srv/GenerateText \
+  "{prompt: hi, model_id: coding, schema_id: ''}"
+```
+
+Expect `success=True`, a nonempty `response`, and an empty `error_message`.
+For structured output use `schema_id: structured_response`. For the vision launch:
+
+```bash
+ros2 service call /vlm/analyze_image letssee/srv/AnalyzeImage \
+  "{image: {height: 1, width: 1, encoding: rgb8, step: 3, data: [255, 0, 0]}, prompt: hi, model_id: vision, schema_id: object_recognition}"
+```
+
+Press **Ctrl+C in the launch terminal** to stop the service. Only one selected
+node is launched. Its read-only `model_id` parameter restricts requests: an empty
+request ID uses the selected model, a matching ID is accepted, and a different
+ID returns `success=False`. Selection also overrides a template's default model,
+while preserving its instructions/generation settings. Unselected models remain
+unloaded. Nodes started directly with an empty `model_id` retain multi-model
+request selection. The legacy `/llm/generate` service is unchanged.
+
 ## Service calls and interfaces
 
 ```bash
@@ -189,7 +246,7 @@ return `success=false`, an empty response, and a clear error. Supported image
 encodings are `rgb8`, `bgr8`, `rgba8`, `bgra8`, and `mono8`, including padded rows.
 Other encodings and malformed dimensions/buffers are rejected.
 
-Requests with a nonempty `model_id` override template model defaults. An empty
+For unpinned nodes, requests with a nonempty `model_id` override template model defaults. An empty
 `prompt_template` means no template. **An empty ROS `schema_id` always means
 unrestricted text**, including when a template names a schema; explicitly send
 the schema ID to use it. In Python, omitting `schema_id` uses the template schema
@@ -294,7 +351,11 @@ services in a separate test domain, waits for readiness with a timeout, and make
 seven requests using `ros2 service call`: plain text, structured text, coding,
 missing schema, structured image analysis, invalid image, and legacy generation.
 It checks response fields and validates structured JSON against the original
-schemas. Success ends with `PASS: ... all seven ROS service checks passed`.
+schemas. It then stops those nodes and launches `llm/coding` and `vlm/vision`
+sequentially using `ros2 launch`. These checks use the `hi` request twice, reject
+requests for other models, trace that only the selected model initializes once,
+and verify clean shutdown. Invalid IDs and incompatible capabilities must fail
+promptly. Success ends with `PASS: ... single-model launch checks passed`.
 
 Default/unit mode explicitly excludes model integration tests and uses the
 production callbacks with deterministic inference fixtures. Full modes require

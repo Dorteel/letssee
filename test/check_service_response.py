@@ -16,11 +16,13 @@ def check(output: str, expectation: str, schema_dir: Path) -> None:
     if not isinstance(expression, ast.Call) or expression.args:
         raise ValueError("Unexpected ROS response representation")
     fields = {item.arg: ast.literal_eval(item.value) for item in expression.keywords}
-    if expectation == "error":
+    if expectation in {"error", "restricted"}:
         if fields.get("success") is not False or not fields.get("error_message"):
             raise ValueError(f"Expected an explicit service failure: {fields}")
         if fields.get("response") != "":
             raise ValueError("Failed service returned a nonempty response")
+        if expectation == "restricted" and "restricted to model" not in fields["error_message"]:
+            raise ValueError("Expected a model restriction error")
         return
     if expectation != "legacy":
         if fields.get("success") is not True or fields.get("error_message") != "":
@@ -35,7 +37,7 @@ def check(output: str, expectation: str, schema_dir: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("output", type=Path)
-    parser.add_argument("expectation", choices=["text", "legacy", "error", "structured_response", "object_recognition"])
+    parser.add_argument("expectation", choices=["text", "legacy", "error", "restricted", "structured_response", "object_recognition"])
     parser.add_argument("schema_dir", type=Path)
     args = parser.parse_args()
     check(args.output.read_text(), args.expectation, args.schema_dir)

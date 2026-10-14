@@ -13,7 +13,7 @@ class MinimalService(Node):
     def __init__(self) -> None:
         super().__init__("vlm_service")
         try:
-            self.models = configure_models(self)
+            self.models = configure_models(self, "vision")
             self.srv = self.create_service(
                 AnalyzeImage, "/vlm/analyze_image", self.analyze_callback
             )

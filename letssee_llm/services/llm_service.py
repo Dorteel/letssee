@@ -12,7 +12,7 @@ class MinimalService(Node):
     def __init__(self) -> None:
         super().__init__("generate_text_service")
         try:
-            self.models = configure_models(self)
+            self.models = configure_models(self, "text")
             self.srv = self.create_service(
                 GenerateText, "/llm/generate_text", self.generate_callback
             )

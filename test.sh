@@ -103,7 +103,8 @@ cleanup() {
   for pid in "${pids[@]}"; do
     if is_running "$pid"; then kill -TERM -- "-$pid" 2>/dev/null || true; fi
   done
-  for _ in {1..30}; do
+  # Allow ros2 launch to propagate shutdown and finish its child-process escalation.
+  for _ in {1..150}; do
     local running=0
     for pid in "${pids[@]}"; do is_running "$pid" && running=1; done
     (( running == 0 )) && break
@@ -244,5 +245,91 @@ call_service image /vlm/analyze_image AnalyzeImage \
   "{image: {height: 1, width: 1, encoding: rgb8, step: 3, data: [255, 0, 0]}, prompt: 'Identify visible objects.', prompt_template: object_recognition, schema_id: object_recognition}" object_recognition
 call_service invalid-image /vlm/analyze_image AnalyzeImage \
   "{image: {height: 1, width: 1, encoding: 16UC1, step: 2, data: [0, 0]}, prompt: describe}" error
-call_service legacy /llm/generate Generate "{prompt: 'Say hello briefly.'}" legacy
-printf '\nPASS: %s tests and all seven ROS service checks passed.\nLogs: %s\n' "$mode" "$run_dir"
+call_service legacy /llm/generate Generate "{prompt: 'hi'}" legacy
+
+# Stop the baseline nodes before testing launch, so only one service is present.
+stop_services() {
+  local pid
+  for pid in "${pids[@]}"; do
+    if is_running "$pid"; then kill -INT -- "-$pid" 2>/dev/null || true; fi
+  done
+  for _ in {1..50}; do
+    local running=0
+    for pid in "${pids[@]}"; do is_running "$pid" && running=1; done
+    (( running == 0 )) && break
+    sleep 0.1
+  done
+  for pid in "${pids[@]}"; do
+    is_running "$pid" && fail "Launched process $pid did not shut down cleanly."
+    wait "$pid" || fail "Launched process $pid exited with an error."
+  done
+  pids=()
+}
+stop_services
+
+check_launch() {
+  local service=$1 model=$2 endpoint=$3 interface=$4 request=$5 expectation=$6
+  local trace="$run_dir/launch-$service.loads"
+  : > "$trace"
+  local mock=0
+  [[ "$mode" != unit ]] || mock=1
+  PATH="$(dirname "$python"):$PATH" \
+    PYTHONPATH="$repo/test/launch_fixture${PYTHONPATH:+:$PYTHONPATH}" \
+    LETSSEE_LOAD_TRACE="$trace" LETSSEE_TEST_MOCK="$mock" \
+    setsid ros2 launch "$package" llm.launch.py "service:=$service" "model:=$model" \
+    >"$run_dir/launch-$service.log" 2>&1 &
+  pids+=("$!")
+  "$python" - "$endpoint" "$ready_timeout" "${pids[0]}" <<'PY'
+import os, sys, time
+import rclpy
+rclpy.init()
+node = rclpy.create_node('test_selected_launch')
+endpoint, seconds, pid = sys.argv[1], int(sys.argv[2]), int(sys.argv[3])
+deadline = time.monotonic() + seconds
+all_services = {'/llm/generate_text', '/vlm/analyze_image', '/llm/generate'}
+try:
+    while time.monotonic() < deadline:
+        os.kill(pid, 0)
+        active = {name for name, _ in node.get_service_names_and_types()} & all_services
+        if active == {endpoint}:
+            break
+        rclpy.spin_once(node, timeout_sec=0.1)
+    else:
+        raise RuntimeError(f'Expected exactly {endpoint}; found {active}')
+finally:
+    node.destroy_node()
+    rclpy.try_shutdown()
+PY
+  [[ ! -s "$trace" ]] || fail "Launch eagerly initialized a model before any request."
+  call_service "launch-$service-hi" "$endpoint" "$interface" "$request" "$expectation"
+  call_service "launch-$service-repeat" "$endpoint" "$interface" "$request" "$expectation"
+  call_service "launch-$service-restricted" "$endpoint" "$interface" \
+    "${request/\{/{model_id: general, }" restricted
+  "$python" - "$trace" "$model" <<'PY'
+import json, sys
+from pathlib import Path
+loaded = [json.loads(line) for line in Path(sys.argv[1]).read_text().splitlines()]
+assert loaded == [sys.argv[2]], f'Expected one initialization of the selected model, got {loaded}'
+PY
+  stop_services
+}
+check_launch llm coding /llm/generate_text GenerateText \
+  "{prompt: hi, schema_id: structured_response}" structured_response
+check_launch vlm vision /vlm/analyze_image AnalyzeImage \
+  "{image: {height: 1, width: 1, encoding: rgb8, step: 3, data: [255, 0, 0]}, prompt: hi, schema_id: object_recognition}" object_recognition
+
+for selection in 'llm missing' 'vlm coding'; do
+  read -r service model <<< "$selection"
+  status=0
+  timeout --foreground --kill-after=5 "$ready_timeout" \
+    ros2 launch "$package" llm.launch.py "service:=$service" "model:=$model" \
+    >"$run_dir/invalid-$service.log" 2>&1 || status=$?
+  (( status != 0 && status != 124 && status != 137 )) || fail "Invalid launch selection was not promptly rejected."
+  "$python" - "$run_dir/invalid-$service.log" <<'PY'
+import sys
+from pathlib import Path
+text = Path(sys.argv[1]).read_text()
+assert 'Unknown model' in text or 'does not support vision' in text, text
+PY
+done
+printf '\nPASS: %s tests, seven baseline requests, and single-model launch checks passed.\nLogs: %s\n' "$mode" "$run_dir"

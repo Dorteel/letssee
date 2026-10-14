@@ -45,14 +45,20 @@ class LocalModels:
     def __init__(
         self, data_dir: str | Path, model_root: str | Path | None = None,
         device: str = "cpu",
+        selected_model: str = "",
     ) -> None:
         self.data_dir = Path(data_dir).expanduser().resolve()
         self.library = ModelLibrary(self.data_dir / "models/model_library.yaml", model_root)
         self.device = device
         self.loaded = {}
+        self.selected_model = selected_model
+        if selected_model:
+            self.library.entry(selected_model)
 
     def get(self, model_id: str):
         """Return the cached wrapper, loading only verified local files."""
+        if self.selected_model and model_id != self.selected_model:
+            raise ValueError(f"Service is restricted to model {self.selected_model!r}; requested {model_id!r}")
         if model_id not in self.loaded:
             entry = self.library.entry(model_id)
             path = str(self.library.verify(model_id))
@@ -79,7 +85,12 @@ class LocalModels:
         ROS requests always pass their schema_id, so an empty request stays unrestricted.
         """
         template = load_template(self.data_dir / "prompts", prompt_template)
-        model_id = model_id or template.get("model", "vision" if image is not None else "general")
+        if self.selected_model:
+            if model_id and model_id != self.selected_model:
+                raise ValueError(f"Service is restricted to model {self.selected_model!r}; requested {model_id!r}")
+            model_id = self.selected_model
+        else:
+            model_id = model_id or template.get("model", "vision" if image is not None else "general")
         schema_id = template.get("schema", "") if schema_id is None else schema_id
         schema = load_schema(self.data_dir / "schemas", schema_id)
         entry = self.library.entry(model_id)

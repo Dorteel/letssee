@@ -17,7 +17,8 @@ install(DIRECTORY letssee_llm DESTINATION ${PYTHON_INSTALL_DIR}
   PATTERN "__pycache__" EXCLUDE)
 install(PROGRAMS scripts/llm_service scripts/generate_text_service
   scripts/vlm_service scripts/download_models DESTINATION lib/${PROJECT_NAME})
-install(DIRECTORY prompts schemas DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY prompts schemas launch DESTINATION share/${PROJECT_NAME}
+  PATTERN "__pycache__" EXCLUDE)
 # Weight folders stay local; only the registry is installed.
 install(FILES models/model_library.yaml DESTINATION share/${PROJECT_NAME}/models)
 
