@@ -134,35 +134,14 @@ class GraphTests(unittest.TestCase):
         p.write_text('---\n'+yaml.safe_dump(m)+'---\nA biography fixture.\n'); self.add(p)
         self.assertFalse(self.g['nodes'][m['id']]['pending'])
 
-    def test_export_views_stability_and_manual_protection(self):
-        self.fixture(); self.person_fixture()
-        # Add concept metadata without generating an article.
-        self.g['nodes']['c']={'id':'c','title':'Concept','path':'Psychology/Concepts/Concept.md','type':'concept','aliases':[],'pending':True}
-        self.g['nodes']['m']={'id':'m','title':'Method','path':'Psychology/Methods/Method.md','type':'method','aliases':[],'pending':True}
-        b.rebuild(self.g,self.schema)
-        import argparse
+    def test_visualization_generation_is_disabled(self):
+        from types import SimpleNamespace
+        before=self.snapshot()
         for view in ['schools','people','concepts','all']:
-            args=argparse.Namespace(root=b.ROOT,view=view,layout='radial',output=None,dry_run=False)
-            b.export(self.v,self.g,self.schema,args)
-            path=self.v/f'Psychology/Maps/{view}-radial.generated.excalidraw'
-            before=path.read_bytes(); scene=json.loads(before)
-            b.export(self.v,self.g,self.schema,args); self.assertEqual(before,path.read_bytes())
-            self.assertEqual(scene['type'],'excalidraw'); self.assertEqual(scene['version'],2)
-            shapes=[e for e in scene['elements'] if e['type']=='rectangle']
-            self.assertEqual({e['id'] for e in shapes},set(b.selected_nodes(self.g,view)))
-            root=next(e for e in shapes if e['id']==b.ROOT)
-            self.assertEqual((root['x']+root['width']/2,root['y']+root['height']/2),(0,0))
-            for e in scene['elements']:
-                self.assertTrue(all(k in e for k in ['id','x','y','width','height','version','seed']))
-                self.assertGreaterEqual(e['width'],0); self.assertGreaterEqual(e['height'],0)
-            path.write_text(path.read_text()+' ')
-            with self.assertRaisesRegex(ValueError,'manually edited'): b.export(self.v,self.g,self.schema,args)
-        args=argparse.Namespace(root=b.ROOT,view='all',layout='timeline',output=None,dry_run=False)
-        b.export(self.v,self.g,self.schema,args)
-        hand=self.v/'Psychology/Maps/hand.excalidraw'; hand.write_text('{"hand":true}')
-        args.output=str(hand.relative_to(self.v))
-        with self.assertRaises(ValueError): b.export(self.v,self.g,self.schema,args)
-        self.assertEqual(hand.read_text(),'{"hand":true}')
+            args=SimpleNamespace(view=view,root=b.ROOT,layout='radial',output=None,dry_run=False)
+            with self.assertRaisesRegex(ValueError,'native Graph View'):
+                b.export(self.v,self.g,self.schema,args)
+        self.assertEqual(before,self.snapshot())
 
     def test_yaml_projection_and_backups(self):
         self.fixture(); self.assertEqual(b.read(self.v/'_Graph/relationships.yaml')['relationships'],self.g['edges'])

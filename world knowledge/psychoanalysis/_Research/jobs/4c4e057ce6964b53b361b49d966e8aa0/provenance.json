@@ -1,0 +1,36 @@
+{
+  "provider": "codex-session",
+  "calls": [
+    {
+      "tool": "web.run",
+      "action": "search",
+      "query": "relational psychoanalysis origins 1983 Mitchell Greenberg object relations interpersonal psychoanalysis university press",
+      "reference": "turn11search11"
+    },
+    {
+      "tool": "web.run",
+      "action": "open",
+      "url": "https://doi.org/10.1007/978-1-4614-6086-2_566",
+      "reference": "turn12view0"
+    },
+    {
+      "tool": "web.run",
+      "action": "open",
+      "url": "https://iarpp.net/who-we-are/",
+      "reference": "turn12view1"
+    },
+    {
+      "tool": "web.run",
+      "action": "open",
+      "url": "https://iarpp.net/who-we-are/what-we-do/",
+      "reference": "turn12view2"
+    },
+    {
+      "tool": "web.run",
+      "action": "open",
+      "url": "https://www.iarpp.net/membership/rpbs_titles.html",
+      "reference": "turn12view3"
+    }
+  ],
+  "web_search_observed": true
+}

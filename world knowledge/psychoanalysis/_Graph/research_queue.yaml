@@ -3,17 +3,19 @@ completed:
 - psy-school-individual-psychology
 - psy-school-analytical-psychology
 - psy-school-object-relations
+- psy-school-relational-psychoanalysis
+- psy-school-interpersonal-psychoanalysis
 pending:
-- id: psy-school-relational-psychoanalysis
-  title: Relational Psychoanalysis
-  type: school
-  path: Psychology/Schools/Relational Psychoanalysis.md
-  status: pending
-  priority: high
 - id: psy-concept-active-imagination
   title: Active Imagination
   type: concept
   path: Psychology/Concepts/Active Imagination.md
+  status: pending
+  priority: normal
+- id: psy-concept-anxiety
+  title: Anxiety
+  type: concept
+  path: Psychology/Concepts/Anxiety.md
   status: pending
   priority: normal
 - id: psy-concept-archetypes
@@ -32,6 +34,12 @@ pending:
   title: Condensation
   type: concept
   path: Psychology/Concepts/Condensation.md
+  status: pending
+  priority: normal
+- id: psy-concept-countertransference
+  title: Countertransference
+  type: concept
+  path: Psychology/Concepts/Countertransference.md
   status: pending
   priority: normal
 - id: psy-concept-death-drive
@@ -80,6 +88,12 @@ pending:
   title: Internal Objects
   type: concept
   path: Psychology/Concepts/Internal Objects.md
+  status: pending
+  priority: normal
+- id: psy-concept-participant-observation
+  title: Participant Observation
+  type: concept
+  path: Psychology/Concepts/Participant Observation.md
   status: pending
   priority: normal
 - id: psy-concept-repression
@@ -166,10 +180,40 @@ pending:
   path: Psychology/People/Carl Gustav Jung.md
   status: pending
   priority: normal
+- id: psy-person-clara-thompson
+  title: Clara Thompson
+  type: person
+  path: Psychology/People/Clara Thompson.md
+  status: pending
+  priority: normal
 - id: psy-person-donald-winnicott
   title: Donald Winnicott
   type: person
   path: Psychology/People/Donald Winnicott.md
+  status: pending
+  priority: normal
+- id: psy-person-erich-fromm
+  title: Erich Fromm
+  type: person
+  path: Psychology/People/Erich Fromm.md
+  status: pending
+  priority: normal
+- id: psy-person-frieda-fromm-reichmann
+  title: Frieda Fromm-Reichmann
+  type: person
+  path: Psychology/People/Frieda Fromm-Reichmann.md
+  status: pending
+  priority: normal
+- id: psy-person-harry-stack-sullivan
+  title: Harry Stack Sullivan
+  type: person
+  path: Psychology/People/Harry Stack Sullivan.md
+  status: pending
+  priority: normal
+- id: psy-person-jay-r-greenberg
+  title: Jay R. Greenberg
+  type: person
+  path: Psychology/People/Jay R. Greenberg.md
   status: pending
   priority: normal
 - id: psy-person-jean-martin-charcot
@@ -208,4 +252,10 @@ pending:
   path: Psychology/People/Sigmund Freud.md
   status: pending
   priority: normal
-next_proposed_target: psy-school-relational-psychoanalysis
+- id: psy-person-stephen-a-mitchell
+  title: Stephen A. Mitchell
+  type: person
+  path: Psychology/People/Stephen A. Mitchell.md
+  status: pending
+  priority: normal
+next_proposed_target: null

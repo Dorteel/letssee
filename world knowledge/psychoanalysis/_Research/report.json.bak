@@ -1,0 +1,16 @@
+{
+  "dry_run": false,
+  "schools_researched": 1,
+  "created_this_run": [
+    "psy-school-relational-psychoanalysis"
+  ],
+  "planned": [],
+  "unresolved_entities": 37,
+  "pending_schools": 1,
+  "relationships": 28,
+  "claims_requiring_review": 5,
+  "stop_reason": "awaiting_live_research",
+  "run_id": "b92922ebb9a540bf8527284cd053de28",
+  "request_id": "3d88dc84fb404af8967dd2c71bc71460",
+  "request_file": "/home/dorteel/ros2_ws/src/letssee/world knowledge/psychoanalysis/_Research/jobs/3d88dc84fb404af8967dd2c71bc71460/request.json"
+}

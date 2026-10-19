@@ -143,11 +143,186 @@
       "path": "Psychology/Schools/Psychoanalysis.md",
       "status": "completed",
       "existing": true
+    },
+    "psy-concept-social-interest": {
+      "status": "pending",
+      "path": "Psychology/Concepts/Social Interest.md"
+    },
+    "psy-concept-inferiority-feelings": {
+      "status": "pending",
+      "path": "Psychology/Concepts/Inferiority Feelings.md"
+    },
+    "psy-concept-style-of-life": {
+      "status": "pending",
+      "path": "Psychology/Concepts/Style of Life.md"
+    },
+    "psy-concept-collective-unconscious": {
+      "status": "pending",
+      "path": "Psychology/Concepts/Collective Unconscious.md"
+    },
+    "psy-concept-archetypes": {
+      "status": "pending",
+      "path": "Psychology/Concepts/Archetypes.md"
+    },
+    "psy-concept-active-imagination": {
+      "status": "pending",
+      "path": "Psychology/Concepts/Active Imagination.md"
+    },
+    "psy-concept-individuation": {
+      "status": "pending",
+      "path": "Psychology/Concepts/Individuation.md"
+    },
+    "psy-person-ronald-fairbairn": {
+      "status": "pending",
+      "path": "Psychology/People/Ronald Fairbairn.md"
+    },
+    "psy-person-donald-winnicott": {
+      "status": "pending",
+      "path": "Psychology/People/Donald Winnicott.md"
+    },
+    "psy-concept-internal-objects": {
+      "status": "pending",
+      "path": "Psychology/Concepts/Internal Objects.md"
+    },
+    "psy-school-relational-psychoanalysis": {
+      "status": "completed",
+      "path": "Psychology/Schools/Relational Psychoanalysis.md",
+      "genealogical_depth": null,
+      "depth": null,
+      "research_review": {
+        "status": "verified",
+        "sources": [
+          "https://doi.org/10.1007/978-1-4614-6086-2_566",
+          "https://iarpp.net/who-we-are/",
+          "https://iarpp.net/who-we-are/what-we-do/",
+          "https://www.iarpp.net/membership/rpbs_titles.html"
+        ],
+        "checked_on": "2026-10-19T23:06:15.005794+00:00",
+        "source_findings": [
+          {
+            "url": "https://doi.org/10.1007/978-1-4614-6086-2_566",
+            "title": "Springer encyclopedia: relational psychoanalysis (introduction preview only)",
+            "locator": "Introduction to Relational Theory, opening paragraphs",
+            "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified."
+          },
+          {
+            "url": "https://iarpp.net/who-we-are/",
+            "title": "IARPP: Who We Are",
+            "locator": "Opening two paragraphs",
+            "finding": "Relational accounts locate modifiable psychic structure in relations rather than innate drives alone."
+          },
+          {
+            "url": "https://iarpp.net/who-we-are/what-we-do/",
+            "title": "IARPP: What We Do",
+            "locator": "Three levels of relational thinking",
+            "finding": "Relational perspectives address internalized relations, context and therapeutic change within an evolving relationship."
+          },
+          {
+            "url": "https://www.iarpp.net/membership/rpbs_titles.html",
+            "title": "IARPP: Relational Perspectives Book Series",
+            "locator": "Opening description of the series",
+            "finding": "The editors describe a plural tradition rather than a unified school or fixed system."
+          }
+        ]
+      }
+    },
+    "psy-person-stephen-a-mitchell": {
+      "path": "Psychology/People/Stephen A. Mitchell.md",
+      "status": "pending"
+    },
+    "psy-person-jay-r-greenberg": {
+      "path": "Psychology/People/Jay R. Greenberg.md",
+      "status": "pending"
+    },
+    "psy-school-interpersonal-psychoanalysis": {
+      "path": "Psychology/Schools/Interpersonal Psychoanalysis.md",
+      "status": "completed",
+      "depth": 3,
+      "research_review": {
+        "status": "verified",
+        "sources": [
+          "https://wawhite.org/our-history/",
+          "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf",
+          "https://archive.wawhite.org/uploads/2019_111_LanganBohm_Syllabus.pdf",
+          "https://doi.org/10.1007/978-1-4614-6086-2_566"
+        ],
+        "checked_on": "2026-10-19T23:07:27.371283+00:00",
+        "source_findings": [
+          {
+            "url": "https://wawhite.org/our-history/",
+            "title": "White Institute: Our History",
+            "locator": "Origins, Theory, and Practice; timeline 1943 and 1946",
+            "finding": "An institute formed in 1943 within, but in opposition to orthodox practices of, the psychoanalytic tradition."
+          },
+          {
+            "url": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf",
+            "title": "Handbook of Interpersonal Psychoanalysis (1995), preview",
+            "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+            "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event."
+          },
+          {
+            "url": "https://archive.wawhite.org/uploads/2019_111_LanganBohm_Syllabus.pdf",
+            "title": "White Institute: 2019 clinical theory syllabus",
+            "locator": "Participant Observation, PDF p. 3 (text index P2), session of September 24",
+            "finding": "Detailed inquiry and participant observation connect anxiety, security and satisfaction to interpersonal situations."
+          },
+          {
+            "url": "https://doi.org/10.1007/978-1-4614-6086-2_566",
+            "title": "Springer encyclopedia: relational psychoanalysis, introduction preview",
+            "locator": "Introduction to Relational Theory, opening paragraphs",
+            "finding": "The 1983 relational synthesis explicitly combined interpersonal and object-relations traditions."
+          }
+        ]
+      }
+    },
+    "psy-concept-countertransference": {
+      "path": "Psychology/Concepts/Countertransference.md",
+      "status": "pending"
+    },
+    "psy-person-harry-stack-sullivan": {
+      "path": "Psychology/People/Harry Stack Sullivan.md",
+      "status": "pending"
+    },
+    "psy-person-clara-thompson": {
+      "path": "Psychology/People/Clara Thompson.md",
+      "status": "pending"
+    },
+    "psy-person-erich-fromm": {
+      "path": "Psychology/People/Erich Fromm.md",
+      "status": "pending"
+    },
+    "psy-person-frieda-fromm-reichmann": {
+      "path": "Psychology/People/Frieda Fromm-Reichmann.md",
+      "status": "pending"
+    },
+    "psy-concept-anxiety": {
+      "path": "Psychology/Concepts/Anxiety.md",
+      "status": "pending"
+    },
+    "psy-concept-participant-observation": {
+      "path": "Psychology/Concepts/Participant Observation.md",
+      "status": "pending"
     }
   },
   "completed": [
-    "psy-school-individual-psychology",
     "psy-school-analytical-psychology",
-    "psy-school-object-relations"
-  ]
+    "psy-school-individual-psychology",
+    "psy-school-interpersonal-psychoanalysis",
+    "psy-school-object-relations",
+    "psy-school-psychoanalysis",
+    "psy-school-relational-psychoanalysis"
+  ],
+  "run": {
+    "root": "psy-school-psychoanalysis",
+    "recursive": true,
+    "max_depth": 5,
+    "max_nodes": 2,
+    "id": "b92922ebb9a540bf8527284cd053de28",
+    "status": "active",
+    "completed": [
+      "psy-school-relational-psychoanalysis",
+      "psy-school-interpersonal-psychoanalysis"
+    ]
+  },
+  "current": null
 }

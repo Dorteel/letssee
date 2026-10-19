@@ -7,7 +7,6 @@ import copy
 import fcntl
 import hashlib
 import json
-import math
 from pathlib import Path
 import re
 import shutil
@@ -429,79 +428,7 @@ def verify_sources(vault,graph):
 
 
 def export(vault,graph,schema,args):
-    verify_sources(vault,graph)
-    nodes=selected_nodes(graph,args.view)
-    if args.root not in nodes: raise ValueError('Root excluded by selected view')
-    d=distances(graph,args.root); groups=defaultdict(list)
-    for i in sorted(nodes):
-        if i!=args.root: groups[d.get(i,-1)].append(i)
-    pos={args.root:(0.,0.)}
-    outer=max(d.values(),default=0)+1
-    for level,ids in sorted(groups.items()):
-        radius=max(380*(level if level>=0 else outer),len(ids)*270/(2*math.pi))
-        for j,i in enumerate(ids):
-            angle=2*math.pi*j/len(ids)
-            pos[i]=(radius*math.cos(angle),radius*math.sin(angle))
-    if args.layout=='timeline':
-        years=[n.get('emergence_year',n.get('birth_year')) for n in nodes.values()]
-        origin=min([y for y in years if type(y) is int],default=1890)
-        lanes=defaultdict(int)
-        for i,n in sorted(nodes.items()):
-            year=n.get('emergence_year',n.get('birth_year')); x=(year-origin)*18 if type(year) is int else -400
-            lane=lanes[x]; lanes[x]+=1; pos[i]=(x,lane*160)
-    elements=[]
-    def element(kind,id,x,y,w,h,**kw):
-        e={'id':id,'type':kind,'x':x,'y':y,'width':w,'height':h,'angle':0,
-           'strokeColor':'#1e293b','backgroundColor':'transparent','fillStyle':'solid',
-           'strokeWidth':2,'strokeStyle':'solid','roughness':0,'opacity':100,'groupIds':[],
-           'frameId':None,'roundness':None,'seed':1,'version':1,'versionNonce':1,
-           'isDeleted':False,'boundElements':None,'updated':1,'link':None,'locked':False}
-        e.update(kw); elements.append(e)
-    def label(id,x,y,text,color='#1e293b'):
-        lines=text.splitlines() or ['']
-        element('text',id,x,y,max(map(len,lines))*9.5,22*len(lines),text=text,originalText=text,
-                fontSize=16,fontFamily=1,textAlign='left',verticalAlign='top',containerId=None,
-                autoResize=True,lineHeight=1.375,strokeColor=color)
-    for i,n in sorted(nodes.items()):
-        x,y=pos[i]; year=n.get('emergence_year',n.get('birth_year'))
-        color=schema['node_types'][n['type']]['color']
-        element('rectangle',i,x-120,y-42,240,84,strokeColor=color,
-                strokeStyle='dashed' if n.get('pending') else 'solid',
-                customData={'nodeId':i,'nodeType':n['type'],'depth':d.get(i),'pending':n.get('pending',False)})
-        title=n['title']; wrapped='\n'.join(title[k:k+25] for k in range(0,len(title),25))
-        label(i+'-text',x-112,y-36,wrapped+'\n'+str(year if year is not None else 'date unknown'),color)
-    for e in graph.get('edges',[]):
-        s,t=e['source'],e['target']
-        if s not in nodes or t not in nodes: continue
-        x,y=pos[s]; tx,ty=pos[t]
-        if s==t: tx=x+130; ty=y+100
-        color='#2563eb' if schema['relations'][e['relation']]['genealogical'] else '#64748b'
-        element('arrow',e['id'],x,y+42,abs(tx-x),abs(ty-y-84),
-            points=[[0,0],[tx-x,ty-y-84]],startBinding={'elementId':s,'focus':0,'gap':0},endBinding={'elementId':t,'focus':0,'gap':0},
-            startArrowhead=None,endArrowhead=None if e['direction']=='symmetric' else 'arrow',
-            strokeColor=color,strokeStyle='solid' if schema['relations'][e['relation']]['genealogical'] else 'dashed',
-            customData={'relation':e['relation'],'source':s,'target':t})
-        label(e['id']+'-text',(x+tx)/2,(y+ty)/2,e['relation']+(' ~'+str(e['date']) if e['date'] else ''))
-    bound=defaultdict(list)
-    for e in graph.get('edges',[]):
-        if e['source'] in nodes and e['target'] in nodes:
-            bound[e['source']].append({'id':e['id'],'type':'arrow'})
-            if e['source']!=e['target']: bound[e['target']].append({'id':e['id'],'type':'arrow'})
-    for element_data in elements:
-        if element_data['type']=='rectangle': element_data['boundElements']=bound.get(element_data['id'])
-    label('legend',-450,-280,'Solid blue: genealogy; dashed gray: other relations\nDashed node: pending research; outer ring: no genealogical distance')
-    scene={'type':'excalidraw','version':2,'source':SOURCE,'elements':elements,
-           'appState':{'viewBackgroundColor':'#ffffff','gridSize':None},'files':{}}
-    output=within(vault,args.output or f'Psychology/Maps/{args.view}-{args.layout}.generated.excalidraw')
-    if not output.name.endswith('.generated.excalidraw'):
-        raise ValueError('Use a separate *.generated.excalidraw output path')
-    stamp=output.with_name(output.name+'.sha256')
-    if output.exists():
-        if not stamp.exists() or stamp.read_text().strip()!=digest(output.read_text()):
-            raise ValueError('Map was manually edited or is unrecognized; choose a new output path')
-    content=json.dumps(scene,indent=2,ensure_ascii=False)+'\n'
-    atomic(output,content,args.dry_run); atomic(stamp,digest(content)+'\n',args.dry_run)
-    return {'output':str(output.relative_to(vault)),'nodes':len(nodes),'elements':len(elements)}
+    raise ValueError('Visualization generation is disabled. Use Obsidian native Graph View.')
 
 
 def narrative(graph,args):
@@ -597,7 +524,7 @@ def main():
                         raise
 
 if __name__=='__main__':
-    if len(sys.argv)>1 and sys.argv[1]=='research':
+    if len(sys.argv)>1 and sys.argv[1] in ['research','next','complete']:
         sys.path.insert(0, str(Path(__file__).resolve().parents[3]/'tools'))
         from research_runner import main as research_main
         research_main()

@@ -1,0 +1,130 @@
+Psychology research workflow — current instructions (20 October 2026)
+
+These instructions supersede research/README.md, which remains unchanged under
+this vault's preservation policy. Old packets and drawings are historical
+artifacts; the recursive workflow neither reads packets nor generates maps.
+
+REQUIREMENTS
+Python 3.10+, PyYAML (world knowledge/psychoanalysis/requirements.txt), and a
+logged-in Codex CLI on PATH with live web search. The model is your configured
+Codex model; the runner does not change it. Normal Codex usage charges/limits
+apply. Existing notes and drawings are never edited. Only school notes are
+published; people and concepts are linked and queued, not generated.
+
+AUTONOMOUS COMMANDS — run from the repository root
+
+  python3 tools/graph_builder.py research --root psychoanalysis --recursive --max-depth 5 --max-nodes 3 --dry-run
+  python3 tools/graph_builder.py research --root psychoanalysis --recursive --max-depth 5 --max-nodes 3
+
+The first command previews currently known eligible schools without network,
+research calls, writes, locks, or invented future discoveries. The second invokes
+Codex live for ONE school, validates and publishes ONE Markdown note, checkpoints,
+then recomputes BFS and repeats until the queue/limits stop it. No prewritten
+corpus is required or accepted. --packets has been removed.
+
+The vault-local tools/graph_builder.py research/next/complete commands also work.
+--vault PATH selects another registered vault. --codex PATH selects the Codex
+executable; --timeout 900 bounds one research request. Missing CLI/auth/network,
+invalid results, or absent completed live-search events stop explicitly with a
+nonzero exit and a resumable request. There is no offline-packet fallback.
+
+RESUME
+Rerun the exact same research command after interruption. An active run retains
+its original root, depth, recursive flag, and total node budget; completed schools
+are never researched again. A finished run permits another invocation with new
+limits. A lease and publication journal recover the window between exclusive
+note creation and registry registration. A currently leased failed request is
+retried; unleased needs_review entities remain available for a separate review.
+Existing school files are read and registered when compatible, or flagged for
+review if their format differs. They are never regenerated.
+
+BFS AND LIMITS
+--max-nodes counts notes completed across one run, including interrupted parts.
+--max-depth counts shortest SCHOOL GENEALOGY edges from Psychoanalysis, including
+multiple predecessors. Descendant neighbors precede parent neighbors at equal
+distance. Rivals/influences are considered after eligible lineage; they retain
+null genealogical depth and are eligible only from an anchor within the limit.
+Chronological succession never implies ancestry. --max-depth 0 creates nothing.
+Nonrecursive mode limits work to direct genealogical neighbors. Each committed
+note can discover new schools and thereby extend subsequent BFS iterations.
+Only documented intellectual/institutional connections belong in the queue.
+
+CURRENT CODEX SESSION MODE
+When Codex is already researching in a chat with web tools, it can use the same
+preservation/validation/commit machinery without starting another CLI process:
+
+  python3 tools/graph_builder.py next --root psychoanalysis --recursive --max-depth 5 --max-nodes 3
+
+This returns request_file and a one-school research_prompt. Codex uses its actual
+live search/open tools, writes a runtime response JSON and web-call audit JSON,
+then executes:
+
+  python3 tools/graph_builder.py complete --request /ABSOLUTE/REQUEST.json --result /ABSOLUTE/RESULT.json --web-evidence /ABSOLUTE/AUDIT.json
+
+The result schema is RESULT_SCHEMA in tools/codex_research.py: available, reason,
+metadata_yaml, body, and 3–5 sources with url/title/locator/finding. These are live
+per-school responses, not inputs from the old research/packets.json corpus.
+The audit is {"provider":"codex-session","calls":[...]}; entries record actual
+web.run search calls with query/tool/action, and actual page opens with tool,
+action:"open",url,reference. Every cited source must have an open entry.
+Complete returns the next request_file automatically, until the saved budget or
+queue ends. Repeat live research and complete for each returned request. Do not
+re-run next with different limits in the middle of an active run.
+
+VALIDATION AND AUDIT BOUNDARIES
+The CLI observes completed web_search events. Research instructions require
+opening every cited source, and results record locators and paraphrased findings.
+Session mode records the current researcher's actual tool calls. Neither a model
+statement nor a JSON audit is cryptographic proof of historical truth. Claims
+remain auditable against 3–5 cited academic, university-press, archival, or
+professional sources; disagreements must retain explicit review flags.
+Full-text access must never be claimed for a preview-only source.
+
+New notes have Who, When, What, Why, How, What Changed, Developments, References.
+Main content is capped at 250 words. Sections require numbered references;
+relationship evidence needs a source URL, locator, finding and explanation.
+Every school relationship has a body wikilink; known people use canonical paths.
+Declared pending entities prevent unresolved links from becoming silent errors.
+Structural tests cannot discover every undeclared person name; Codex must check
+all names against the canonical entity registry while researching.
+
+NATIVE OBSIDIAN GRAPH
+Open the vault in Obsidian and use Graph View or Psychoanalysis's local graph.
+School notes connect through ordinary [[Psychology/Schools/Title|Title]] links.
+Existing type/school tags distinguish researched school articles; people and
+concepts are canonical links to pending optional articles. Those entities acquire
+their own type/person or type/concept tags only when separately researched notes
+exist. Native graph visibility of unresolved links follows your existing Obsidian
+settings; this runner never changes those settings.
+Typed, directed relationships live in each new note's YAML and in the registry.
+Native Graph View displays wikilink adjacency, not custom typed edge labels.
+There are NO new Excalidraw, PNG, SVG, graph JSON visualization exports, or maps.
+The legacy visualize command fails explicitly; existing drawings remain intact.
+
+STATE
+_Graph/graph.json remains authoritative, with relationships.yaml and the old
+research_queue.yaml as compatible metadata projections. _Research/state.json
+stores the active run, lease and entity statuses; _Research/queue.json is the
+explicit BFS/status queue. _Research/completed.json and report.json record
+progress and review totals. _Research/jobs/REQUEST_ID/ records the live request,
+result, source/tool provenance and exclusive publication journal.
+These JSON/YAML files are operational metadata, not alternative visualizations.
+Backups and SHA-256 baselines are under research_backups/ and _Research/.
+Old notes and existing drawings remain byte-for-byte unchanged. New notes are
+staged, fsynced and atomically hard-linked with no replacement. Graph metadata
+projections repair on resume. This assumes one host and a POSIX filesystem.
+
+TESTS
+  bash test.sh --graph
+  TEST_BUILD_ROOT=/tmp/letssee-research-tests bash test.sh --unit
+  TEST_BUILD_ROOT=/tmp/letssee-research-tests bash test.sh --all
+
+Graph tests use synthetic provider outputs and mocked Codex CLI event streams;
+they require no network or paid model calls and never generate visualizations.
+Live session research is audited separately in the vault jobs. Full --all model
+integration retains the repository's existing PyTorch/downloaded-model needs.
+
+OpenAI documentation used to verify CLI execution/search/output options:
+https://developers.openai.com/codex/noninteractive/
+https://developers.openai.com/codex/cli/reference/
+Local codex --help and codex exec --help were also checked.

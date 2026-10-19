@@ -2,15 +2,14 @@ completed:
 - psy-school-psychoanalysis
 - psy-school-individual-psychology
 - psy-school-analytical-psychology
+- psy-school-object-relations
+- psy-school-relational-psychoanalysis
 pending:
-- id: psy-school-object-relations
-  title: Object Relations
+- id: psy-school-interpersonal-psychoanalysis
+  title: Interpersonal Psychoanalysis
   type: school
-  path: Psychology/Schools/Object Relations.md
+  path: Psychology/Schools/Interpersonal Psychoanalysis.md
   status: pending
-  sort_year: 1930
-  emergence_year: 1930
-  founding_period: 1920s–1940s
   priority: high
 - id: psy-concept-active-imagination
   title: Active Imagination
@@ -34,6 +33,12 @@ pending:
   title: Condensation
   type: concept
   path: Psychology/Concepts/Condensation.md
+  status: pending
+  priority: normal
+- id: psy-concept-countertransference
+  title: Countertransference
+  type: concept
+  path: Psychology/Concepts/Countertransference.md
   status: pending
   priority: normal
 - id: psy-concept-death-drive
@@ -76,6 +81,12 @@ pending:
   title: Inferiority Feelings
   type: concept
   path: Psychology/Concepts/Inferiority Feelings.md
+  status: pending
+  priority: normal
+- id: psy-concept-internal-objects
+  title: Internal Objects
+  type: concept
+  path: Psychology/Concepts/Internal Objects.md
   status: pending
   priority: normal
 - id: psy-concept-repression
@@ -162,6 +173,18 @@ pending:
   path: Psychology/People/Carl Gustav Jung.md
   status: pending
   priority: normal
+- id: psy-person-donald-winnicott
+  title: Donald Winnicott
+  type: person
+  path: Psychology/People/Donald Winnicott.md
+  status: pending
+  priority: normal
+- id: psy-person-jay-r-greenberg
+  title: Jay R. Greenberg
+  type: person
+  path: Psychology/People/Jay R. Greenberg.md
+  status: pending
+  priority: normal
 - id: psy-person-jean-martin-charcot
   title: Jean-Martin Charcot
   type: person
@@ -186,10 +209,22 @@ pending:
   path: Psychology/People/Peter Fonagy.md
   status: pending
   priority: normal
+- id: psy-person-ronald-fairbairn
+  title: Ronald Fairbairn
+  type: person
+  path: Psychology/People/Ronald Fairbairn.md
+  status: pending
+  priority: normal
 - id: psy-person-sigmund-freud
   title: Sigmund Freud
   type: person
   path: Psychology/People/Sigmund Freud.md
   status: pending
   priority: normal
-next_proposed_target: psy-school-object-relations
+- id: psy-person-stephen-a-mitchell
+  title: Stephen A. Mitchell
+  type: person
+  path: Psychology/People/Stephen A. Mitchell.md
+  status: pending
+  priority: normal
+next_proposed_target: psy-school-interpersonal-psychoanalysis

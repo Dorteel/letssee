@@ -130,6 +130,168 @@
         "target_link": "[[Psychology/People/Alfred Adler|Alfred Adler]]"
       }
     ],
+    "psy-school-interpersonal-psychoanalysis": [
+      {
+        "confidence": "medium",
+        "date": null,
+        "description": "A plural tradition using European psychoanalytic thought as a starting point, not a single-author split.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+            "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+            "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+          }
+        ],
+        "id": "edge-8e4b1f1ee8e123a64c98",
+        "owner": "psy-school-interpersonal-psychoanalysis",
+        "relation": "developed_from",
+        "review_required": true,
+        "source": "psy-school-interpersonal-psychoanalysis",
+        "target": "psy-school-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Opposed orthodox analyst detachment and institutional rigidity while retaining psychoanalytic inquiry.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "An institute formed in 1943 within, but in opposition to orthodox practices of, the psychoanalytic tradition.",
+            "locator": "Origins, Theory, and Practice; timeline 1943 and 1946",
+            "source": "https://wawhite.org/our-history/"
+          }
+        ],
+        "id": "edge-007770a721bb285407eb",
+        "owner": "psy-school-interpersonal-psychoanalysis",
+        "relation": "reacted_against",
+        "review_required": false,
+        "source": "psy-school-interpersonal-psychoanalysis",
+        "target": "psy-school-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+      },
+      {
+        "confidence": "medium",
+        "date": null,
+        "description": "Contributed one predecessor to the plural 1983 relational synthesis.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "The 1983 relational synthesis explicitly combined interpersonal and object-relations traditions.",
+            "locator": "Introduction to Relational Theory, opening paragraphs",
+            "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+          }
+        ],
+        "id": "edge-15d0e3ebfabd8af74720",
+        "owner": "psy-school-interpersonal-psychoanalysis",
+        "relation": "branched_into",
+        "review_required": true,
+        "source": "psy-school-interpersonal-psychoanalysis",
+        "target": "psy-school-relational-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Relational Psychoanalysis|Relational Psychoanalysis]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "One of the commonly identified founders of the interpersonal tradition.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+            "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+            "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+          }
+        ],
+        "id": "edge-d85b6ae570971ca315fc",
+        "owner": "psy-school-interpersonal-psychoanalysis",
+        "relation": "founded_by",
+        "review_required": false,
+        "source": "psy-school-interpersonal-psychoanalysis",
+        "target": "psy-person-harry-stack-sullivan",
+        "target_link": "[[Psychology/People/Harry Stack Sullivan|Harry Stack Sullivan]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "One of the commonly identified founders of the interpersonal tradition.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+            "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+            "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+          }
+        ],
+        "id": "edge-bdf8aad38dd4fa453293",
+        "owner": "psy-school-interpersonal-psychoanalysis",
+        "relation": "founded_by",
+        "review_required": false,
+        "source": "psy-school-interpersonal-psychoanalysis",
+        "target": "psy-person-clara-thompson",
+        "target_link": "[[Psychology/People/Clara Thompson|Clara Thompson]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "One of the commonly identified founders of the interpersonal tradition.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+            "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+            "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+          }
+        ],
+        "id": "edge-c9c5011b8bb56be0cbb9",
+        "owner": "psy-school-interpersonal-psychoanalysis",
+        "relation": "founded_by",
+        "review_required": false,
+        "source": "psy-school-interpersonal-psychoanalysis",
+        "target": "psy-person-erich-fromm",
+        "target_link": "[[Psychology/People/Erich Fromm|Erich Fromm]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "One of the commonly identified founders of the interpersonal tradition.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+            "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+            "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+          }
+        ],
+        "id": "edge-97320f49e8c04c7738b8",
+        "owner": "psy-school-interpersonal-psychoanalysis",
+        "relation": "founded_by",
+        "review_required": false,
+        "source": "psy-school-interpersonal-psychoanalysis",
+        "target": "psy-person-frieda-fromm-reichmann",
+        "target_link": "[[Psychology/People/Frieda Fromm-Reichmann|Frieda Fromm-Reichmann]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Examines anxiety in relation to security and interpersonal situations.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "Detailed inquiry and participant observation connect anxiety, security and satisfaction to interpersonal situations.",
+            "locator": "Participant Observation, PDF p. 3 (text index P2), session of September 24",
+            "source": "https://archive.wawhite.org/uploads/2019_111_LanganBohm_Syllabus.pdf"
+          }
+        ],
+        "id": "edge-68ce2d02bdaee2bb8785",
+        "owner": "psy-school-interpersonal-psychoanalysis",
+        "relation": "studies",
+        "review_required": false,
+        "source": "psy-school-interpersonal-psychoanalysis",
+        "target": "psy-concept-anxiety",
+        "target_link": "[[Psychology/Concepts/Anxiety|Anxiety]]"
+      }
+    ],
     "psy-school-object-relations": [
       {
         "confidence": "medium",
@@ -408,9 +570,152 @@
         "target": "psy-method-dream-analysis",
         "target_link": "[[psy-method-dream-analysis]]"
       }
+    ],
+    "psy-school-relational-psychoanalysis": [
+      {
+        "confidence": "medium",
+        "date": null,
+        "description": "One predecessor in a plural synthesis, not an exclusive parent.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+            "locator": "Introduction to Relational Theory, opening paragraphs",
+            "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+          }
+        ],
+        "id": "edge-09c613ba3901413ab065",
+        "owner": "psy-school-relational-psychoanalysis",
+        "relation": "developed_from",
+        "review_required": true,
+        "source": "psy-school-relational-psychoanalysis",
+        "target": "psy-school-object-relations",
+        "target_link": "[[Psychology/Schools/Object Relations|Object Relations]]"
+      },
+      {
+        "confidence": "medium",
+        "date": null,
+        "description": "The 1983 synthesis joined interpersonal and internal-object-relations explanations.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+            "locator": "Introduction to Relational Theory, opening paragraphs",
+            "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+          }
+        ],
+        "id": "edge-3ba4d5e3c481cfa22e32",
+        "owner": "psy-school-relational-psychoanalysis",
+        "relation": "developed_from",
+        "review_required": true,
+        "source": "psy-school-relational-psychoanalysis",
+        "target": "psy-school-interpersonal-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Interpersonal Psychoanalysis|Interpersonal Psychoanalysis]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Challenges classical drive-centered accounts within psychoanalysis, not the entire tradition.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "Relational accounts locate modifiable psychic structure in relations rather than innate drives alone.",
+            "locator": "Opening two paragraphs",
+            "source": "https://iarpp.net/who-we-are/"
+          }
+        ],
+        "id": "edge-0fa620e8e7b918f0016f",
+        "owner": "psy-school-relational-psychoanalysis",
+        "relation": "reacted_against",
+        "review_required": false,
+        "source": "psy-school-relational-psychoanalysis",
+        "target": "psy-school-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "A central founder of the plural relational movement.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+            "locator": "Introduction to Relational Theory, opening paragraphs",
+            "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+          }
+        ],
+        "id": "edge-8daae8c18d7c7f9cd3cc",
+        "owner": "psy-school-relational-psychoanalysis",
+        "relation": "founded_by",
+        "review_required": false,
+        "source": "psy-school-relational-psychoanalysis",
+        "target": "psy-person-stephen-a-mitchell",
+        "target_link": "[[Psychology/People/Stephen A. Mitchell|Stephen A. Mitchell]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Coauthor of the 1983 theoretical synthesis.",
+        "direction": "symmetric",
+        "evidence": [
+          {
+            "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+            "locator": "Introduction to Relational Theory, opening paragraphs",
+            "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+          }
+        ],
+        "id": "edge-e807c41cbbe77de9ad03",
+        "owner": "psy-school-relational-psychoanalysis",
+        "relation": "related_to",
+        "review_required": false,
+        "source": "psy-school-relational-psychoanalysis",
+        "target": "psy-person-jay-r-greenberg",
+        "target_link": "[[Psychology/People/Jay R. Greenberg|Jay R. Greenberg]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Examines the transference-countertransference relationship as access to relational patterns.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+            "locator": "Introduction to Relational Theory, opening paragraphs",
+            "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+          }
+        ],
+        "id": "edge-e706b62a4acbfa136ca0",
+        "owner": "psy-school-relational-psychoanalysis",
+        "relation": "studies",
+        "review_required": false,
+        "source": "psy-school-relational-psychoanalysis",
+        "target": "psy-concept-countertransference",
+        "target_link": "[[Psychology/Concepts/Countertransference|Countertransference]]"
+      }
     ]
   },
   "edges": [
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "Opposed orthodox analyst detachment and institutional rigidity while retaining psychoanalytic inquiry.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "An institute formed in 1943 within, but in opposition to orthodox practices of, the psychoanalytic tradition.",
+          "locator": "Origins, Theory, and Practice; timeline 1943 and 1946",
+          "source": "https://wawhite.org/our-history/"
+        }
+      ],
+      "id": "edge-007770a721bb285407eb",
+      "owner": "psy-school-interpersonal-psychoanalysis",
+      "pending": false,
+      "relation": "reacted_against",
+      "review_required": false,
+      "source": "psy-school-interpersonal-psychoanalysis",
+      "target": "psy-school-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
     {
       "confidence": "high",
       "date": null,
@@ -431,6 +736,27 @@
       "target_link": "[[psy-concept-unconscious]]"
     },
     {
+      "confidence": "medium",
+      "date": null,
+      "description": "One predecessor in a plural synthesis, not an exclusive parent.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+          "locator": "Introduction to Relational Theory, opening paragraphs",
+          "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+        }
+      ],
+      "id": "edge-09c613ba3901413ab065",
+      "owner": "psy-school-relational-psychoanalysis",
+      "pending": false,
+      "relation": "developed_from",
+      "review_required": true,
+      "source": "psy-school-relational-psychoanalysis",
+      "target": "psy-school-object-relations",
+      "target_link": "[[Psychology/Schools/Object Relations|Object Relations]]"
+    },
+    {
       "confidence": "high",
       "date": null,
       "description": "Collaboration followed by the documented 1912–1913 rupture; approximate emergence.",
@@ -448,6 +774,48 @@
       "source": "psy-school-analytical-psychology",
       "target": "psy-school-psychoanalysis",
       "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "Challenges classical drive-centered accounts within psychoanalysis, not the entire tradition.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "Relational accounts locate modifiable psychic structure in relations rather than innate drives alone.",
+          "locator": "Opening two paragraphs",
+          "source": "https://iarpp.net/who-we-are/"
+        }
+      ],
+      "id": "edge-0fa620e8e7b918f0016f",
+      "owner": "psy-school-relational-psychoanalysis",
+      "pending": false,
+      "relation": "reacted_against",
+      "review_required": false,
+      "source": "psy-school-relational-psychoanalysis",
+      "target": "psy-school-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
+    {
+      "confidence": "medium",
+      "date": null,
+      "description": "Contributed one predecessor to the plural 1983 relational synthesis.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "The 1983 relational synthesis explicitly combined interpersonal and object-relations traditions.",
+          "locator": "Introduction to Relational Theory, opening paragraphs",
+          "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+        }
+      ],
+      "id": "edge-15d0e3ebfabd8af74720",
+      "owner": "psy-school-interpersonal-psychoanalysis",
+      "pending": false,
+      "relation": "branched_into",
+      "review_required": true,
+      "source": "psy-school-interpersonal-psychoanalysis",
+      "target": "psy-school-relational-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Relational Psychoanalysis|Relational Psychoanalysis]]"
     },
     {
       "confidence": "high",
@@ -524,6 +892,27 @@
       "source": "psy-school-psychoanalysis",
       "target": "psy-school-individual-psychology",
       "target_link": "[[psy-school-individual-psychology]]"
+    },
+    {
+      "confidence": "medium",
+      "date": null,
+      "description": "The 1983 synthesis joined interpersonal and internal-object-relations explanations.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+          "locator": "Introduction to Relational Theory, opening paragraphs",
+          "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+        }
+      ],
+      "id": "edge-3ba4d5e3c481cfa22e32",
+      "owner": "psy-school-relational-psychoanalysis",
+      "pending": false,
+      "relation": "developed_from",
+      "review_required": true,
+      "source": "psy-school-relational-psychoanalysis",
+      "target": "psy-school-interpersonal-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Interpersonal Psychoanalysis|Interpersonal Psychoanalysis]]"
     },
     {
       "confidence": "high",
@@ -603,6 +992,27 @@
     },
     {
       "confidence": "high",
+      "date": null,
+      "description": "Examines anxiety in relation to security and interpersonal situations.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "Detailed inquiry and participant observation connect anxiety, security and satisfaction to interpersonal situations.",
+          "locator": "Participant Observation, PDF p. 3 (text index P2), session of September 24",
+          "source": "https://archive.wawhite.org/uploads/2019_111_LanganBohm_Syllabus.pdf"
+        }
+      ],
+      "id": "edge-68ce2d02bdaee2bb8785",
+      "owner": "psy-school-interpersonal-psychoanalysis",
+      "pending": true,
+      "relation": "studies",
+      "review_required": false,
+      "source": "psy-school-interpersonal-psychoanalysis",
+      "target": "psy-concept-anxiety",
+      "target_link": "[[Psychology/Concepts/Anxiety|Anxiety]]"
+    },
+    {
+      "confidence": "high",
       "date": 1896,
       "description": "Freud developed and named psychoanalysis across the 1890s; 1896 marks the term, not an instantaneous invention.",
       "direction": "directed",
@@ -619,6 +1029,48 @@
       "source": "psy-person-sigmund-freud",
       "target": "psy-school-psychoanalysis",
       "target_link": "[[psy-school-psychoanalysis]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "A central founder of the plural relational movement.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+          "locator": "Introduction to Relational Theory, opening paragraphs",
+          "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+        }
+      ],
+      "id": "edge-8daae8c18d7c7f9cd3cc",
+      "owner": "psy-school-relational-psychoanalysis",
+      "pending": true,
+      "relation": "founded_by",
+      "review_required": false,
+      "source": "psy-school-relational-psychoanalysis",
+      "target": "psy-person-stephen-a-mitchell",
+      "target_link": "[[Psychology/People/Stephen A. Mitchell|Stephen A. Mitchell]]"
+    },
+    {
+      "confidence": "medium",
+      "date": null,
+      "description": "A plural tradition using European psychoanalytic thought as a starting point, not a single-author split.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+          "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+          "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+        }
+      ],
+      "id": "edge-8e4b1f1ee8e123a64c98",
+      "owner": "psy-school-interpersonal-psychoanalysis",
+      "pending": false,
+      "relation": "developed_from",
+      "review_required": true,
+      "source": "psy-school-interpersonal-psychoanalysis",
+      "target": "psy-school-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
     },
     {
       "confidence": "medium",
@@ -640,6 +1092,27 @@
       "source": "psy-school-psychoanalysis",
       "target": "psy-school-object-relations",
       "target_link": "[[psy-school-object-relations]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "One of the commonly identified founders of the interpersonal tradition.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+          "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+          "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+        }
+      ],
+      "id": "edge-97320f49e8c04c7738b8",
+      "owner": "psy-school-interpersonal-psychoanalysis",
+      "pending": true,
+      "relation": "founded_by",
+      "review_required": false,
+      "source": "psy-school-interpersonal-psychoanalysis",
+      "target": "psy-person-frieda-fromm-reichmann",
+      "target_link": "[[Psychology/People/Frieda Fromm-Reichmann|Frieda Fromm-Reichmann]]"
     },
     {
       "confidence": "high",
@@ -739,6 +1212,48 @@
     {
       "confidence": "high",
       "date": null,
+      "description": "One of the commonly identified founders of the interpersonal tradition.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+          "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+          "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+        }
+      ],
+      "id": "edge-bdf8aad38dd4fa453293",
+      "owner": "psy-school-interpersonal-psychoanalysis",
+      "pending": true,
+      "relation": "founded_by",
+      "review_required": false,
+      "source": "psy-school-interpersonal-psychoanalysis",
+      "target": "psy-person-clara-thompson",
+      "target_link": "[[Psychology/People/Clara Thompson|Clara Thompson]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "One of the commonly identified founders of the interpersonal tradition.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+          "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+          "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+        }
+      ],
+      "id": "edge-c9c5011b8bb56be0cbb9",
+      "owner": "psy-school-interpersonal-psychoanalysis",
+      "pending": true,
+      "relation": "founded_by",
+      "review_required": false,
+      "source": "psy-school-interpersonal-psychoanalysis",
+      "target": "psy-person-erich-fromm",
+      "target_link": "[[Psychology/People/Erich Fromm|Erich Fromm]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
       "description": "Disputed the explanatory priority of sexuality and the nature of the unconscious.",
       "direction": "directed",
       "evidence": [
@@ -754,6 +1269,27 @@
       "source": "psy-school-analytical-psychology",
       "target": "psy-school-psychoanalysis",
       "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "One of the commonly identified founders of the interpersonal tradition.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+          "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+          "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+        }
+      ],
+      "id": "edge-d85b6ae570971ca315fc",
+      "owner": "psy-school-interpersonal-psychoanalysis",
+      "pending": true,
+      "relation": "founded_by",
+      "review_required": false,
+      "source": "psy-school-interpersonal-psychoanalysis",
+      "target": "psy-person-harry-stack-sullivan",
+      "target_link": "[[Psychology/People/Harry Stack Sullivan|Harry Stack Sullivan]]"
     },
     {
       "confidence": "high",
@@ -789,12 +1325,54 @@
       ],
       "id": "edge-e68db8bd97b1d9c9a630",
       "owner": "psy-school-object-relations",
-      "pending": true,
+      "pending": false,
       "relation": "influenced",
       "review_required": true,
       "source": "psy-school-object-relations",
       "target": "psy-school-relational-psychoanalysis",
       "target_link": "[[Psychology/Schools/Relational Psychoanalysis|Relational Psychoanalysis]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "Examines the transference-countertransference relationship as access to relational patterns.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+          "locator": "Introduction to Relational Theory, opening paragraphs",
+          "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+        }
+      ],
+      "id": "edge-e706b62a4acbfa136ca0",
+      "owner": "psy-school-relational-psychoanalysis",
+      "pending": true,
+      "relation": "studies",
+      "review_required": false,
+      "source": "psy-school-relational-psychoanalysis",
+      "target": "psy-concept-countertransference",
+      "target_link": "[[Psychology/Concepts/Countertransference|Countertransference]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "Coauthor of the 1983 theoretical synthesis.",
+      "direction": "symmetric",
+      "evidence": [
+        {
+          "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+          "locator": "Introduction to Relational Theory, opening paragraphs",
+          "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+        }
+      ],
+      "id": "edge-e807c41cbbe77de9ad03",
+      "owner": "psy-school-relational-psychoanalysis",
+      "pending": true,
+      "relation": "related_to",
+      "review_required": false,
+      "source": "psy-school-relational-psychoanalysis",
+      "target": "psy-person-jay-r-greenberg",
+      "target_link": "[[Psychology/People/Jay R. Greenberg|Jay R. Greenberg]]"
     },
     {
       "confidence": "high",
@@ -845,6 +1423,15 @@
       "title": "Active Imagination",
       "type": "concept"
     },
+    "psy-concept-anxiety": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-anxiety",
+      "path": "Psychology/Concepts/Anxiety.md",
+      "pending": true,
+      "title": "Anxiety",
+      "type": "concept"
+    },
     "psy-concept-archetypes": {
       "aliases": [],
       "depth": null,
@@ -870,6 +1457,15 @@
       "path": "Psychology/Concepts/Condensation.md",
       "pending": true,
       "title": "Condensation",
+      "type": "concept"
+    },
+    "psy-concept-countertransference": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-countertransference",
+      "path": "Psychology/Concepts/Countertransference.md",
+      "pending": true,
+      "title": "Countertransference",
       "type": "concept"
     },
     "psy-concept-death-drive": {
@@ -942,6 +1538,15 @@
       "path": "Psychology/Concepts/Internal Objects.md",
       "pending": true,
       "title": "Internal Objects",
+      "type": "concept"
+    },
+    "psy-concept-participant-observation": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-participant-observation",
+      "path": "Psychology/Concepts/Participant Observation.md",
+      "pending": true,
+      "title": "Participant Observation",
       "type": "concept"
     },
     "psy-concept-repression": {
@@ -1086,6 +1691,15 @@
       "title": "Carl Gustav Jung",
       "type": "person"
     },
+    "psy-person-clara-thompson": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-person-clara-thompson",
+      "path": "Psychology/People/Clara Thompson.md",
+      "pending": true,
+      "title": "Clara Thompson",
+      "type": "person"
+    },
     "psy-person-donald-winnicott": {
       "aliases": [],
       "depth": null,
@@ -1093,6 +1707,42 @@
       "path": "Psychology/People/Donald Winnicott.md",
       "pending": true,
       "title": "Donald Winnicott",
+      "type": "person"
+    },
+    "psy-person-erich-fromm": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-person-erich-fromm",
+      "path": "Psychology/People/Erich Fromm.md",
+      "pending": true,
+      "title": "Erich Fromm",
+      "type": "person"
+    },
+    "psy-person-frieda-fromm-reichmann": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-person-frieda-fromm-reichmann",
+      "path": "Psychology/People/Frieda Fromm-Reichmann.md",
+      "pending": true,
+      "title": "Frieda Fromm-Reichmann",
+      "type": "person"
+    },
+    "psy-person-harry-stack-sullivan": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-person-harry-stack-sullivan",
+      "path": "Psychology/People/Harry Stack Sullivan.md",
+      "pending": true,
+      "title": "Harry Stack Sullivan",
+      "type": "person"
+    },
+    "psy-person-jay-r-greenberg": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-person-jay-r-greenberg",
+      "path": "Psychology/People/Jay R. Greenberg.md",
+      "pending": true,
+      "title": "Jay R. Greenberg",
       "type": "person"
     },
     "psy-person-jean-martin-charcot": {
@@ -1165,6 +1815,15 @@
       "path": "Psychology/People/Sigmund Freud.md",
       "pending": true,
       "title": "Sigmund Freud",
+      "type": "person"
+    },
+    "psy-person-stephen-a-mitchell": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-person-stephen-a-mitchell",
+      "path": "Psychology/People/Stephen A. Mitchell.md",
+      "pending": true,
+      "title": "Stephen A. Mitchell",
       "type": "person"
     },
     "psy-school-analytical-psychology": {
@@ -1363,6 +2022,186 @@
         "period/20th-century"
       ],
       "title": "Individual Psychology",
+      "tradition": "psychodynamic",
+      "type": "school"
+    },
+    "psy-school-interpersonal-psychoanalysis": {
+      "aliases": [],
+      "body": "## Who\n[[Psychology/People/Harry Stack Sullivan|Harry Stack Sullivan]], [[Psychology/People/Clara Thompson|Clara Thompson]], [[Psychology/People/Erich Fromm|Erich Fromm]], and [[Psychology/People/Frieda Fromm-Reichmann|Frieda Fromm-Reichmann]] were central founders. [R2]\n\n## When\nDeveloped during the 1930s–1940s; 1943 marks institutional organization at the White Institute, not the invention of all its ideas. [R1] [R2]\n\n## What\nPersonality and distress are understood through interpersonal situations and cultural conditions. [[Psychology/Concepts/Anxiety|Anxiety]], security, and satisfaction organize its clinical explanations. [R2] [R3]\n\n## Why\nIt challenged detached clinical practice and the institutional rigidity attributed to orthodox analysis, seeking greater attention to social experience. [R1]\n\n## How\nDetailed clinical inquiry and [[Psychology/Concepts/Participant Observation|Participant Observation]] treat the analyst as involved in the situation being investigated. These are interpretive commitments, not proof of therapeutic efficacy. [R3]\n\n## What Changed\nIt emphasized the analyst’s human presence and reciprocal influence, incorporating social and cultural perspectives into psychoanalytic inquiry. [R1]\n\n## Developments\n[[Psychology/Schools/Psychoanalysis|Psychoanalysis]] supplied a starting tradition and an orthodox rival model. It subsequently contributed to [[Psychology/Schools/Relational Psychoanalysis|Relational Psychoanalysis]], alongside [[Psychology/Schools/Object Relations|Object Relations]]; that synthesis does not make the traditions identical. [R1] [R2] [R4]\n\n## References\n- [R1] [White Institute: institutional history](https://wawhite.org/our-history/)\n- [R2] [Handbook of Interpersonal Psychoanalysis (1995), introduction and founders chapter; preview](https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf)\n- [R3] [White Institute: clinical theory syllabus (2019), participant observation](https://archive.wawhite.org/uploads/2019_111_LanganBohm_Syllabus.pdf)\n- [R4] [Springer encyclopedia: relational synthesis, introduction preview](https://doi.org/10.1007/978-1-4614-6086-2_566)\n",
+      "content_hash": "7dced716be4c32b0804fb3d518e33acd95aef1d4fb6869817cc9f93c20eb18bd",
+      "depth": 1,
+      "domain": "psychology",
+      "emergence_year": 1943,
+      "id": "psy-school-interpersonal-psychoanalysis",
+      "path": "Psychology/Schools/Interpersonal Psychoanalysis.md",
+      "pending": false,
+      "pending_entities": [
+        {
+          "aliases": [],
+          "id": "psy-person-harry-stack-sullivan",
+          "path": "Psychology/People/Harry Stack Sullivan.md",
+          "title": "Harry Stack Sullivan",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-person-clara-thompson",
+          "path": "Psychology/People/Clara Thompson.md",
+          "title": "Clara Thompson",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-person-erich-fromm",
+          "path": "Psychology/People/Erich Fromm.md",
+          "title": "Erich Fromm",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-person-frieda-fromm-reichmann",
+          "path": "Psychology/People/Frieda Fromm-Reichmann.md",
+          "title": "Frieda Fromm-Reichmann",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-anxiety",
+          "path": "Psychology/Concepts/Anxiety.md",
+          "title": "Anxiety",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-participant-observation",
+          "path": "Psychology/Concepts/Participant Observation.md",
+          "title": "Participant Observation",
+          "type": "concept"
+        }
+      ],
+      "period": "1930s-1940s",
+      "relationships": [
+        {
+          "confidence": "medium",
+          "description": "A plural tradition using European psychoanalytic thought as a starting point, not a single-author split.",
+          "evidence": [
+            {
+              "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+              "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+              "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+            }
+          ],
+          "relation": "developed_from",
+          "review_required": true,
+          "target": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Opposed orthodox analyst detachment and institutional rigidity while retaining psychoanalytic inquiry.",
+          "evidence": [
+            {
+              "finding": "An institute formed in 1943 within, but in opposition to orthodox practices of, the psychoanalytic tradition.",
+              "locator": "Origins, Theory, and Practice; timeline 1943 and 1946",
+              "source": "https://wawhite.org/our-history/"
+            }
+          ],
+          "relation": "reacted_against",
+          "review_required": false,
+          "target": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+        },
+        {
+          "confidence": "medium",
+          "description": "Contributed one predecessor to the plural 1983 relational synthesis.",
+          "evidence": [
+            {
+              "finding": "The 1983 relational synthesis explicitly combined interpersonal and object-relations traditions.",
+              "locator": "Introduction to Relational Theory, opening paragraphs",
+              "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+            }
+          ],
+          "relation": "branched_into",
+          "review_required": true,
+          "target": "[[Psychology/Schools/Relational Psychoanalysis|Relational Psychoanalysis]]"
+        },
+        {
+          "confidence": "high",
+          "description": "One of the commonly identified founders of the interpersonal tradition.",
+          "evidence": [
+            {
+              "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+              "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+              "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+            }
+          ],
+          "relation": "founded_by",
+          "review_required": false,
+          "target": "[[Psychology/People/Harry Stack Sullivan|Harry Stack Sullivan]]"
+        },
+        {
+          "confidence": "high",
+          "description": "One of the commonly identified founders of the interpersonal tradition.",
+          "evidence": [
+            {
+              "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+              "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+              "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+            }
+          ],
+          "relation": "founded_by",
+          "review_required": false,
+          "target": "[[Psychology/People/Clara Thompson|Clara Thompson]]"
+        },
+        {
+          "confidence": "high",
+          "description": "One of the commonly identified founders of the interpersonal tradition.",
+          "evidence": [
+            {
+              "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+              "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+              "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+            }
+          ],
+          "relation": "founded_by",
+          "review_required": false,
+          "target": "[[Psychology/People/Erich Fromm|Erich Fromm]]"
+        },
+        {
+          "confidence": "high",
+          "description": "One of the commonly identified founders of the interpersonal tradition.",
+          "evidence": [
+            {
+              "finding": "The tradition has multiple founders and early cultural-interpersonal origins, rather than one founding event.",
+              "locator": "Introduction, printed pp. 3–5; chapter 2, printed pp. 11–12 (PDF pp. 15–17, 25–26)",
+              "source": "https://api.pageplace.de/preview/DT0400.9781317771531_A24447786/preview-9781317771531_A24447786.pdf"
+            }
+          ],
+          "relation": "founded_by",
+          "review_required": false,
+          "target": "[[Psychology/People/Frieda Fromm-Reichmann|Frieda Fromm-Reichmann]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Examines anxiety in relation to security and interpersonal situations.",
+          "evidence": [
+            {
+              "finding": "Detailed inquiry and participant observation connect anxiety, security and satisfaction to interpersonal situations.",
+              "locator": "Participant Observation, PDF p. 3 (text index P2), session of September 24",
+              "source": "https://archive.wawhite.org/uploads/2019_111_LanganBohm_Syllabus.pdf"
+            }
+          ],
+          "relation": "studies",
+          "review_required": false,
+          "target": "[[Psychology/Concepts/Anxiety|Anxiety]]"
+        }
+      ],
+      "status": "completed",
+      "tags": [
+        "domain/psychology",
+        "type/school",
+        "tradition/psychodynamic",
+        "period/1930s-1940s"
+      ],
+      "title": "Interpersonal Psychoanalysis",
       "tradition": "psychodynamic",
       "type": "school"
     },
@@ -1898,11 +2737,140 @@
     },
     "psy-school-relational-psychoanalysis": {
       "aliases": [],
-      "depth": null,
+      "body": "## Who\n[[Psychology/People/Stephen A. Mitchell|Stephen A. Mitchell]] was a central founder; [[Psychology/People/Jay R. Greenberg|Jay R. Greenberg]] coauthored its formative synthesis. [R1]\n\n## When\nEmerged in the 1980s; 1983 marks the published synthesis, not a single founding event. [R1]\n\n## What\nPsychic organization develops through relationships, including internalized patterns that remain accessible in treatment. This is the tradition’s theoretical commitment. [R2]\n\n## Why\nIt sought an alternative to locating psychic structure chiefly in innate drives and their developmental transformations. [R2]\n\n## How\nClinical inquiry examines [[Psychology/Concepts/Transference|Transference]] and [[Psychology/Concepts/Countertransference|Countertransference]], considering change within the evolving patient–analyst relationship and its context. [R1] [R3]\n\n## What Changed\nIt integrated internal and interpersonal explanations and emphasized the therapeutic relationship as a setting of psychological transformation. [R3]\n\n## Developments\n[[Psychology/Schools/Object Relations|Object Relations]] and [[Psychology/Schools/Interpersonal Psychoanalysis|Interpersonal Psychoanalysis]] were predecessors. Classical drive-centered [[Psychology/Schools/Psychoanalysis|Psychoanalysis]] supplied a rival explanatory model; this does not imply opposition to every psychoanalytic approach. A plural tradition rather than one doctrine, it has no separate successor asserted here. [R1] [R2] [R4]\n\n## References\n- [R1] [Springer encyclopedia: introduction preview only](https://doi.org/10.1007/978-1-4614-6086-2_566)\n- [R2] [IARPP: Who We Are](https://iarpp.net/who-we-are/)\n- [R3] [IARPP: What We Do](https://iarpp.net/who-we-are/what-we-do/)\n- [R4] [IARPP: Relational Perspectives Book Series](https://www.iarpp.net/membership/rpbs_titles.html)\n",
+      "content_hash": "5fdfa681e098037ed93c422db9f6457b287df1745ddffb27787046cded64e079",
+      "depth": 2,
+      "domain": "psychology",
+      "emergence_year": 1983,
       "id": "psy-school-relational-psychoanalysis",
       "path": "Psychology/Schools/Relational Psychoanalysis.md",
-      "pending": true,
+      "pending": false,
+      "pending_entities": [
+        {
+          "aliases": [],
+          "id": "psy-person-stephen-a-mitchell",
+          "path": "Psychology/People/Stephen A. Mitchell.md",
+          "title": "Stephen A. Mitchell",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-person-jay-r-greenberg",
+          "path": "Psychology/People/Jay R. Greenberg.md",
+          "title": "Jay R. Greenberg",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-school-interpersonal-psychoanalysis",
+          "path": "Psychology/Schools/Interpersonal Psychoanalysis.md",
+          "title": "Interpersonal Psychoanalysis",
+          "type": "school"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-countertransference",
+          "path": "Psychology/Concepts/Countertransference.md",
+          "title": "Countertransference",
+          "type": "concept"
+        }
+      ],
+      "period": "1980s",
+      "relationships": [
+        {
+          "confidence": "medium",
+          "description": "One predecessor in a plural synthesis, not an exclusive parent.",
+          "evidence": [
+            {
+              "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+              "locator": "Introduction to Relational Theory, opening paragraphs",
+              "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+            }
+          ],
+          "relation": "developed_from",
+          "review_required": true,
+          "target": "[[Psychology/Schools/Object Relations|Object Relations]]"
+        },
+        {
+          "confidence": "medium",
+          "description": "The 1983 synthesis joined interpersonal and internal-object-relations explanations.",
+          "evidence": [
+            {
+              "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+              "locator": "Introduction to Relational Theory, opening paragraphs",
+              "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+            }
+          ],
+          "relation": "developed_from",
+          "review_required": true,
+          "target": "[[Psychology/Schools/Interpersonal Psychoanalysis|Interpersonal Psychoanalysis]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Challenges classical drive-centered accounts within psychoanalysis, not the entire tradition.",
+          "evidence": [
+            {
+              "finding": "Relational accounts locate modifiable psychic structure in relations rather than innate drives alone.",
+              "locator": "Opening two paragraphs",
+              "source": "https://iarpp.net/who-we-are/"
+            }
+          ],
+          "relation": "reacted_against",
+          "review_required": false,
+          "target": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+        },
+        {
+          "confidence": "high",
+          "description": "A central founder of the plural relational movement.",
+          "evidence": [
+            {
+              "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+              "locator": "Introduction to Relational Theory, opening paragraphs",
+              "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+            }
+          ],
+          "relation": "founded_by",
+          "review_required": false,
+          "target": "[[Psychology/People/Stephen A. Mitchell|Stephen A. Mitchell]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Coauthor of the 1983 theoretical synthesis.",
+          "evidence": [
+            {
+              "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+              "locator": "Introduction to Relational Theory, opening paragraphs",
+              "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+            }
+          ],
+          "relation": "related_to",
+          "review_required": false,
+          "target": "[[Psychology/People/Jay R. Greenberg|Jay R. Greenberg]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Examines the transference-countertransference relationship as access to relational patterns.",
+          "evidence": [
+            {
+              "finding": "The 1983 synthesis brought object-relations and interpersonal theories together; a central founder and coauthor are identified.",
+              "locator": "Introduction to Relational Theory, opening paragraphs",
+              "source": "https://doi.org/10.1007/978-1-4614-6086-2_566"
+            }
+          ],
+          "relation": "studies",
+          "review_required": false,
+          "target": "[[Psychology/Concepts/Countertransference|Countertransference]]"
+        }
+      ],
+      "status": "completed",
+      "tags": [
+        "domain/psychology",
+        "type/school",
+        "tradition/psychodynamic",
+        "period/1980s"
+      ],
       "title": "Relational Psychoanalysis",
+      "tradition": "psychodynamic",
       "type": "school"
     }
   },

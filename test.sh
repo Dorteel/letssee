@@ -3,7 +3,8 @@ set -euo pipefail
 
 usage() {
   cat <<'EOF'
-Usage: ./test.sh [--unit|--integration|--all]
+Usage: ./test.sh [--graph|--unit|--integration|--all]
+  --graph        Psychology graph tests only; no ROS or model dependencies.
   --unit         Unit tests and ROS CLI requests with mock inference (default).
   --integration  Offline model integration tests and real ROS CLI requests.
   --all          All automated tests and real ROS CLI requests.
@@ -21,6 +22,7 @@ EOF
 fail() { printf 'ERROR: %s\n' "$*" >&2; exit 1; }
 mode=unit
 case "${1:---unit}" in
+  --graph) mode=graph ;;
   --unit) mode=unit ;;
   --integration) mode=integration ;;
   --all) mode=all ;;
@@ -37,9 +39,6 @@ while [[ ! -d "$workspace/src" || "$repo" != "$workspace/src/"* ]]; do
   workspace=$(dirname "$workspace")
 done
 cd "$workspace"
-build_root=${TEST_BUILD_ROOT:-$workspace}
-mkdir -p "$build_root"
-build_root=$(cd "$build_root" && pwd)
 python=${TEST_PYTHON:-}
 if [[ -z "$python" ]]; then
   if [[ -x "$repo/.venv/bin/python" ]]; then python="$repo/.venv/bin/python";
@@ -48,6 +47,10 @@ fi
 python=$(command -v "$python") || fail "Cannot find TEST_PYTHON."
 PYTHONDONTWRITEBYTECODE=1 "$python" -m unittest discover -s "$repo/tests" -v
 bash "$repo/world knowledge/psychoanalysis/test.sh"
+if [[ "$mode" == graph ]]; then exit 0; fi
+build_root=${TEST_BUILD_ROOT:-$workspace}
+mkdir -p "$build_root"
+build_root=$(cd "$build_root" && pwd)
 ready_timeout=${TEST_READY_TIMEOUT:-30}
 call_timeout=${TEST_CALL_TIMEOUT:-180}
 for value in "$ready_timeout" "$call_timeout"; do

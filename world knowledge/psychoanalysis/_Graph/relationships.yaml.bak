@@ -14,19 +14,54 @@ relationships:
   target: psy-concept-unconscious
   target_link: '[[psy-concept-unconscious]]'
   pending: true
-- id: edge-0c3af6ad23886abdb2a4
-  owner: psy-school-analytical-psychology
-  source: psy-school-analytical-psychology
-  target: psy-school-psychoanalysis
-  target_link: '[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]'
+- id: edge-09c613ba3901413ab065
+  owner: psy-school-relational-psychoanalysis
+  source: psy-school-relational-psychoanalysis
+  target: psy-school-object-relations
+  target_link: '[[Psychology/Schools/Object Relations|Object Relations]]'
   relation: developed_from
   direction: directed
   date: null
+  description: One predecessor in a plural synthesis, not an exclusive parent.
+  confidence: medium
+  evidence:
+  - source: https://doi.org/10.1007/978-1-4614-6086-2_566
+    locator: Introduction to Relational Theory, opening paragraphs
+    finding: The 1983 synthesis brought object-relations and interpersonal theories
+      together; a central founder and coauthor are identified.
+  review_required: true
+  pending: false
+- confidence: high
+  date: null
   description: Collaboration followed by the documented 1912–1913 rupture; approximate
     emergence.
-  confidence: high
+  direction: directed
   evidence:
   - source: https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html
+  id: edge-0c3af6ad23886abdb2a4
+  owner: psy-school-analytical-psychology
+  relation: developed_from
+  review_required: false
+  source: psy-school-analytical-psychology
+  target: psy-school-psychoanalysis
+  target_link: '[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]'
+  pending: false
+- id: edge-0fa620e8e7b918f0016f
+  owner: psy-school-relational-psychoanalysis
+  source: psy-school-relational-psychoanalysis
+  target: psy-school-psychoanalysis
+  target_link: '[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]'
+  relation: reacted_against
+  direction: directed
+  date: null
+  description: Challenges classical drive-centered accounts within psychoanalysis,
+    not the entire tradition.
+  confidence: high
+  evidence:
+  - source: https://iarpp.net/who-we-are/
+    locator: Opening two paragraphs
+    finding: Relational accounts locate modifiable psychic structure in relations
+      rather than innate drives alone.
   review_required: false
   pending: false
 - confidence: high
@@ -59,21 +94,21 @@ relationships:
   target: psy-method-free-association
   target_link: '[[psy-method-free-association]]'
   pending: true
-- id: edge-27a39a17a2f359d2ab4c
-  owner: psy-school-analytical-psychology
-  source: psy-school-analytical-psychology
-  target: psy-school-object-relations
-  target_link: '[[Psychology/Schools/Object Relations|Object Relations]]'
-  relation: influenced_by
-  direction: directed
+- confidence: high
   date: null
   description: Later British analytical practice integrated ideas of early development;
     not a founding influence.
-  confidence: high
+  direction: directed
   evidence:
   - source: https://www.thesap.org.uk/about-us/what-we-do/
+  id: edge-27a39a17a2f359d2ab4c
+  owner: psy-school-analytical-psychology
+  relation: influenced_by
   review_required: false
-  pending: true
+  source: psy-school-analytical-psychology
+  target: psy-school-object-relations
+  target_link: '[[Psychology/Schools/Object Relations|Object Relations]]'
+  pending: false
 - confidence: high
   date: 1911
   description: Adler separated from the psychoanalytic movement in 1911; his independent
@@ -90,6 +125,24 @@ relationships:
   target: psy-school-individual-psychology
   target_link: '[[psy-school-individual-psychology]]'
   pending: false
+- id: edge-3ba4d5e3c481cfa22e32
+  owner: psy-school-relational-psychoanalysis
+  source: psy-school-relational-psychoanalysis
+  target: psy-school-interpersonal-psychoanalysis
+  target_link: '[[Psychology/Schools/Interpersonal Psychoanalysis|Interpersonal Psychoanalysis]]'
+  relation: developed_from
+  direction: directed
+  date: null
+  description: The 1983 synthesis joined interpersonal and internal-object-relations
+    explanations.
+  confidence: medium
+  evidence:
+  - source: https://doi.org/10.1007/978-1-4614-6086-2_566
+    locator: Introduction to Relational Theory, opening paragraphs
+    finding: The 1983 synthesis brought object-relations and interpersonal theories
+      together; a central founder and coauthor are identified.
+  review_required: true
+  pending: true
 - confidence: high
   date: null
   description: Documented topic or method of psychoanalytic inquiry; this edge does
@@ -120,20 +173,34 @@ relationships:
   target: psy-concept-resistance
   target_link: '[[psy-concept-resistance]]'
   pending: true
-- id: edge-55ff0c4df3841241987a
-  owner: psy-school-individual-psychology
-  source: psy-school-individual-psychology
+- confidence: medium
+  date: null
+  description: Plural internal development rather than a single founding split.
+  direction: directed
+  evidence:
+  - source: https://centerforobjectrelations.org/a-brief-history-on-british-object-relations/
+  id: edge-54a8c397cffd6bf80386
+  owner: psy-school-object-relations
+  relation: developed_from
+  review_required: true
+  source: psy-school-object-relations
   target: psy-school-psychoanalysis
   target_link: '[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]'
-  relation: reacted_against
-  direction: directed
+  pending: false
+- confidence: high
   date: null
   description: Recast motivation around purposes and social life rather than sexual-drive
     primacy.
-  confidence: high
+  direction: directed
   evidence:
   - source: https://www.adler.edu/about/history/alfred-adler/
+  id: edge-55ff0c4df3841241987a
+  owner: psy-school-individual-psychology
+  relation: reacted_against
   review_required: false
+  source: psy-school-individual-psychology
+  target: psy-school-psychoanalysis
+  target_link: '[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]'
   pending: false
 - confidence: high
   date: 1896
@@ -149,6 +216,23 @@ relationships:
   source: psy-person-sigmund-freud
   target: psy-school-psychoanalysis
   target_link: '[[psy-school-psychoanalysis]]'
+  pending: true
+- id: edge-8daae8c18d7c7f9cd3cc
+  owner: psy-school-relational-psychoanalysis
+  source: psy-school-relational-psychoanalysis
+  target: psy-person-stephen-a-mitchell
+  target_link: '[[Psychology/People/Stephen A. Mitchell|Stephen A. Mitchell]]'
+  relation: founded_by
+  direction: directed
+  date: null
+  description: A central founder of the plural relational movement.
+  confidence: high
+  evidence:
+  - source: https://doi.org/10.1007/978-1-4614-6086-2_566
+    locator: Introduction to Relational Theory, opening paragraphs
+    finding: The 1983 synthesis brought object-relations and interpersonal theories
+      together; a central founder and coauthor are identified.
+  review_required: false
   pending: true
 - confidence: medium
   date: 1930
@@ -167,7 +251,7 @@ relationships:
   source: psy-school-psychoanalysis
   target: psy-school-object-relations
   target_link: '[[psy-school-object-relations]]'
-  pending: true
+  pending: false
 - confidence: high
   date: 1913
   description: Jung developed an independent analytical psychology through disagreements
@@ -184,19 +268,19 @@ relationships:
   target: psy-school-analytical-psychology
   target_link: '[[psy-school-analytical-psychology]]'
   pending: false
-- id: edge-a48d0a1a688f84db4f58
+- confidence: high
+  date: null
+  description: Originator of analytical psychology.
+  direction: directed
+  evidence:
+  - source: https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html
+  id: edge-a48d0a1a688f84db4f58
   owner: psy-school-analytical-psychology
+  relation: founded_by
+  review_required: false
   source: psy-school-analytical-psychology
   target: psy-person-carl-jung
   target_link: '[[Psychology/People/Carl Gustav Jung|Carl Gustav Jung]]'
-  relation: founded_by
-  direction: directed
-  date: null
-  description: Originator of analytical psychology.
-  confidence: high
-  evidence:
-  - source: https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html
-  review_required: false
   pending: true
 - confidence: high
   date: 1895
@@ -229,35 +313,35 @@ relationships:
   target: psy-concept-infantile-sexuality
   target_link: '[[psy-concept-infantile-sexuality]]'
   pending: true
-- id: edge-b886ff8d44b6b0817597
-  owner: psy-school-individual-psychology
-  source: psy-school-individual-psychology
-  target: psy-school-psychoanalysis
-  target_link: '[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]'
-  relation: developed_from
-  direction: directed
+- confidence: high
   date: null
   description: Institutional split in 1911; not a claim of exclusive intellectual
     descent.
-  confidence: high
+  direction: directed
   evidence:
   - source: https://www.adler.edu/about/history/alfred-adler/
+  id: edge-b886ff8d44b6b0817597
+  owner: psy-school-individual-psychology
+  relation: developed_from
   review_required: false
-  pending: false
-- id: edge-d7c9e9e5f546916649eb
-  owner: psy-school-analytical-psychology
-  source: psy-school-analytical-psychology
+  source: psy-school-individual-psychology
   target: psy-school-psychoanalysis
   target_link: '[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]'
-  relation: reacted_against
-  direction: directed
+  pending: false
+- confidence: high
   date: null
   description: Disputed the explanatory priority of sexuality and the nature of the
     unconscious.
-  confidence: high
+  direction: directed
   evidence:
   - source: https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html
+  id: edge-d7c9e9e5f546916649eb
+  owner: psy-school-analytical-psychology
+  relation: reacted_against
   review_required: false
+  source: psy-school-analytical-psychology
+  target: psy-school-psychoanalysis
+  target_link: '[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]'
   pending: false
 - confidence: high
   date: null
@@ -274,6 +358,57 @@ relationships:
   target: psy-concept-transference
   target_link: '[[psy-concept-transference]]'
   pending: true
+- confidence: medium
+  date: null
+  description: Relational models contributed to later synthesis; exact lineage requires
+    dedicated research.
+  direction: directed
+  evidence:
+  - source: https://www.jstor.org/stable/j.ctvjk2xv6
+  - source: https://iarpp.net/who-we-are/
+  id: edge-e68db8bd97b1d9c9a630
+  owner: psy-school-object-relations
+  relation: influenced
+  review_required: true
+  source: psy-school-object-relations
+  target: psy-school-relational-psychoanalysis
+  target_link: '[[Psychology/Schools/Relational Psychoanalysis|Relational Psychoanalysis]]'
+  pending: false
+- id: edge-e706b62a4acbfa136ca0
+  owner: psy-school-relational-psychoanalysis
+  source: psy-school-relational-psychoanalysis
+  target: psy-concept-countertransference
+  target_link: '[[Psychology/Concepts/Countertransference|Countertransference]]'
+  relation: studies
+  direction: directed
+  date: null
+  description: Examines the transference-countertransference relationship as access
+    to relational patterns.
+  confidence: high
+  evidence:
+  - source: https://doi.org/10.1007/978-1-4614-6086-2_566
+    locator: Introduction to Relational Theory, opening paragraphs
+    finding: The 1983 synthesis brought object-relations and interpersonal theories
+      together; a central founder and coauthor are identified.
+  review_required: false
+  pending: true
+- id: edge-e807c41cbbe77de9ad03
+  owner: psy-school-relational-psychoanalysis
+  source: psy-school-relational-psychoanalysis
+  target: psy-person-jay-r-greenberg
+  target_link: '[[Psychology/People/Jay R. Greenberg|Jay R. Greenberg]]'
+  relation: related_to
+  direction: symmetric
+  date: null
+  description: Coauthor of the 1983 theoretical synthesis.
+  confidence: high
+  evidence:
+  - source: https://doi.org/10.1007/978-1-4614-6086-2_566
+    locator: Introduction to Relational Theory, opening paragraphs
+    finding: The 1983 synthesis brought object-relations and interpersonal theories
+      together; a central founder and coauthor are identified.
+  review_required: false
+  pending: true
 - confidence: high
   date: null
   description: Documented topic or method of psychoanalytic inquiry; this edge does
@@ -289,17 +424,17 @@ relationships:
   target: psy-concept-death-drive
   target_link: '[[psy-concept-death-drive]]'
   pending: true
-- id: edge-f6eba61edb7537781a6a
+- confidence: high
+  date: null
+  description: Founder of the independent movement.
+  direction: directed
+  evidence:
+  - source: https://www.adler.edu/about/history/alfred-adler/
+  id: edge-f6eba61edb7537781a6a
   owner: psy-school-individual-psychology
+  relation: founded_by
+  review_required: false
   source: psy-school-individual-psychology
   target: psy-person-alfred-adler
   target_link: '[[Psychology/People/Alfred Adler|Alfred Adler]]'
-  relation: founded_by
-  direction: directed
-  date: null
-  description: Founder of the independent movement.
-  confidence: high
-  evidence:
-  - source: https://www.adler.edu/about/history/alfred-adler/
-  review_required: false
   pending: true

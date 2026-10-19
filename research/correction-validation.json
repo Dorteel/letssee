@@ -1,0 +1,17 @@
+{
+  "existing_markdown_preserved": 12,
+  "existing_visual_files_preserved": 14,
+  "new_visual_files": 0,
+  "existing_relationship_claims_preserved": 22,
+  "schools_live_researched_this_pass": 2,
+  "new_relationship_claims": 14,
+  "pending_schools": 0,
+  "optional_unresolved_entities": 42,
+  "relationship_claims_requiring_review": 7,
+  "graph_tests_passed": 36,
+  "repository_unit_service_suite": "passed",
+  "repository_all_suite": "blocked: ModuleNotFoundError: torch",
+  "live_execution": "Two nodes researched by the current Codex session with actual web search and page reading; audits in _Research/jobs.",
+  "cli_transport_test": "Mocked CLI invocation and event checks; no separate live Codex CLI invocation was performed.",
+  "workflow_instructions": "research/AUTONOMOUS_RESEARCH.txt"
+}
