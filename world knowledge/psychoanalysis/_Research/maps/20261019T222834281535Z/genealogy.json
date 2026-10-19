@@ -1,0 +1,99 @@
+[
+  {
+    "id": "edge-0c3af6ad23886abdb2a4",
+    "owner": "psy-school-analytical-psychology",
+    "source": "psy-school-analytical-psychology",
+    "target": "psy-school-psychoanalysis",
+    "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]",
+    "relation": "developed_from",
+    "direction": "directed",
+    "date": null,
+    "description": "Collaboration followed by the documented 1912\u20131913 rupture; approximate emergence.",
+    "confidence": "high",
+    "evidence": [
+      {
+        "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+      }
+    ],
+    "review_required": false,
+    "pending": false
+  },
+  {
+    "confidence": "high",
+    "date": 1911,
+    "description": "Adler separated from the psychoanalytic movement in 1911; his independent school emphasized a different account of individual and social life. The edge records an institutional and intellectual divergence, not exclusive derivation.",
+    "direction": "directed",
+    "evidence": [
+      {
+        "reference": "R11",
+        "source": "https://www.adler.edu/about/history/alfred-adler/"
+      }
+    ],
+    "id": "edge-283a8316f10ccd85e1f1",
+    "owner": "psy-school-psychoanalysis",
+    "relation": "branched_into",
+    "source": "psy-school-psychoanalysis",
+    "target": "psy-school-individual-psychology",
+    "target_link": "[[psy-school-individual-psychology]]",
+    "pending": false
+  },
+  {
+    "confidence": "medium",
+    "date": 1930,
+    "date_precision": "approximate decade marker",
+    "description": "Object relations emerged within psychoanalysis through work on early relationships and child analysis. The date is a rough decade marker, not a single founding event; its multiple contributors require further research.",
+    "direction": "directed",
+    "evidence": [
+      {
+        "reference": "R14",
+        "source": "https://www.freud.org.uk/event/the-work-of-melanie-klein/"
+      }
+    ],
+    "id": "edge-9225283c962c4f8ebc2e",
+    "owner": "psy-school-psychoanalysis",
+    "relation": "branched_into",
+    "review_required": true,
+    "source": "psy-school-psychoanalysis",
+    "target": "psy-school-object-relations",
+    "target_link": "[[psy-school-object-relations]]",
+    "pending": true
+  },
+  {
+    "confidence": "high",
+    "date": 1913,
+    "description": "Jung developed an independent analytical psychology through disagreements about sexuality, libido and the unconscious; the 1913 correspondence documents the personal rupture within a longer transition.",
+    "direction": "directed",
+    "evidence": [
+      {
+        "reference": "R12",
+        "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+      }
+    ],
+    "id": "edge-9b8b3be831427abbbc68",
+    "owner": "psy-school-psychoanalysis",
+    "relation": "branched_into",
+    "source": "psy-school-psychoanalysis",
+    "target": "psy-school-analytical-psychology",
+    "target_link": "[[psy-school-analytical-psychology]]",
+    "pending": false
+  },
+  {
+    "id": "edge-b886ff8d44b6b0817597",
+    "owner": "psy-school-individual-psychology",
+    "source": "psy-school-individual-psychology",
+    "target": "psy-school-psychoanalysis",
+    "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]",
+    "relation": "developed_from",
+    "direction": "directed",
+    "date": null,
+    "description": "Institutional split in 1911; not a claim of exclusive intellectual descent.",
+    "confidence": "high",
+    "evidence": [
+      {
+        "source": "https://www.adler.edu/about/history/alfred-adler/"
+      }
+    ],
+    "review_required": false,
+    "pending": false
+  }
+]

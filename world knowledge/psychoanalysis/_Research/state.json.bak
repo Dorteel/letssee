@@ -1,0 +1,153 @@
+{
+  "entities": {
+    "psy-concept-condensation": {
+      "path": "Psychology/Concepts/Condensation.md",
+      "status": "pending"
+    },
+    "psy-concept-death-drive": {
+      "path": "Psychology/Concepts/Death Drive.md",
+      "status": "pending"
+    },
+    "psy-concept-displacement": {
+      "path": "Psychology/Concepts/Displacement.md",
+      "status": "pending"
+    },
+    "psy-concept-ego": {
+      "path": "Psychology/Concepts/Ego.md",
+      "status": "pending"
+    },
+    "psy-concept-id": {
+      "path": "Psychology/Concepts/Id.md",
+      "status": "pending"
+    },
+    "psy-concept-infantile-sexuality": {
+      "path": "Psychology/Concepts/Infantile Sexuality.md",
+      "status": "pending"
+    },
+    "psy-concept-repression": {
+      "path": "Psychology/Concepts/Repression.md",
+      "status": "pending"
+    },
+    "psy-concept-resistance": {
+      "path": "Psychology/Concepts/Resistance.md",
+      "status": "pending"
+    },
+    "psy-concept-superego": {
+      "path": "Psychology/Concepts/Superego.md",
+      "status": "pending"
+    },
+    "psy-concept-transference": {
+      "path": "Psychology/Concepts/Transference.md",
+      "status": "pending"
+    },
+    "psy-concept-unconscious": {
+      "path": "Psychology/Concepts/Unconscious.md",
+      "status": "pending"
+    },
+    "psy-method-cathartic-method": {
+      "path": "Psychology/Methods/Cathartic Method.md",
+      "status": "pending"
+    },
+    "psy-method-dream-analysis": {
+      "path": "Psychology/Methods/Dream Analysis.md",
+      "status": "pending"
+    },
+    "psy-method-free-association": {
+      "path": "Psychology/Methods/Free Association.md",
+      "status": "pending"
+    },
+    "psy-person-alfred-adler": {
+      "path": "Psychology/People/Alfred Adler.md",
+      "status": "pending"
+    },
+    "psy-person-anna-freud": {
+      "path": "Psychology/People/Anna Freud.md",
+      "status": "pending"
+    },
+    "psy-person-bertha-pappenheim": {
+      "path": "Psychology/People/Bertha Pappenheim.md",
+      "status": "pending"
+    },
+    "psy-person-carl-jung": {
+      "path": "Psychology/People/Carl Gustav Jung.md",
+      "status": "pending"
+    },
+    "psy-person-jean-martin-charcot": {
+      "path": "Psychology/People/Jean-Martin Charcot.md",
+      "status": "pending"
+    },
+    "psy-person-josef-breuer": {
+      "path": "Psychology/People/Josef Breuer.md",
+      "status": "pending"
+    },
+    "psy-person-melanie-klein": {
+      "path": "Psychology/People/Melanie Klein.md",
+      "status": "pending"
+    },
+    "psy-person-peter-fonagy": {
+      "path": "Psychology/People/Peter Fonagy.md",
+      "status": "pending"
+    },
+    "psy-person-sigmund-freud": {
+      "path": "Psychology/People/Sigmund Freud.md",
+      "status": "pending"
+    },
+    "psy-school-analytical-psychology": {
+      "status": "completed",
+      "depth": 1,
+      "path": "Psychology/Schools/Analytical Psychology.md",
+      "packet_review": {
+        "status": "verified",
+        "checked_on": "2026-10-20",
+        "method": "Web pages inspected; institutional historical accounts and professional theory summaries. No efficacy inference.",
+        "sources": [
+          "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html",
+          "https://iaap.org/jung-analytical-psychology/analytical-psychology/",
+          "https://www.thesap.org.uk/about-us/what-we-do/"
+        ]
+      }
+    },
+    "psy-school-individual-psychology": {
+      "status": "completed",
+      "depth": 1,
+      "path": "Psychology/Schools/Individual Psychology.md",
+      "packet_review": {
+        "status": "verified",
+        "checked_on": "2026-10-20",
+        "method": "Web pages inspected; institutional historical accounts and professional theory summaries. No efficacy inference.",
+        "sources": [
+          "https://www.adler.edu/about/history/alfred-adler/",
+          "https://www.alfredadler.edu/about/alfred-adler-theory-application/",
+          "https://www.alfredadler.org/alfred-adler"
+        ]
+      }
+    },
+    "psy-school-object-relations": {
+      "status": "completed",
+      "depth": 1,
+      "path": "Psychology/Schools/Object Relations.md",
+      "packet_review": {
+        "status": "verified",
+        "checked_on": "2026-10-20",
+        "method": "Web pages inspected; institutional historical accounts and professional theory summaries. No efficacy inference.",
+        "sources": [
+          "https://melanie-klein-trust.org.uk/theory/",
+          "https://psychoanalysis.org.uk/ronald-fairbairn",
+          "https://www.jstor.org/stable/j.ctvjk2xv6",
+          "https://centerforobjectrelations.org/a-brief-history-on-british-object-relations/",
+          "https://iarpp.net/who-we-are/"
+        ]
+      }
+    },
+    "psy-school-psychoanalysis": {
+      "path": "Psychology/Schools/Psychoanalysis.md",
+      "status": "completed",
+      "existing": true
+    }
+  },
+  "completed": [
+    "psy-school-individual-psychology",
+    "psy-school-analytical-psychology",
+    "psy-school-object-relations"
+  ]
+}

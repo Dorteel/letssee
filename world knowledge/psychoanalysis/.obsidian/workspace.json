@@ -199,17 +199,17 @@
   },
   "active": "f756acbfa5045a17",
   "lastOpenFiles": [
-    "README.txt",
-    "tools/__pycache__/graph_builder.cpython-312.pyc",
-    "tools/__pycache__",
-    "test.sh",
-    "tests/test_graph_builder.py",
-    "_Graph/research_queue.yaml.bak",
-    "_Graph/relationships.yaml.bak",
-    "_Graph/graph.json.bak",
-    "_Graph/research_queue.yaml",
-    "_Graph/relationships.yaml",
-    "_Graph/graph.json",
+    "_Research/report.json",
+    "_Research/maps/20261019T222834412057Z/network.json",
+    "_Research/maps/20261019T222834412057Z/tmpo4xzr_ro",
+    "_Research/maps/20261019T222834412057Z/genealogy.json",
+    "_Research/maps/20261019T222834412057Z/all-radial.generated.excalidraw.sha256",
+    "_Research/maps/20261019T222834412057Z/all-radial.generated.excalidraw",
+    "_Research/maps/20261019T222834412057Z/schools-timeline.generated.excalidraw.sha256",
+    "_Research/maps/20261019T222834412057Z/schools-timeline.generated.excalidraw",
+    "_Research/maps/20261019T222834412057Z/schools-radial.generated.excalidraw.sha256",
+    "_Research/maps/20261019T222834412057Z/schools-radial.generated.excalidraw",
+    "_Research/maps/20261019T222834412057Z",
     "Welcome.md"
   ]
 }

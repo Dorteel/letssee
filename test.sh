@@ -46,6 +46,8 @@ if [[ -z "$python" ]]; then
   else python=$(command -v python3) || fail "python3 is required."; fi
 fi
 python=$(command -v "$python") || fail "Cannot find TEST_PYTHON."
+PYTHONDONTWRITEBYTECODE=1 "$python" -m unittest discover -s "$repo/tests" -v
+bash "$repo/world knowledge/psychoanalysis/test.sh"
 ready_timeout=${TEST_READY_TIMEOUT:-30}
 call_timeout=${TEST_CALL_TIMEOUT:-180}
 for value in "$ready_timeout" "$call_timeout"; do

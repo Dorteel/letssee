@@ -1,24 +1,8 @@
 completed:
 - psy-school-psychoanalysis
+- psy-school-individual-psychology
+- psy-school-analytical-psychology
 pending:
-- id: psy-school-individual-psychology
-  title: Individual Psychology
-  type: school
-  path: Psychology/Schools/Individual Psychology.md
-  status: pending
-  sort_year: 1911
-  emergence_year: 1911
-  founding_period: 1911–1912
-  priority: high
-- id: psy-school-analytical-psychology
-  title: Analytical Psychology
-  type: school
-  path: Psychology/Schools/Analytical Psychology.md
-  status: pending
-  sort_year: 1912
-  emergence_year: 1912
-  founding_period: 1912–1914
-  priority: high
 - id: psy-school-object-relations
   title: Object Relations
   type: school
@@ -28,16 +12,70 @@ pending:
   emergence_year: 1930
   founding_period: 1920s–1940s
   priority: high
+- id: psy-concept-active-imagination
+  title: Active Imagination
+  type: concept
+  path: Psychology/Concepts/Active Imagination.md
+  status: pending
+  priority: normal
+- id: psy-concept-archetypes
+  title: Archetypes
+  type: concept
+  path: Psychology/Concepts/Archetypes.md
+  status: pending
+  priority: normal
+- id: psy-concept-collective-unconscious
+  title: Collective Unconscious
+  type: concept
+  path: Psychology/Concepts/Collective Unconscious.md
+  status: pending
+  priority: normal
+- id: psy-concept-condensation
+  title: Condensation
+  type: concept
+  path: Psychology/Concepts/Condensation.md
+  status: pending
+  priority: normal
 - id: psy-concept-death-drive
   title: Death Drive
   type: concept
   path: Psychology/Concepts/Death Drive.md
   status: pending
   priority: normal
+- id: psy-concept-displacement
+  title: Displacement
+  type: concept
+  path: Psychology/Concepts/Displacement.md
+  status: pending
+  priority: normal
+- id: psy-concept-ego
+  title: Ego
+  type: concept
+  path: Psychology/Concepts/Ego.md
+  status: pending
+  priority: normal
+- id: psy-concept-id
+  title: Id
+  type: concept
+  path: Psychology/Concepts/Id.md
+  status: pending
+  priority: normal
+- id: psy-concept-individuation
+  title: Individuation
+  type: concept
+  path: Psychology/Concepts/Individuation.md
+  status: pending
+  priority: normal
 - id: psy-concept-infantile-sexuality
   title: Infantile Sexuality
   type: concept
   path: Psychology/Concepts/Infantile Sexuality.md
+  status: pending
+  priority: normal
+- id: psy-concept-inferiority-feelings
+  title: Inferiority Feelings
+  type: concept
+  path: Psychology/Concepts/Inferiority Feelings.md
   status: pending
   priority: normal
 - id: psy-concept-repression
@@ -50,6 +88,24 @@ pending:
   title: Resistance
   type: concept
   path: Psychology/Concepts/Resistance.md
+  status: pending
+  priority: normal
+- id: psy-concept-social-interest
+  title: Social Interest
+  type: concept
+  path: Psychology/Concepts/Social Interest.md
+  status: pending
+  priority: normal
+- id: psy-concept-style-of-life
+  title: Style of Life
+  type: concept
+  path: Psychology/Concepts/Style of Life.md
+  status: pending
+  priority: normal
+- id: psy-concept-superego
+  title: Superego
+  type: concept
+  path: Psychology/Concepts/Superego.md
   status: pending
   priority: normal
 - id: psy-concept-transference
@@ -136,4 +192,4 @@ pending:
   path: Psychology/People/Sigmund Freud.md
   status: pending
   priority: normal
-next_proposed_target: psy-school-individual-psychology
+next_proposed_target: psy-school-object-relations

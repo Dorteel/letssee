@@ -1,0 +1,16 @@
+{
+  "original_markdown_preserved": 8,
+  "graph_tests_passed": 29,
+  "repository_unit_service_suite": "passed",
+  "repository_all_suite": "blocked: missing torch dependency",
+  "actual_pass": {
+    "max_depth": 5,
+    "max_nodes": 3,
+    "schools_created": 3,
+    "unresolved_entities": 34,
+    "pending_schools": 1,
+    "relationship_claims_total": 22,
+    "relationship_claims_added": 9,
+    "relationship_claims_requiring_review": 3
+  }
+}

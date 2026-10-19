@@ -597,6 +597,11 @@ def main():
                         raise
 
 if __name__=='__main__':
+    if len(sys.argv)>1 and sys.argv[1]=='research':
+        sys.path.insert(0, str(Path(__file__).resolve().parents[3]/'tools'))
+        from research_runner import main as research_main
+        research_main()
+        sys.exit(0)
     try: main()
     except (ValueError,KeyError,TypeError,OSError,yaml.YAMLError) as exc:
         print('Error: '+str(exc),file=sys.stderr); sys.exit(1)

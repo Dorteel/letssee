@@ -1,5 +1,176 @@
 {
   "claims": {
+    "psy-school-analytical-psychology": [
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Collaboration followed by the documented 1912–1913 rupture; approximate emergence.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+          }
+        ],
+        "id": "edge-0c3af6ad23886abdb2a4",
+        "owner": "psy-school-analytical-psychology",
+        "relation": "developed_from",
+        "review_required": false,
+        "source": "psy-school-analytical-psychology",
+        "target": "psy-school-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Disputed the explanatory priority of sexuality and the nature of the unconscious.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+          }
+        ],
+        "id": "edge-d7c9e9e5f546916649eb",
+        "owner": "psy-school-analytical-psychology",
+        "relation": "reacted_against",
+        "review_required": false,
+        "source": "psy-school-analytical-psychology",
+        "target": "psy-school-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Later British analytical practice integrated ideas of early development; not a founding influence.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.thesap.org.uk/about-us/what-we-do/"
+          }
+        ],
+        "id": "edge-27a39a17a2f359d2ab4c",
+        "owner": "psy-school-analytical-psychology",
+        "relation": "influenced_by",
+        "review_required": false,
+        "source": "psy-school-analytical-psychology",
+        "target": "psy-school-object-relations",
+        "target_link": "[[Psychology/Schools/Object Relations|Object Relations]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Originator of analytical psychology.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+          }
+        ],
+        "id": "edge-a48d0a1a688f84db4f58",
+        "owner": "psy-school-analytical-psychology",
+        "relation": "founded_by",
+        "review_required": false,
+        "source": "psy-school-analytical-psychology",
+        "target": "psy-person-carl-jung",
+        "target_link": "[[Psychology/People/Carl Gustav Jung|Carl Gustav Jung]]"
+      }
+    ],
+    "psy-school-individual-psychology": [
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Institutional split in 1911; not a claim of exclusive intellectual descent.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.adler.edu/about/history/alfred-adler/"
+          }
+        ],
+        "id": "edge-b886ff8d44b6b0817597",
+        "owner": "psy-school-individual-psychology",
+        "relation": "developed_from",
+        "review_required": false,
+        "source": "psy-school-individual-psychology",
+        "target": "psy-school-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Recast motivation around purposes and social life rather than sexual-drive primacy.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.adler.edu/about/history/alfred-adler/"
+          }
+        ],
+        "id": "edge-55ff0c4df3841241987a",
+        "owner": "psy-school-individual-psychology",
+        "relation": "reacted_against",
+        "review_required": false,
+        "source": "psy-school-individual-psychology",
+        "target": "psy-school-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Founder of the independent movement.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.adler.edu/about/history/alfred-adler/"
+          }
+        ],
+        "id": "edge-f6eba61edb7537781a6a",
+        "owner": "psy-school-individual-psychology",
+        "relation": "founded_by",
+        "review_required": false,
+        "source": "psy-school-individual-psychology",
+        "target": "psy-person-alfred-adler",
+        "target_link": "[[Psychology/People/Alfred Adler|Alfred Adler]]"
+      }
+    ],
+    "psy-school-object-relations": [
+      {
+        "confidence": "medium",
+        "date": null,
+        "description": "Plural internal development rather than a single founding split.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://centerforobjectrelations.org/a-brief-history-on-british-object-relations/"
+          }
+        ],
+        "id": "edge-54a8c397cffd6bf80386",
+        "owner": "psy-school-object-relations",
+        "relation": "developed_from",
+        "review_required": true,
+        "source": "psy-school-object-relations",
+        "target": "psy-school-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+      },
+      {
+        "confidence": "medium",
+        "date": null,
+        "description": "Relational models contributed to later synthesis; exact lineage requires dedicated research.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.jstor.org/stable/j.ctvjk2xv6"
+          },
+          {
+            "source": "https://iarpp.net/who-we-are/"
+          }
+        ],
+        "id": "edge-e68db8bd97b1d9c9a630",
+        "owner": "psy-school-object-relations",
+        "relation": "influenced",
+        "review_required": true,
+        "source": "psy-school-object-relations",
+        "target": "psy-school-relational-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Relational Psychoanalysis|Relational Psychoanalysis]]"
+      }
+    ],
     "psy-school-psychoanalysis": [
       {
         "confidence": "high",
@@ -262,6 +433,25 @@
     {
       "confidence": "high",
       "date": null,
+      "description": "Collaboration followed by the documented 1912–1913 rupture; approximate emergence.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+        }
+      ],
+      "id": "edge-0c3af6ad23886abdb2a4",
+      "owner": "psy-school-analytical-psychology",
+      "pending": false,
+      "relation": "developed_from",
+      "review_required": false,
+      "source": "psy-school-analytical-psychology",
+      "target": "psy-school-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
       "description": "Documented topic or method of psychoanalytic inquiry; this edge does not assert invention or empirical confirmation.",
       "direction": "directed",
       "evidence": [
@@ -299,6 +489,25 @@
     },
     {
       "confidence": "high",
+      "date": null,
+      "description": "Later British analytical practice integrated ideas of early development; not a founding influence.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.thesap.org.uk/about-us/what-we-do/"
+        }
+      ],
+      "id": "edge-27a39a17a2f359d2ab4c",
+      "owner": "psy-school-analytical-psychology",
+      "pending": false,
+      "relation": "influenced_by",
+      "review_required": false,
+      "source": "psy-school-analytical-psychology",
+      "target": "psy-school-object-relations",
+      "target_link": "[[Psychology/Schools/Object Relations|Object Relations]]"
+    },
+    {
+      "confidence": "high",
       "date": 1911,
       "description": "Adler separated from the psychoanalytic movement in 1911; his independent school emphasized a different account of individual and social life. The edge records an institutional and intellectual divergence, not exclusive derivation.",
       "direction": "directed",
@@ -310,7 +519,7 @@
       ],
       "id": "edge-283a8316f10ccd85e1f1",
       "owner": "psy-school-psychoanalysis",
-      "pending": true,
+      "pending": false,
       "relation": "branched_into",
       "source": "psy-school-psychoanalysis",
       "target": "psy-school-individual-psychology",
@@ -355,6 +564,44 @@
       "target_link": "[[psy-concept-resistance]]"
     },
     {
+      "confidence": "medium",
+      "date": null,
+      "description": "Plural internal development rather than a single founding split.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://centerforobjectrelations.org/a-brief-history-on-british-object-relations/"
+        }
+      ],
+      "id": "edge-54a8c397cffd6bf80386",
+      "owner": "psy-school-object-relations",
+      "pending": false,
+      "relation": "developed_from",
+      "review_required": true,
+      "source": "psy-school-object-relations",
+      "target": "psy-school-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "Recast motivation around purposes and social life rather than sexual-drive primacy.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.adler.edu/about/history/alfred-adler/"
+        }
+      ],
+      "id": "edge-55ff0c4df3841241987a",
+      "owner": "psy-school-individual-psychology",
+      "pending": false,
+      "relation": "reacted_against",
+      "review_required": false,
+      "source": "psy-school-individual-psychology",
+      "target": "psy-school-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
+    {
       "confidence": "high",
       "date": 1896,
       "description": "Freud developed and named psychoanalysis across the 1890s; 1896 marks the term, not an instantaneous invention.",
@@ -387,7 +634,7 @@
       ],
       "id": "edge-9225283c962c4f8ebc2e",
       "owner": "psy-school-psychoanalysis",
-      "pending": true,
+      "pending": false,
       "relation": "branched_into",
       "review_required": true,
       "source": "psy-school-psychoanalysis",
@@ -407,11 +654,30 @@
       ],
       "id": "edge-9b8b3be831427abbbc68",
       "owner": "psy-school-psychoanalysis",
-      "pending": true,
+      "pending": false,
       "relation": "branched_into",
       "source": "psy-school-psychoanalysis",
       "target": "psy-school-analytical-psychology",
       "target_link": "[[psy-school-analytical-psychology]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "Originator of analytical psychology.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+        }
+      ],
+      "id": "edge-a48d0a1a688f84db4f58",
+      "owner": "psy-school-analytical-psychology",
+      "pending": true,
+      "relation": "founded_by",
+      "review_required": false,
+      "source": "psy-school-analytical-psychology",
+      "target": "psy-person-carl-jung",
+      "target_link": "[[Psychology/People/Carl Gustav Jung|Carl Gustav Jung]]"
     },
     {
       "confidence": "high",
@@ -454,6 +720,44 @@
     {
       "confidence": "high",
       "date": null,
+      "description": "Institutional split in 1911; not a claim of exclusive intellectual descent.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.adler.edu/about/history/alfred-adler/"
+        }
+      ],
+      "id": "edge-b886ff8d44b6b0817597",
+      "owner": "psy-school-individual-psychology",
+      "pending": false,
+      "relation": "developed_from",
+      "review_required": false,
+      "source": "psy-school-individual-psychology",
+      "target": "psy-school-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "Disputed the explanatory priority of sexuality and the nature of the unconscious.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+        }
+      ],
+      "id": "edge-d7c9e9e5f546916649eb",
+      "owner": "psy-school-analytical-psychology",
+      "pending": false,
+      "relation": "reacted_against",
+      "review_required": false,
+      "source": "psy-school-analytical-psychology",
+      "target": "psy-school-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
       "description": "Documented topic or method of psychoanalytic inquiry; this edge does not assert invention or empirical confirmation.",
       "direction": "directed",
       "evidence": [
@@ -469,6 +773,28 @@
       "source": "psy-school-psychoanalysis",
       "target": "psy-concept-transference",
       "target_link": "[[psy-concept-transference]]"
+    },
+    {
+      "confidence": "medium",
+      "date": null,
+      "description": "Relational models contributed to later synthesis; exact lineage requires dedicated research.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.jstor.org/stable/j.ctvjk2xv6"
+        },
+        {
+          "source": "https://iarpp.net/who-we-are/"
+        }
+      ],
+      "id": "edge-e68db8bd97b1d9c9a630",
+      "owner": "psy-school-object-relations",
+      "pending": true,
+      "relation": "influenced",
+      "review_required": true,
+      "source": "psy-school-object-relations",
+      "target": "psy-school-relational-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Relational Psychoanalysis|Relational Psychoanalysis]]"
     },
     {
       "confidence": "high",
@@ -488,9 +814,55 @@
       "source": "psy-school-psychoanalysis",
       "target": "psy-concept-death-drive",
       "target_link": "[[psy-concept-death-drive]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "Founder of the independent movement.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.adler.edu/about/history/alfred-adler/"
+        }
+      ],
+      "id": "edge-f6eba61edb7537781a6a",
+      "owner": "psy-school-individual-psychology",
+      "pending": true,
+      "relation": "founded_by",
+      "review_required": false,
+      "source": "psy-school-individual-psychology",
+      "target": "psy-person-alfred-adler",
+      "target_link": "[[Psychology/People/Alfred Adler|Alfred Adler]]"
     }
   ],
   "nodes": {
+    "psy-concept-active-imagination": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-active-imagination",
+      "path": "Psychology/Concepts/Active Imagination.md",
+      "pending": true,
+      "title": "Active Imagination",
+      "type": "concept"
+    },
+    "psy-concept-archetypes": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-archetypes",
+      "path": "Psychology/Concepts/Archetypes.md",
+      "pending": true,
+      "title": "Archetypes",
+      "type": "concept"
+    },
+    "psy-concept-collective-unconscious": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-collective-unconscious",
+      "path": "Psychology/Concepts/Collective Unconscious.md",
+      "pending": true,
+      "title": "Collective Unconscious",
+      "type": "concept"
+    },
     "psy-concept-condensation": {
       "aliases": [],
       "depth": null,
@@ -536,6 +908,15 @@
       "title": "Id",
       "type": "concept"
     },
+    "psy-concept-individuation": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-individuation",
+      "path": "Psychology/Concepts/Individuation.md",
+      "pending": true,
+      "title": "Individuation",
+      "type": "concept"
+    },
     "psy-concept-infantile-sexuality": {
       "aliases": [],
       "depth": null,
@@ -543,6 +924,24 @@
       "path": "Psychology/Concepts/Infantile Sexuality.md",
       "pending": true,
       "title": "Infantile Sexuality",
+      "type": "concept"
+    },
+    "psy-concept-inferiority-feelings": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-inferiority-feelings",
+      "path": "Psychology/Concepts/Inferiority Feelings.md",
+      "pending": true,
+      "title": "Inferiority Feelings",
+      "type": "concept"
+    },
+    "psy-concept-internal-objects": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-internal-objects",
+      "path": "Psychology/Concepts/Internal Objects.md",
+      "pending": true,
+      "title": "Internal Objects",
       "type": "concept"
     },
     "psy-concept-repression": {
@@ -561,6 +960,24 @@
       "path": "Psychology/Concepts/Resistance.md",
       "pending": true,
       "title": "Resistance",
+      "type": "concept"
+    },
+    "psy-concept-social-interest": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-social-interest",
+      "path": "Psychology/Concepts/Social Interest.md",
+      "pending": true,
+      "title": "Social Interest",
+      "type": "concept"
+    },
+    "psy-concept-style-of-life": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-style-of-life",
+      "path": "Psychology/Concepts/Style of Life.md",
+      "pending": true,
+      "title": "Style of Life",
       "type": "concept"
     },
     "psy-concept-superego": {
@@ -669,6 +1086,15 @@
       "title": "Carl Gustav Jung",
       "type": "person"
     },
+    "psy-person-donald-winnicott": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-person-donald-winnicott",
+      "path": "Psychology/People/Donald Winnicott.md",
+      "pending": true,
+      "title": "Donald Winnicott",
+      "type": "person"
+    },
     "psy-person-jean-martin-charcot": {
       "aliases": [
         "Charcot"
@@ -719,6 +1145,15 @@
       "title": "Peter Fonagy",
       "type": "person"
     },
+    "psy-person-ronald-fairbairn": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-person-ronald-fairbairn",
+      "path": "Psychology/People/Ronald Fairbairn.md",
+      "pending": true,
+      "title": "Ronald Fairbairn",
+      "type": "person"
+    },
     "psy-person-sigmund-freud": {
       "aliases": [
         "Freud"
@@ -734,38 +1169,289 @@
     },
     "psy-school-analytical-psychology": {
       "aliases": [],
+      "body": "## Who / When\n[[Psychology/People/Carl Gustav Jung|Carl Gustav Jung]] developed this approach through the 1912–1914 separation from [[Psychology/Schools/Psychoanalysis|Psychoanalysis]]; 1913 is an approximate marker. [R1]\n\n## What\nThe psyche includes personal and [[Psychology/Concepts/Collective Unconscious|Collective Unconscious]] processes. [[Psychology/Concepts/Archetypes|Archetypes]] organize recurring symbolic patterns. These are the school’s theoretical propositions. [R2]\n\n## Why\nIt sought an account of symbolic, religious, and developmental experience broader than explanations organized around sexual conflict. [R1, R2]\n\n## How\nDream interpretation, symbolic comparison, and [[Psychology/Concepts/Active Imagination|Active Imagination]] investigate unconscious material. [[Psychology/Concepts/Individuation|Individuation]] names the differentiation and integration of personality. [R2]\n\n## What changed\nIt broadened the unconscious beyond personal biography and treated symbolic development as potentially constructive, not solely a disguise for repressed wishes. [R1, R2]\n\n## Developments\n[[Psychology/Schools/Psychoanalysis|Psychoanalysis]] is a predecessor and rival. Later British analysts integrated [[Psychology/Schools/Object Relations|Object Relations]] ideas: this is cross-tradition influence, not proof that either school descended from the other. [R3]\n\n## References\n- [R1] [Library of Congress: documents of the rupture](https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html)\n- [R2] [IAAP: analytical psychology](https://iaap.org/jung-analytical-psychology/analytical-psychology/)\n- [R3] [Society of Analytical Psychology: theoretical synthesis](https://www.thesap.org.uk/about-us/what-we-do/)\n",
+      "content_hash": "e4f3bcb85e2b6bf8434c94647aaf77358409c5714bb4342d90874f6dea433b4a",
       "depth": 1,
-      "emergence_year": 1912,
-      "founding_period": "1912–1914",
+      "domain": "psychology",
+      "emergence_year": 1913,
       "id": "psy-school-analytical-psychology",
       "path": "Psychology/Schools/Analytical Psychology.md",
-      "pending": true,
-      "sort_year": 1912,
+      "pending": false,
+      "pending_entities": [
+        {
+          "aliases": [],
+          "id": "psy-person-carl-jung",
+          "path": "Psychology/People/Carl Gustav Jung.md",
+          "title": "Carl Gustav Jung",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-collective-unconscious",
+          "path": "Psychology/Concepts/Collective Unconscious.md",
+          "title": "Collective Unconscious",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-archetypes",
+          "path": "Psychology/Concepts/Archetypes.md",
+          "title": "Archetypes",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-active-imagination",
+          "path": "Psychology/Concepts/Active Imagination.md",
+          "title": "Active Imagination",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-individuation",
+          "path": "Psychology/Concepts/Individuation.md",
+          "title": "Individuation",
+          "type": "concept"
+        }
+      ],
+      "period": "20th-century",
+      "relationships": [
+        {
+          "confidence": "high",
+          "description": "Collaboration followed by the documented 1912–1913 rupture; approximate emergence.",
+          "evidence": [
+            {
+              "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+            }
+          ],
+          "relation": "developed_from",
+          "review_required": false,
+          "target": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Disputed the explanatory priority of sexuality and the nature of the unconscious.",
+          "evidence": [
+            {
+              "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+            }
+          ],
+          "relation": "reacted_against",
+          "review_required": false,
+          "target": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Later British analytical practice integrated ideas of early development; not a founding influence.",
+          "evidence": [
+            {
+              "source": "https://www.thesap.org.uk/about-us/what-we-do/"
+            }
+          ],
+          "relation": "influenced_by",
+          "review_required": false,
+          "target": "[[Psychology/Schools/Object Relations|Object Relations]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Originator of analytical psychology.",
+          "evidence": [
+            {
+              "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+            }
+          ],
+          "relation": "founded_by",
+          "review_required": false,
+          "target": "[[Psychology/People/Carl Gustav Jung|Carl Gustav Jung]]"
+        }
+      ],
+      "status": "completed",
+      "tags": [
+        "domain/psychology",
+        "type/school",
+        "tradition/psychodynamic",
+        "period/20th-century"
+      ],
       "title": "Analytical Psychology",
+      "tradition": "psychodynamic",
       "type": "school"
     },
     "psy-school-individual-psychology": {
       "aliases": [],
+      "body": "## Who / When\n[[Psychology/People/Alfred Adler|Alfred Adler]] established an independent movement following the 1911 separation from [[Psychology/Schools/Psychoanalysis|Psychoanalysis]]; institutional consolidation followed in 1912. [R1]\n\n## What\nThe person forms an organized whole, pursuing significance within social relationships. [[Psychology/Concepts/Social Interest|Social Interest]] and [[Psychology/Concepts/Inferiority Feelings|Inferiority Feelings]] are central explanatory ideas. [R2, R3]\n\n## Why\nIt challenged explanations centered on sexual drives, asking how perceived inadequacy, purposes, and social circumstances organize conduct. [R1, R2]\n\n## How\nClinicians infer a [[Psychology/Concepts/Style of Life|Style of Life]] from early recollections, family circumstances, and recurring strategies; encouragement and collaborative dialogue seek more cooperative goals. These are theoretical and clinical commitments. [R2]\n\n## What changed\nExplanation emphasized goal-directed unity and social embeddedness rather than treating personality chiefly as conflict among drives. [R2]\n\n## Developments\nIts separation makes [[Psychology/Schools/Psychoanalysis|Psychoanalysis]] both an institutional predecessor and an intellectual rival. Educational and family applications continued within this tradition; no separate successor school is asserted here. [R1, R3]\n\n## References\n- [R1] [Adler University: historical timeline](https://www.adler.edu/about/history/alfred-adler/)\n- [R2] [Adler Graduate School: theory and application](https://www.alfredadler.edu/about/alfred-adler-theory-application/)\n- [R3] [North American Society for Adlerian Psychology: founder and theory](https://www.alfredadler.org/alfred-adler)\n",
+      "content_hash": "5832239a7bf3c73d0d76c83098adbffc90e7db3964ab2dbdfe3d8939aee5907e",
       "depth": 1,
+      "domain": "psychology",
       "emergence_year": 1911,
-      "founding_period": "1911–1912",
       "id": "psy-school-individual-psychology",
       "path": "Psychology/Schools/Individual Psychology.md",
-      "pending": true,
-      "sort_year": 1911,
+      "pending": false,
+      "pending_entities": [
+        {
+          "aliases": [],
+          "id": "psy-person-alfred-adler",
+          "path": "Psychology/People/Alfred Adler.md",
+          "title": "Alfred Adler",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-social-interest",
+          "path": "Psychology/Concepts/Social Interest.md",
+          "title": "Social Interest",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-inferiority-feelings",
+          "path": "Psychology/Concepts/Inferiority Feelings.md",
+          "title": "Inferiority Feelings",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-style-of-life",
+          "path": "Psychology/Concepts/Style of Life.md",
+          "title": "Style of Life",
+          "type": "concept"
+        }
+      ],
+      "period": "20th-century",
+      "relationships": [
+        {
+          "confidence": "high",
+          "description": "Institutional split in 1911; not a claim of exclusive intellectual descent.",
+          "evidence": [
+            {
+              "source": "https://www.adler.edu/about/history/alfred-adler/"
+            }
+          ],
+          "relation": "developed_from",
+          "review_required": false,
+          "target": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Recast motivation around purposes and social life rather than sexual-drive primacy.",
+          "evidence": [
+            {
+              "source": "https://www.adler.edu/about/history/alfred-adler/"
+            }
+          ],
+          "relation": "reacted_against",
+          "review_required": false,
+          "target": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Founder of the independent movement.",
+          "evidence": [
+            {
+              "source": "https://www.adler.edu/about/history/alfred-adler/"
+            }
+          ],
+          "relation": "founded_by",
+          "review_required": false,
+          "target": "[[Psychology/People/Alfred Adler|Alfred Adler]]"
+        }
+      ],
+      "status": "completed",
+      "tags": [
+        "domain/psychology",
+        "type/school",
+        "tradition/psychodynamic",
+        "period/20th-century"
+      ],
       "title": "Individual Psychology",
+      "tradition": "psychodynamic",
       "type": "school"
     },
     "psy-school-object-relations": {
       "aliases": [],
+      "body": "## Who / When\nA plural psychoanalytic tradition developed during the 1920s–1950s, notably through [[Psychology/People/Melanie Klein|Melanie Klein]], [[Psychology/People/Ronald Fairbairn|Ronald Fairbairn]], and [[Psychology/People/Donald Winnicott|Donald Winnicott]]; 1930 is an approximate ordering date. [R1–R4]\n\n## What\n[[Psychology/Concepts/Internal Objects|Internal Objects]] and early relationships organize emotional life. Contributors disagreed about the roles of drives, fantasy, and actual caregiving. [R1–R3]\n\n## Why\nIt addressed how enduring relationships and early dependence enter personality, beyond treating another person chiefly as a means of drive satisfaction. [R2, R3]\n\n## How\nPlay, transference, and clinical interpretation investigate internalized relationships. Different accounts connect anxiety and defenses with early experience; this interpretive methodology does not itself establish causal validity. [R1, R2, R4]\n\n## What changed\nRelationships became increasingly central explanatory structures. Some accounts retained drives; others proposed a more fundamental relational motivation. [R2, R3]\n\n## Developments\nIt developed within [[Psychology/Schools/Psychoanalysis|Psychoanalysis]]. It later influenced [[Psychology/Schools/Relational Psychoanalysis|Relational Psychoanalysis]]; the genealogical classification of that plural synthesis remains queued for review. Contrasts with classical drive accounts concern explanatory priorities, not chronological replacement. [R3–R5]\n\n## References\n- [R1] [Melanie Klein Trust: theoretical concepts](https://melanie-klein-trust.org.uk/theory/)\n- [R2] [British Psychoanalytical Society: theoretical history](https://psychoanalysis.org.uk/ronald-fairbairn)\n- [R3] [University-press scholarly book: conceptual history (publisher summary)](https://www.jstor.org/stable/j.ctvjk2xv6)\n- [R4] [Center for Object Relations: institutional history](https://centerforobjectrelations.org/a-brief-history-on-british-object-relations/)\n- [R5] [IARPP: relational perspectives](https://iarpp.net/who-we-are/)\n",
+      "content_hash": "105f75bdeca1d052e0ed0651de9d1694735399d8041898edb3bccfbd824c733b",
       "depth": 1,
+      "domain": "psychology",
       "emergence_year": 1930,
-      "founding_period": "1920s–1940s",
       "id": "psy-school-object-relations",
       "path": "Psychology/Schools/Object Relations.md",
-      "pending": true,
-      "sort_year": 1930,
+      "pending": false,
+      "pending_entities": [
+        {
+          "aliases": [],
+          "id": "psy-person-melanie-klein",
+          "path": "Psychology/People/Melanie Klein.md",
+          "title": "Melanie Klein",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-person-ronald-fairbairn",
+          "path": "Psychology/People/Ronald Fairbairn.md",
+          "title": "Ronald Fairbairn",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-person-donald-winnicott",
+          "path": "Psychology/People/Donald Winnicott.md",
+          "title": "Donald Winnicott",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-internal-objects",
+          "path": "Psychology/Concepts/Internal Objects.md",
+          "title": "Internal Objects",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-school-relational-psychoanalysis",
+          "path": "Psychology/Schools/Relational Psychoanalysis.md",
+          "title": "Relational Psychoanalysis",
+          "type": "school"
+        }
+      ],
+      "period": "20th-century",
+      "relationships": [
+        {
+          "confidence": "medium",
+          "description": "Plural internal development rather than a single founding split.",
+          "evidence": [
+            {
+              "source": "https://centerforobjectrelations.org/a-brief-history-on-british-object-relations/"
+            }
+          ],
+          "relation": "developed_from",
+          "review_required": true,
+          "target": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+        },
+        {
+          "confidence": "medium",
+          "description": "Relational models contributed to later synthesis; exact lineage requires dedicated research.",
+          "evidence": [
+            {
+              "source": "https://www.jstor.org/stable/j.ctvjk2xv6"
+            },
+            {
+              "source": "https://iarpp.net/who-we-are/"
+            }
+          ],
+          "relation": "influenced",
+          "review_required": true,
+          "target": "[[Psychology/Schools/Relational Psychoanalysis|Relational Psychoanalysis]]"
+        }
+      ],
+      "status": "completed",
+      "tags": [
+        "domain/psychology",
+        "type/school",
+        "tradition/psychodynamic",
+        "period/20th-century"
+      ],
       "title": "Object Relations",
+      "tradition": "psychodynamic",
       "type": "school"
     },
     "psy-school-psychoanalysis": {
@@ -1208,6 +1894,15 @@
       ],
       "title": "Psychoanalysis",
       "tradition": "depth-psychology",
+      "type": "school"
+    },
+    "psy-school-relational-psychoanalysis": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-school-relational-psychoanalysis",
+      "path": "Psychology/Schools/Relational Psychoanalysis.md",
+      "pending": true,
+      "title": "Relational Psychoanalysis",
       "type": "school"
     }
   },

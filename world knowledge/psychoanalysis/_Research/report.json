@@ -1,0 +1,28 @@
+{
+  "dry_run": false,
+  "schools_researched": 3,
+  "planned_or_created": [
+    {
+      "id": "psy-school-individual-psychology",
+      "path": "Psychology/Schools/Individual Psychology.md",
+      "genealogical_depth": 1
+    },
+    {
+      "id": "psy-school-analytical-psychology",
+      "path": "Psychology/Schools/Analytical Psychology.md",
+      "genealogical_depth": 1
+    },
+    {
+      "id": "psy-school-object-relations",
+      "path": "Psychology/Schools/Object Relations.md",
+      "genealogical_depth": 1
+    }
+  ],
+  "unresolved_entities": 34,
+  "pending_schools": 1,
+  "relationships": 22,
+  "claims_requiring_review": 3,
+  "stop_reason": "max_nodes",
+  "max_depth": 5,
+  "max_nodes": 3
+}

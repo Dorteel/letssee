@@ -1,200 +1,305 @@
 relationships:
-- id: edge-05a89610a15326f17dc2
+- confidence: high
+  date: null
+  description: Documented topic or method of psychoanalytic inquiry; this edge does
+    not assert invention or empirical confirmation.
+  direction: directed
+  evidence:
+  - reference: R5
+    source: https://www.gutenberg.org/files/66048/66048-h/66048-h.htm
+  id: edge-05a89610a15326f17dc2
   owner: psy-school-psychoanalysis
+  relation: studies
   source: psy-school-psychoanalysis
   target: psy-concept-unconscious
   target_link: '[[psy-concept-unconscious]]'
-  relation: studies
+  pending: true
+- id: edge-0c3af6ad23886abdb2a4
+  owner: psy-school-analytical-psychology
+  source: psy-school-analytical-psychology
+  target: psy-school-psychoanalysis
+  target_link: '[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]'
+  relation: developed_from
   direction: directed
+  date: null
+  description: Collaboration followed by the documented 1912–1913 rupture; approximate
+    emergence.
+  confidence: high
+  evidence:
+  - source: https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html
+  review_required: false
+  pending: false
+- confidence: high
   date: null
   description: Documented topic or method of psychoanalytic inquiry; this edge does
     not assert invention or empirical confirmation.
-  confidence: high
+  direction: directed
   evidence:
-  - source: https://www.gutenberg.org/files/66048/66048-h/66048-h.htm
-    reference: R5
-  pending: true
-- id: edge-1f2e89cb9142a8156a28
+  - reference: R4
+    source: https://www.gutenberg.org/cache/epub/75132/pg75132-images.html
+  id: edge-1f2e89cb9142a8156a28
   owner: psy-school-psychoanalysis
+  relation: studies
   source: psy-school-psychoanalysis
   target: psy-concept-repression
   target_link: '[[psy-concept-repression]]'
-  relation: studies
-  direction: directed
+  pending: true
+- confidence: high
   date: null
   description: Documented topic or method of psychoanalytic inquiry; this edge does
     not assert invention or empirical confirmation.
-  confidence: high
+  direction: directed
   evidence:
-  - source: https://www.gutenberg.org/cache/epub/75132/pg75132-images.html
-    reference: R4
-  pending: true
-- id: edge-209f3e0d0d5ee6b1cc2a
+  - reference: R17
+    source: https://www.freud.org.uk/schools/resources/the-interpretation-of-dreams/freuds-method-for-interpreting-dreams/
+  id: edge-209f3e0d0d5ee6b1cc2a
   owner: psy-school-psychoanalysis
+  relation: uses_method
   source: psy-school-psychoanalysis
   target: psy-method-free-association
   target_link: '[[psy-method-free-association]]'
-  relation: uses_method
+  pending: true
+- id: edge-27a39a17a2f359d2ab4c
+  owner: psy-school-analytical-psychology
+  source: psy-school-analytical-psychology
+  target: psy-school-object-relations
+  target_link: '[[Psychology/Schools/Object Relations|Object Relations]]'
+  relation: influenced_by
   direction: directed
   date: null
-  description: Documented topic or method of psychoanalytic inquiry; this edge does
-    not assert invention or empirical confirmation.
+  description: Later British analytical practice integrated ideas of early development;
+    not a founding influence.
   confidence: high
   evidence:
-  - source: https://www.freud.org.uk/schools/resources/the-interpretation-of-dreams/freuds-method-for-interpreting-dreams/
-    reference: R17
+  - source: https://www.thesap.org.uk/about-us/what-we-do/
+  review_required: false
   pending: true
-- id: edge-283a8316f10ccd85e1f1
-  owner: psy-school-psychoanalysis
-  source: psy-school-psychoanalysis
-  target: psy-school-individual-psychology
-  target_link: '[[psy-school-individual-psychology]]'
-  relation: branched_into
-  direction: directed
+- confidence: high
   date: 1911
   description: Adler separated from the psychoanalytic movement in 1911; his independent
     school emphasized a different account of individual and social life. The edge
     records an institutional and intellectual divergence, not exclusive derivation.
-  confidence: high
+  direction: directed
   evidence:
-  - source: https://www.adler.edu/about/history/alfred-adler/
-    reference: R11
-  pending: true
-- id: edge-468c052d98c120369d6c
+  - reference: R11
+    source: https://www.adler.edu/about/history/alfred-adler/
+  id: edge-283a8316f10ccd85e1f1
   owner: psy-school-psychoanalysis
+  relation: branched_into
+  source: psy-school-psychoanalysis
+  target: psy-school-individual-psychology
+  target_link: '[[psy-school-individual-psychology]]'
+  pending: false
+- confidence: high
+  date: null
+  description: Documented topic or method of psychoanalytic inquiry; this edge does
+    not assert invention or empirical confirmation.
+  direction: directed
+  evidence:
+  - reference: R5
+    source: https://www.gutenberg.org/files/66048/66048-h/66048-h.htm
+  id: edge-468c052d98c120369d6c
+  owner: psy-school-psychoanalysis
+  relation: uses_method
   source: psy-school-psychoanalysis
   target: psy-method-dream-analysis
   target_link: '[[psy-method-dream-analysis]]'
-  relation: uses_method
-  direction: directed
+  pending: true
+- confidence: high
   date: null
   description: Documented topic or method of psychoanalytic inquiry; this edge does
     not assert invention or empirical confirmation.
-  confidence: high
+  direction: directed
   evidence:
-  - source: https://www.gutenberg.org/files/66048/66048-h/66048-h.htm
-    reference: R5
-  pending: true
-- id: edge-49045353b9382b4d1d78
+  - reference: R4
+    source: https://www.gutenberg.org/cache/epub/75132/pg75132-images.html
+  id: edge-49045353b9382b4d1d78
   owner: psy-school-psychoanalysis
+  relation: studies
   source: psy-school-psychoanalysis
   target: psy-concept-resistance
   target_link: '[[psy-concept-resistance]]'
-  relation: studies
+  pending: true
+- id: edge-55ff0c4df3841241987a
+  owner: psy-school-individual-psychology
+  source: psy-school-individual-psychology
+  target: psy-school-psychoanalysis
+  target_link: '[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]'
+  relation: reacted_against
   direction: directed
   date: null
-  description: Documented topic or method of psychoanalytic inquiry; this edge does
-    not assert invention or empirical confirmation.
+  description: Recast motivation around purposes and social life rather than sexual-drive
+    primacy.
   confidence: high
   evidence:
-  - source: https://www.gutenberg.org/cache/epub/75132/pg75132-images.html
-    reference: R4
-  pending: true
-- id: edge-70be0b2ec1ab8a751921
-  owner: psy-school-psychoanalysis
-  source: psy-person-sigmund-freud
-  target: psy-school-psychoanalysis
-  target_link: '[[psy-school-psychoanalysis]]'
-  relation: founded
-  direction: directed
+  - source: https://www.adler.edu/about/history/alfred-adler/
+  review_required: false
+  pending: false
+- confidence: high
   date: 1896
   description: Freud developed and named psychoanalysis across the 1890s; 1896 marks
     the term, not an instantaneous invention.
-  confidence: high
-  evidence:
-  - source: https://www.loc.gov/collections/sigmund-freud-papers/articles-and-essays/timeline/
-    reference: R3
-  pending: true
-- id: edge-9225283c962c4f8ebc2e
-  owner: psy-school-psychoanalysis
-  source: psy-school-psychoanalysis
-  target: psy-school-object-relations
-  target_link: '[[psy-school-object-relations]]'
-  relation: branched_into
   direction: directed
+  evidence:
+  - reference: R3
+    source: https://www.loc.gov/collections/sigmund-freud-papers/articles-and-essays/timeline/
+  id: edge-70be0b2ec1ab8a751921
+  owner: psy-school-psychoanalysis
+  relation: founded
+  source: psy-person-sigmund-freud
+  target: psy-school-psychoanalysis
+  target_link: '[[psy-school-psychoanalysis]]'
+  pending: true
+- confidence: medium
   date: 1930
+  date_precision: approximate decade marker
   description: Object relations emerged within psychoanalysis through work on early
     relationships and child analysis. The date is a rough decade marker, not a single
     founding event; its multiple contributors require further research.
-  confidence: medium
-  evidence:
-  - source: https://www.freud.org.uk/event/the-work-of-melanie-klein/
-    reference: R14
-  pending: true
-- id: edge-9b8b3be831427abbbc68
-  owner: psy-school-psychoanalysis
-  source: psy-school-psychoanalysis
-  target: psy-school-analytical-psychology
-  target_link: '[[psy-school-analytical-psychology]]'
-  relation: branched_into
   direction: directed
+  evidence:
+  - reference: R14
+    source: https://www.freud.org.uk/event/the-work-of-melanie-klein/
+  id: edge-9225283c962c4f8ebc2e
+  owner: psy-school-psychoanalysis
+  relation: branched_into
+  review_required: true
+  source: psy-school-psychoanalysis
+  target: psy-school-object-relations
+  target_link: '[[psy-school-object-relations]]'
+  pending: true
+- confidence: high
   date: 1913
   description: Jung developed an independent analytical psychology through disagreements
     about sexuality, libido and the unconscious; the 1913 correspondence documents
     the personal rupture within a longer transition.
+  direction: directed
+  evidence:
+  - reference: R12
+    source: https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html
+  id: edge-9b8b3be831427abbbc68
+  owner: psy-school-psychoanalysis
+  relation: branched_into
+  source: psy-school-psychoanalysis
+  target: psy-school-analytical-psychology
+  target_link: '[[psy-school-analytical-psychology]]'
+  pending: false
+- id: edge-a48d0a1a688f84db4f58
+  owner: psy-school-analytical-psychology
+  source: psy-school-analytical-psychology
+  target: psy-person-carl-jung
+  target_link: '[[Psychology/People/Carl Gustav Jung|Carl Gustav Jung]]'
+  relation: founded_by
+  direction: directed
+  date: null
+  description: Originator of analytical psychology.
   confidence: high
   evidence:
   - source: https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html
-    reference: R12
+  review_required: false
   pending: true
-- id: edge-aabbc81f6cee8e5ad172
-  owner: psy-school-psychoanalysis
-  source: psy-person-josef-breuer
-  target: psy-school-psychoanalysis
-  target_link: '[[psy-school-psychoanalysis]]'
-  relation: contributed_to
-  direction: directed
+- confidence: high
   date: 1895
   description: Breuer coauthored Studies on Hysteria and contributed the cathartic
     clinical work from which psychoanalysis emerged. This does not imply endorsement
     of all later Freudian theory.
-  confidence: high
+  direction: directed
   evidence:
-  - source: https://www.loc.gov/item/76454571/
-    reference: R2
-  pending: true
-- id: edge-ab0eaf837e815d815cbc
+  - reference: R2
+    source: https://www.loc.gov/item/76454571/
+  id: edge-aabbc81f6cee8e5ad172
   owner: psy-school-psychoanalysis
+  relation: contributed_to
+  source: psy-person-josef-breuer
+  target: psy-school-psychoanalysis
+  target_link: '[[psy-school-psychoanalysis]]'
+  pending: true
+- confidence: high
+  date: null
+  description: Documented topic or method of psychoanalytic inquiry; this edge does
+    not assert invention or empirical confirmation.
+  direction: directed
+  evidence:
+  - reference: R18
+    source: https://web.english.upenn.edu/~cavitch/pdf-library/Freud_SE_Three_Essays_complete.pdf
+  id: edge-ab0eaf837e815d815cbc
+  owner: psy-school-psychoanalysis
+  relation: studies
   source: psy-school-psychoanalysis
   target: psy-concept-infantile-sexuality
   target_link: '[[psy-concept-infantile-sexuality]]'
-  relation: studies
+  pending: true
+- id: edge-b886ff8d44b6b0817597
+  owner: psy-school-individual-psychology
+  source: psy-school-individual-psychology
+  target: psy-school-psychoanalysis
+  target_link: '[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]'
+  relation: developed_from
   direction: directed
+  date: null
+  description: Institutional split in 1911; not a claim of exclusive intellectual
+    descent.
+  confidence: high
+  evidence:
+  - source: https://www.adler.edu/about/history/alfred-adler/
+  review_required: false
+  pending: false
+- id: edge-d7c9e9e5f546916649eb
+  owner: psy-school-analytical-psychology
+  source: psy-school-analytical-psychology
+  target: psy-school-psychoanalysis
+  target_link: '[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]'
+  relation: reacted_against
+  direction: directed
+  date: null
+  description: Disputed the explanatory priority of sexuality and the nature of the
+    unconscious.
+  confidence: high
+  evidence:
+  - source: https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html
+  review_required: false
+  pending: false
+- confidence: high
   date: null
   description: Documented topic or method of psychoanalytic inquiry; this edge does
     not assert invention or empirical confirmation.
-  confidence: high
+  direction: directed
   evidence:
-  - source: https://web.english.upenn.edu/~cavitch/pdf-library/Freud_SE_Three_Essays_complete.pdf
-    reference: R18
-  pending: true
-- id: edge-dc8424316fd2fa189028
+  - reference: R1
+    source: https://www.loc.gov/exhibits/freud/freud02.html
+  id: edge-dc8424316fd2fa189028
   owner: psy-school-psychoanalysis
+  relation: studies
   source: psy-school-psychoanalysis
   target: psy-concept-transference
   target_link: '[[psy-concept-transference]]'
-  relation: studies
-  direction: directed
+  pending: true
+- confidence: high
   date: null
   description: Documented topic or method of psychoanalytic inquiry; this edge does
     not assert invention or empirical confirmation.
-  confidence: high
+  direction: directed
   evidence:
-  - source: https://www.loc.gov/exhibits/freud/freud02.html
-    reference: R1
-  pending: true
-- id: edge-e8dac79bac3caa550f18
+  - reference: R19
+    source: https://www.loc.gov/item/25001269/
+  id: edge-e8dac79bac3caa550f18
   owner: psy-school-psychoanalysis
+  relation: studies
   source: psy-school-psychoanalysis
   target: psy-concept-death-drive
   target_link: '[[psy-concept-death-drive]]'
-  relation: studies
+  pending: true
+- id: edge-f6eba61edb7537781a6a
+  owner: psy-school-individual-psychology
+  source: psy-school-individual-psychology
+  target: psy-person-alfred-adler
+  target_link: '[[Psychology/People/Alfred Adler|Alfred Adler]]'
+  relation: founded_by
   direction: directed
   date: null
-  description: Documented topic or method of psychoanalytic inquiry; this edge does
-    not assert invention or empirical confirmation.
+  description: Founder of the independent movement.
   confidence: high
   evidence:
-  - source: https://www.loc.gov/item/25001269/
-    reference: R19
+  - source: https://www.adler.edu/about/history/alfred-adler/
+  review_required: false
   pending: true

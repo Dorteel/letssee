@@ -1,5 +1,135 @@
 {
   "claims": {
+    "psy-school-analytical-psychology": [
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Collaboration followed by the documented 1912–1913 rupture; approximate emergence.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+          }
+        ],
+        "id": "edge-0c3af6ad23886abdb2a4",
+        "owner": "psy-school-analytical-psychology",
+        "relation": "developed_from",
+        "review_required": false,
+        "source": "psy-school-analytical-psychology",
+        "target": "psy-school-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Disputed the explanatory priority of sexuality and the nature of the unconscious.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+          }
+        ],
+        "id": "edge-d7c9e9e5f546916649eb",
+        "owner": "psy-school-analytical-psychology",
+        "relation": "reacted_against",
+        "review_required": false,
+        "source": "psy-school-analytical-psychology",
+        "target": "psy-school-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Later British analytical practice integrated ideas of early development; not a founding influence.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.thesap.org.uk/about-us/what-we-do/"
+          }
+        ],
+        "id": "edge-27a39a17a2f359d2ab4c",
+        "owner": "psy-school-analytical-psychology",
+        "relation": "influenced_by",
+        "review_required": false,
+        "source": "psy-school-analytical-psychology",
+        "target": "psy-school-object-relations",
+        "target_link": "[[Psychology/Schools/Object Relations|Object Relations]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Originator of analytical psychology.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+          }
+        ],
+        "id": "edge-a48d0a1a688f84db4f58",
+        "owner": "psy-school-analytical-psychology",
+        "relation": "founded_by",
+        "review_required": false,
+        "source": "psy-school-analytical-psychology",
+        "target": "psy-person-carl-jung",
+        "target_link": "[[Psychology/People/Carl Gustav Jung|Carl Gustav Jung]]"
+      }
+    ],
+    "psy-school-individual-psychology": [
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Institutional split in 1911; not a claim of exclusive intellectual descent.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.adler.edu/about/history/alfred-adler/"
+          }
+        ],
+        "id": "edge-b886ff8d44b6b0817597",
+        "owner": "psy-school-individual-psychology",
+        "relation": "developed_from",
+        "review_required": false,
+        "source": "psy-school-individual-psychology",
+        "target": "psy-school-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Recast motivation around purposes and social life rather than sexual-drive primacy.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.adler.edu/about/history/alfred-adler/"
+          }
+        ],
+        "id": "edge-55ff0c4df3841241987a",
+        "owner": "psy-school-individual-psychology",
+        "relation": "reacted_against",
+        "review_required": false,
+        "source": "psy-school-individual-psychology",
+        "target": "psy-school-psychoanalysis",
+        "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+      },
+      {
+        "confidence": "high",
+        "date": null,
+        "description": "Founder of the independent movement.",
+        "direction": "directed",
+        "evidence": [
+          {
+            "source": "https://www.adler.edu/about/history/alfred-adler/"
+          }
+        ],
+        "id": "edge-f6eba61edb7537781a6a",
+        "owner": "psy-school-individual-psychology",
+        "relation": "founded_by",
+        "review_required": false,
+        "source": "psy-school-individual-psychology",
+        "target": "psy-person-alfred-adler",
+        "target_link": "[[Psychology/People/Alfred Adler|Alfred Adler]]"
+      }
+    ],
     "psy-school-psychoanalysis": [
       {
         "confidence": "high",
@@ -76,6 +206,7 @@
       {
         "confidence": "medium",
         "date": 1930,
+        "date_precision": "approximate decade marker",
         "description": "Object relations emerged within psychoanalysis through work on early relationships and child analysis. The date is a rough decade marker, not a single founding event; its multiple contributors require further research.",
         "direction": "directed",
         "evidence": [
@@ -87,6 +218,7 @@
         "id": "edge-9225283c962c4f8ebc2e",
         "owner": "psy-school-psychoanalysis",
         "relation": "branched_into",
+        "review_required": true,
         "source": "psy-school-psychoanalysis",
         "target": "psy-school-object-relations",
         "target_link": "[[psy-school-object-relations]]"
@@ -260,6 +392,25 @@
     {
       "confidence": "high",
       "date": null,
+      "description": "Collaboration followed by the documented 1912–1913 rupture; approximate emergence.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+        }
+      ],
+      "id": "edge-0c3af6ad23886abdb2a4",
+      "owner": "psy-school-analytical-psychology",
+      "pending": false,
+      "relation": "developed_from",
+      "review_required": false,
+      "source": "psy-school-analytical-psychology",
+      "target": "psy-school-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
       "description": "Documented topic or method of psychoanalytic inquiry; this edge does not assert invention or empirical confirmation.",
       "direction": "directed",
       "evidence": [
@@ -297,6 +448,25 @@
     },
     {
       "confidence": "high",
+      "date": null,
+      "description": "Later British analytical practice integrated ideas of early development; not a founding influence.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.thesap.org.uk/about-us/what-we-do/"
+        }
+      ],
+      "id": "edge-27a39a17a2f359d2ab4c",
+      "owner": "psy-school-analytical-psychology",
+      "pending": true,
+      "relation": "influenced_by",
+      "review_required": false,
+      "source": "psy-school-analytical-psychology",
+      "target": "psy-school-object-relations",
+      "target_link": "[[Psychology/Schools/Object Relations|Object Relations]]"
+    },
+    {
+      "confidence": "high",
       "date": 1911,
       "description": "Adler separated from the psychoanalytic movement in 1911; his independent school emphasized a different account of individual and social life. The edge records an institutional and intellectual divergence, not exclusive derivation.",
       "direction": "directed",
@@ -308,7 +478,7 @@
       ],
       "id": "edge-283a8316f10ccd85e1f1",
       "owner": "psy-school-psychoanalysis",
-      "pending": true,
+      "pending": false,
       "relation": "branched_into",
       "source": "psy-school-psychoanalysis",
       "target": "psy-school-individual-psychology",
@@ -354,6 +524,25 @@
     },
     {
       "confidence": "high",
+      "date": null,
+      "description": "Recast motivation around purposes and social life rather than sexual-drive primacy.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.adler.edu/about/history/alfred-adler/"
+        }
+      ],
+      "id": "edge-55ff0c4df3841241987a",
+      "owner": "psy-school-individual-psychology",
+      "pending": false,
+      "relation": "reacted_against",
+      "review_required": false,
+      "source": "psy-school-individual-psychology",
+      "target": "psy-school-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
+    {
+      "confidence": "high",
       "date": 1896,
       "description": "Freud developed and named psychoanalysis across the 1890s; 1896 marks the term, not an instantaneous invention.",
       "direction": "directed",
@@ -374,6 +563,7 @@
     {
       "confidence": "medium",
       "date": 1930,
+      "date_precision": "approximate decade marker",
       "description": "Object relations emerged within psychoanalysis through work on early relationships and child analysis. The date is a rough decade marker, not a single founding event; its multiple contributors require further research.",
       "direction": "directed",
       "evidence": [
@@ -386,6 +576,7 @@
       "owner": "psy-school-psychoanalysis",
       "pending": true,
       "relation": "branched_into",
+      "review_required": true,
       "source": "psy-school-psychoanalysis",
       "target": "psy-school-object-relations",
       "target_link": "[[psy-school-object-relations]]"
@@ -403,11 +594,30 @@
       ],
       "id": "edge-9b8b3be831427abbbc68",
       "owner": "psy-school-psychoanalysis",
-      "pending": true,
+      "pending": false,
       "relation": "branched_into",
       "source": "psy-school-psychoanalysis",
       "target": "psy-school-analytical-psychology",
       "target_link": "[[psy-school-analytical-psychology]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "Originator of analytical psychology.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+        }
+      ],
+      "id": "edge-a48d0a1a688f84db4f58",
+      "owner": "psy-school-analytical-psychology",
+      "pending": true,
+      "relation": "founded_by",
+      "review_required": false,
+      "source": "psy-school-analytical-psychology",
+      "target": "psy-person-carl-jung",
+      "target_link": "[[Psychology/People/Carl Gustav Jung|Carl Gustav Jung]]"
     },
     {
       "confidence": "high",
@@ -450,6 +660,44 @@
     {
       "confidence": "high",
       "date": null,
+      "description": "Institutional split in 1911; not a claim of exclusive intellectual descent.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.adler.edu/about/history/alfred-adler/"
+        }
+      ],
+      "id": "edge-b886ff8d44b6b0817597",
+      "owner": "psy-school-individual-psychology",
+      "pending": false,
+      "relation": "developed_from",
+      "review_required": false,
+      "source": "psy-school-individual-psychology",
+      "target": "psy-school-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "Disputed the explanatory priority of sexuality and the nature of the unconscious.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+        }
+      ],
+      "id": "edge-d7c9e9e5f546916649eb",
+      "owner": "psy-school-analytical-psychology",
+      "pending": false,
+      "relation": "reacted_against",
+      "review_required": false,
+      "source": "psy-school-analytical-psychology",
+      "target": "psy-school-psychoanalysis",
+      "target_link": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
       "description": "Documented topic or method of psychoanalytic inquiry; this edge does not assert invention or empirical confirmation.",
       "direction": "directed",
       "evidence": [
@@ -484,9 +732,64 @@
       "source": "psy-school-psychoanalysis",
       "target": "psy-concept-death-drive",
       "target_link": "[[psy-concept-death-drive]]"
+    },
+    {
+      "confidence": "high",
+      "date": null,
+      "description": "Founder of the independent movement.",
+      "direction": "directed",
+      "evidence": [
+        {
+          "source": "https://www.adler.edu/about/history/alfred-adler/"
+        }
+      ],
+      "id": "edge-f6eba61edb7537781a6a",
+      "owner": "psy-school-individual-psychology",
+      "pending": true,
+      "relation": "founded_by",
+      "review_required": false,
+      "source": "psy-school-individual-psychology",
+      "target": "psy-person-alfred-adler",
+      "target_link": "[[Psychology/People/Alfred Adler|Alfred Adler]]"
     }
   ],
   "nodes": {
+    "psy-concept-active-imagination": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-active-imagination",
+      "path": "Psychology/Concepts/Active Imagination.md",
+      "pending": true,
+      "title": "Active Imagination",
+      "type": "concept"
+    },
+    "psy-concept-archetypes": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-archetypes",
+      "path": "Psychology/Concepts/Archetypes.md",
+      "pending": true,
+      "title": "Archetypes",
+      "type": "concept"
+    },
+    "psy-concept-collective-unconscious": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-collective-unconscious",
+      "path": "Psychology/Concepts/Collective Unconscious.md",
+      "pending": true,
+      "title": "Collective Unconscious",
+      "type": "concept"
+    },
+    "psy-concept-condensation": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-condensation",
+      "path": "Psychology/Concepts/Condensation.md",
+      "pending": true,
+      "title": "Condensation",
+      "type": "concept"
+    },
     "psy-concept-death-drive": {
       "aliases": [],
       "depth": null,
@@ -496,6 +799,42 @@
       "title": "Death Drive",
       "type": "concept"
     },
+    "psy-concept-displacement": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-displacement",
+      "path": "Psychology/Concepts/Displacement.md",
+      "pending": true,
+      "title": "Displacement",
+      "type": "concept"
+    },
+    "psy-concept-ego": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-ego",
+      "path": "Psychology/Concepts/Ego.md",
+      "pending": true,
+      "title": "Ego",
+      "type": "concept"
+    },
+    "psy-concept-id": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-id",
+      "path": "Psychology/Concepts/Id.md",
+      "pending": true,
+      "title": "Id",
+      "type": "concept"
+    },
+    "psy-concept-individuation": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-individuation",
+      "path": "Psychology/Concepts/Individuation.md",
+      "pending": true,
+      "title": "Individuation",
+      "type": "concept"
+    },
     "psy-concept-infantile-sexuality": {
       "aliases": [],
       "depth": null,
@@ -503,6 +842,15 @@
       "path": "Psychology/Concepts/Infantile Sexuality.md",
       "pending": true,
       "title": "Infantile Sexuality",
+      "type": "concept"
+    },
+    "psy-concept-inferiority-feelings": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-inferiority-feelings",
+      "path": "Psychology/Concepts/Inferiority Feelings.md",
+      "pending": true,
+      "title": "Inferiority Feelings",
       "type": "concept"
     },
     "psy-concept-repression": {
@@ -521,6 +869,33 @@
       "path": "Psychology/Concepts/Resistance.md",
       "pending": true,
       "title": "Resistance",
+      "type": "concept"
+    },
+    "psy-concept-social-interest": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-social-interest",
+      "path": "Psychology/Concepts/Social Interest.md",
+      "pending": true,
+      "title": "Social Interest",
+      "type": "concept"
+    },
+    "psy-concept-style-of-life": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-style-of-life",
+      "path": "Psychology/Concepts/Style of Life.md",
+      "pending": true,
+      "title": "Style of Life",
+      "type": "concept"
+    },
+    "psy-concept-superego": {
+      "aliases": [],
+      "depth": null,
+      "id": "psy-concept-superego",
+      "path": "Psychology/Concepts/Superego.md",
+      "pending": true,
+      "title": "Superego",
       "type": "concept"
     },
     "psy-concept-transference": {
@@ -685,26 +1060,201 @@
     },
     "psy-school-analytical-psychology": {
       "aliases": [],
+      "body": "## Who / When\n[[Psychology/People/Carl Gustav Jung|Carl Gustav Jung]] developed this approach through the 1912–1914 separation from [[Psychology/Schools/Psychoanalysis|Psychoanalysis]]; 1913 is an approximate marker. [R1]\n\n## What\nThe psyche includes personal and [[Psychology/Concepts/Collective Unconscious|Collective Unconscious]] processes. [[Psychology/Concepts/Archetypes|Archetypes]] organize recurring symbolic patterns. These are the school’s theoretical propositions. [R2]\n\n## Why\nIt sought an account of symbolic, religious, and developmental experience broader than explanations organized around sexual conflict. [R1, R2]\n\n## How\nDream interpretation, symbolic comparison, and [[Psychology/Concepts/Active Imagination|Active Imagination]] investigate unconscious material. [[Psychology/Concepts/Individuation|Individuation]] names the differentiation and integration of personality. [R2]\n\n## What changed\nIt broadened the unconscious beyond personal biography and treated symbolic development as potentially constructive, not solely a disguise for repressed wishes. [R1, R2]\n\n## Developments\n[[Psychology/Schools/Psychoanalysis|Psychoanalysis]] is a predecessor and rival. Later British analysts integrated [[Psychology/Schools/Object Relations|Object Relations]] ideas: this is cross-tradition influence, not proof that either school descended from the other. [R3]\n\n## References\n- [R1] [Library of Congress: documents of the rupture](https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html)\n- [R2] [IAAP: analytical psychology](https://iaap.org/jung-analytical-psychology/analytical-psychology/)\n- [R3] [Society of Analytical Psychology: theoretical synthesis](https://www.thesap.org.uk/about-us/what-we-do/)\n",
+      "content_hash": "e4f3bcb85e2b6bf8434c94647aaf77358409c5714bb4342d90874f6dea433b4a",
       "depth": 1,
-      "emergence_year": 1912,
-      "founding_period": "1912–1914",
+      "domain": "psychology",
+      "emergence_year": 1913,
       "id": "psy-school-analytical-psychology",
       "path": "Psychology/Schools/Analytical Psychology.md",
-      "pending": true,
-      "sort_year": 1912,
+      "pending": false,
+      "pending_entities": [
+        {
+          "aliases": [],
+          "id": "psy-person-carl-jung",
+          "path": "Psychology/People/Carl Gustav Jung.md",
+          "title": "Carl Gustav Jung",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-collective-unconscious",
+          "path": "Psychology/Concepts/Collective Unconscious.md",
+          "title": "Collective Unconscious",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-archetypes",
+          "path": "Psychology/Concepts/Archetypes.md",
+          "title": "Archetypes",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-active-imagination",
+          "path": "Psychology/Concepts/Active Imagination.md",
+          "title": "Active Imagination",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-individuation",
+          "path": "Psychology/Concepts/Individuation.md",
+          "title": "Individuation",
+          "type": "concept"
+        }
+      ],
+      "period": "20th-century",
+      "relationships": [
+        {
+          "confidence": "high",
+          "description": "Collaboration followed by the documented 1912–1913 rupture; approximate emergence.",
+          "evidence": [
+            {
+              "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+            }
+          ],
+          "relation": "developed_from",
+          "review_required": false,
+          "target": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Disputed the explanatory priority of sexuality and the nature of the unconscious.",
+          "evidence": [
+            {
+              "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+            }
+          ],
+          "relation": "reacted_against",
+          "review_required": false,
+          "target": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Later British analytical practice integrated ideas of early development; not a founding influence.",
+          "evidence": [
+            {
+              "source": "https://www.thesap.org.uk/about-us/what-we-do/"
+            }
+          ],
+          "relation": "influenced_by",
+          "review_required": false,
+          "target": "[[Psychology/Schools/Object Relations|Object Relations]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Originator of analytical psychology.",
+          "evidence": [
+            {
+              "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"
+            }
+          ],
+          "relation": "founded_by",
+          "review_required": false,
+          "target": "[[Psychology/People/Carl Gustav Jung|Carl Gustav Jung]]"
+        }
+      ],
+      "status": "completed",
+      "tags": [
+        "domain/psychology",
+        "type/school",
+        "tradition/psychodynamic",
+        "period/20th-century"
+      ],
       "title": "Analytical Psychology",
+      "tradition": "psychodynamic",
       "type": "school"
     },
     "psy-school-individual-psychology": {
       "aliases": [],
+      "body": "## Who / When\n[[Psychology/People/Alfred Adler|Alfred Adler]] established an independent movement following the 1911 separation from [[Psychology/Schools/Psychoanalysis|Psychoanalysis]]; institutional consolidation followed in 1912. [R1]\n\n## What\nThe person forms an organized whole, pursuing significance within social relationships. [[Psychology/Concepts/Social Interest|Social Interest]] and [[Psychology/Concepts/Inferiority Feelings|Inferiority Feelings]] are central explanatory ideas. [R2, R3]\n\n## Why\nIt challenged explanations centered on sexual drives, asking how perceived inadequacy, purposes, and social circumstances organize conduct. [R1, R2]\n\n## How\nClinicians infer a [[Psychology/Concepts/Style of Life|Style of Life]] from early recollections, family circumstances, and recurring strategies; encouragement and collaborative dialogue seek more cooperative goals. These are theoretical and clinical commitments. [R2]\n\n## What changed\nExplanation emphasized goal-directed unity and social embeddedness rather than treating personality chiefly as conflict among drives. [R2]\n\n## Developments\nIts separation makes [[Psychology/Schools/Psychoanalysis|Psychoanalysis]] both an institutional predecessor and an intellectual rival. Educational and family applications continued within this tradition; no separate successor school is asserted here. [R1, R3]\n\n## References\n- [R1] [Adler University: historical timeline](https://www.adler.edu/about/history/alfred-adler/)\n- [R2] [Adler Graduate School: theory and application](https://www.alfredadler.edu/about/alfred-adler-theory-application/)\n- [R3] [North American Society for Adlerian Psychology: founder and theory](https://www.alfredadler.org/alfred-adler)\n",
+      "content_hash": "5832239a7bf3c73d0d76c83098adbffc90e7db3964ab2dbdfe3d8939aee5907e",
       "depth": 1,
+      "domain": "psychology",
       "emergence_year": 1911,
-      "founding_period": "1911–1912",
       "id": "psy-school-individual-psychology",
       "path": "Psychology/Schools/Individual Psychology.md",
-      "pending": true,
-      "sort_year": 1911,
+      "pending": false,
+      "pending_entities": [
+        {
+          "aliases": [],
+          "id": "psy-person-alfred-adler",
+          "path": "Psychology/People/Alfred Adler.md",
+          "title": "Alfred Adler",
+          "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-social-interest",
+          "path": "Psychology/Concepts/Social Interest.md",
+          "title": "Social Interest",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-inferiority-feelings",
+          "path": "Psychology/Concepts/Inferiority Feelings.md",
+          "title": "Inferiority Feelings",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-style-of-life",
+          "path": "Psychology/Concepts/Style of Life.md",
+          "title": "Style of Life",
+          "type": "concept"
+        }
+      ],
+      "period": "20th-century",
+      "relationships": [
+        {
+          "confidence": "high",
+          "description": "Institutional split in 1911; not a claim of exclusive intellectual descent.",
+          "evidence": [
+            {
+              "source": "https://www.adler.edu/about/history/alfred-adler/"
+            }
+          ],
+          "relation": "developed_from",
+          "review_required": false,
+          "target": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Recast motivation around purposes and social life rather than sexual-drive primacy.",
+          "evidence": [
+            {
+              "source": "https://www.adler.edu/about/history/alfred-adler/"
+            }
+          ],
+          "relation": "reacted_against",
+          "review_required": false,
+          "target": "[[Psychology/Schools/Psychoanalysis|Psychoanalysis]]"
+        },
+        {
+          "confidence": "high",
+          "description": "Founder of the independent movement.",
+          "evidence": [
+            {
+              "source": "https://www.adler.edu/about/history/alfred-adler/"
+            }
+          ],
+          "relation": "founded_by",
+          "review_required": false,
+          "target": "[[Psychology/People/Alfred Adler|Alfred Adler]]"
+        }
+      ],
+      "status": "completed",
+      "tags": [
+        "domain/psychology",
+        "type/school",
+        "tradition/psychodynamic",
+        "period/20th-century"
+      ],
       "title": "Individual Psychology",
+      "tradition": "psychodynamic",
       "type": "school"
     },
     "psy-school-object-relations": {
@@ -724,8 +1274,8 @@
         "Freudian Psychoanalysis",
         "Classical Psychoanalysis"
       ],
-      "body": "\n# Psychoanalysis\n\n## Historical context\n\nPsychoanalysis emerged from late nineteenth-century clinical medicine rather than from a single experiment or a fully formed theory of personality. In Vienna, [[Psychology/People/Sigmund Freud|Sigmund Freud]] tried to understand distressing symptoms that contemporary neurology could not consistently explain through identifiable lesions. The historical category “hysteria” gathered diverse symptoms under assumptions that should not be carried uncritically into present-day diagnosis. Its patients were neither a uniform modern diagnostic group nor evidence that unexplained symptoms must be psychological. [R1]\n\nAn important antecedent was the work of [[Psychology/People/Jean-Martin Charcot|Jean-Martin Charcot]], with whom [[Psychology/People/Sigmund Freud|Freud]] studied in Paris in 1885–1886. Hypnosis and the clinical investigation of hysteria helped make the relation between mental states and bodily symptoms a serious medical question. Psychoanalysis inherited that problem; it did not create clinical interest in unconscious processes from nothing. Its emergence involved modifying existing therapeutic practices and explanations. [R20]\n\n## Origins and founding thinkers\n\n[[Psychology/People/Josef Breuer|Josef Breuer]] supplied a crucial clinical precedent. His patient [[Psychology/People/Bertha Pappenheim|Bertha Pappenheim]], presented under the pseudonym [[Psychology/People/Bertha Pappenheim|Anna O.]], was treated by [[Psychology/People/Josef Breuer|Breuer]], not by [[Psychology/People/Sigmund Freud|Freud]]. The case associated speaking about emotionally charged experiences with changes in symptoms. Its importance for the subsequent movement must be distinguished from proof of a complete or lasting cure. A published case narrative is also an interpretation of treatment, not an independently controlled outcome study. [R16]\n\nThe jointly authored *Studien über Hysterie* (*Studies on Hysteria*, 1895) is a publication landmark, while 1896 marks [[Psychology/People/Sigmund Freud|Freud]]’s first use of the term psychoanalysis. Neither date means that the later system already existed. This article therefore records a founding period of the **1890s**, with **1896 as a naming convention** for the machine-readable emergence year. [[Psychology/People/Josef Breuer|Breuer]] is represented as a contributor to its emergence; [[Psychology/People/Sigmund Freud|Freud]] as the founder of the named school. [R2, R3]\n\n## The intellectual problem\n\nThe central question was how an experience could remain psychologically active when the patient could not voluntarily recall it, or could not acknowledge the feelings connected with it. Early accounts connected symptoms to emotionally charged memories and impeded expression. [[Psychology/People/Sigmund Freud|Freud]] increasingly interpreted difficulty in remembering as an active process of defense, rather than merely missing information. [R4]\n\nThis changed the therapeutic problem. If something was kept out of awareness because it was threatening, simply instructing a patient to remember would encounter opposition. What required explanation was not just the forgotten event but the continuing organization of avoidance. The resulting account joined a theory of symptom formation to a method of investigating the obstacles to remembering. These were historical explanatory proposals, not independently established conclusions about every disorder. [R4]\n\n## Main assumptions\n\nThe [[Psychology/Concepts/Unconscious|Unconscious]] became a dynamic explanatory system: wishes and conflicts could influence thought and action without being consciously recognized. [[Psychology/Concepts/Repression|Repression]] referred to the exclusion of unacceptable mental material, while [[Psychology/Concepts/Resistance|Resistance]] concerned obstacles encountered when approaching it in treatment. Symptoms were interpreted as meaningful outcomes of conflict rather than arbitrary disturbances. [R4, R5]\n\nThe interpretation of dreams extended this reasoning beyond overt illness. In *The Interpretation of Dreams*, [[Psychology/People/Sigmund Freud|Freud]] distinguished the remembered dream from the thoughts inferred through its analysis and proposed transformations such as condensation and displacement. Dream interpretation thus became a way of investigating ordinary as well as symptomatic mental life. These claims belong to the school’s theory; identifying them historically does not establish that every dream is a disguised wish. [R5]\n\n## What came before?\n\nThe [[Psychology/Methods/Cathartic Method|Cathartic Method]] associated with [[Psychology/People/Josef Breuer|Breuer]] and early [[Psychology/People/Sigmund Freud|Freud]] sought therapeutic change through recollection and emotional expression. Hypnosis was an important part of the clinical background. Later retrospective accounts by [[Psychology/People/Sigmund Freud|Freud]] emphasized this beginning, but they also organized the past around the school that subsequently emerged. Such accounts are primary evidence of the founder’s understanding, not neutral histories immune to revision. [R16]\n\nThis inheritance should not be flattened into a school-to-school genealogy that the evidence does not support. Neurology, clinical hypnosis and the cathartic method were overlapping settings and practices. The graph therefore leaves this root’s `developed_from` list empty rather than inventing a predecessor school. Empty metadata means that no school-level parent is asserted here; it does not mean psychoanalysis had no intellectual antecedents.\n\n## What changed?\n\n[[Psychology/Methods/Free Association|Free Association]] shifted attention toward what a patient could say without deliberately selecting only relevant or respectable thoughts. [[Psychology/Methods/Dream Analysis|Dream Analysis]] used the patient’s associations in investigating a dream, rather than relying exclusively on a fixed dictionary of symbols. [[Psychology/People/Sigmund Freud|Freud]] interpreted the interruptions and detours as material for analysis. The novelty lay in the organization of a clinical method around conflict, interpretation and the patient’s associations, rather than the discovery that mental life could occur outside awareness. [R17]\n\n[[Psychology/Concepts/Transference|Transference]] made feelings directed toward the clinician part of the material requiring interpretation. The treatment relationship was consequently more than a neutral channel through which an explanation was delivered: it could become a setting in which older patterns were understood to recur. This theoretical interpretation of a relationship must be distinguished from evidence that any particular interpretation is correct. [R1]\n\n## Historical narrative\n\nThe 1890s were a period of revision rather than uninterrupted discovery. Early explanations foregrounded pathogenic memories and defense. The subsequent dream book widened the inquiry to ordinary mental life. Its first edition bears the date **1900**, although it appeared in **1899**; bibliographic dates must therefore be distinguished from the actual publication sequence. The accessible 1913 English translation incorporates a later German edition, and should not be treated as an exact record of everything asserted in the first edition. [R4, R5, R6]\n\nA particularly contested transition concerns the “seduction theory,” which attributed a decisive causal role to early sexual experiences. In a letter of 21 September 1897, [[Psychology/People/Sigmund Freud|Freud]] expressed loss of confidence in this theory. Later explanations gave greater weight to fantasy and infantile wishes. The reasons for that revision, the evidential status of the original case reconstructions, and its implications for recognizing actual abuse remain disputed historical questions. Neither the early theory nor its revision licenses treating all reported abuse as fantasy, or all reconstructed scenes as verified events. The Cambridge source cited here provides a chapter summary; the full chapter was not inspected. [R7]\n\n## Major theoretical developments\n\n*Three Essays on the Theory of Sexuality* (1905) made [[Psychology/Concepts/Infantile Sexuality|Infantile Sexuality]] central to a developmental account of mental life. “Sexuality” in this framework extended beyond adult genital activity to forms of pleasure and their developmental organization. The work was repeatedly revised; the available translated edition includes later additions, explicitly marked in places. It therefore supports analysis of an evolving theory, not the attribution of every later formulation to 1905. [R18]\n\nAfter the First World War, *Beyond the Pleasure Principle* (1920) investigated repetition and proposed the [[Psychology/Concepts/Death Drive|Death Drive]]. The accessible English edition is from 1924. This speculative proposal should not be retrospectively inserted into the 1890s founding doctrine. In *The Ego and the Id* (1923), [[Psychology/People/Sigmund Freud|Freud]] formulated the structural account of id, ego and superego. This was a later revision of the theory of conflict, not simply another name for conscious versus unconscious mental activity. [R8, R9, R19]\n\nInstitutional development also changed the character of the project. The Wednesday Psychological Society began meeting in 1902, providing a setting in which clinical and theoretical questions became collective discussion. An intellectual movement was forming around a method and its contested implications. Institutional membership, however, should not be mistaken for agreement on every theoretical commitment. [R10]\n\n## Main contributors\n\n[[Psychology/People/Sigmund Freud|Freud]] supplied the school’s main initial formulations; [[Psychology/People/Josef Breuer|Breuer]] contributed to its clinical beginnings. Their roles are distinct from the antecedent influence of [[Psychology/People/Jean-Martin Charcot|Charcot]] and from the experience of [[Psychology/People/Bertha Pappenheim|Pappenheim]], whose case entered the movement’s founding narrative. [R2, R16, R20]\n\nLater, [[Psychology/People/Anna Freud|Anna Freud]] systematized child psychoanalysis, while [[Psychology/People/Melanie Klein|Melanie Klein]] developed a different approach to children and early mental life. These developments should not be treated as interchangeable applications of a finished founding doctrine. They generated major disagreements within the psychoanalytic tradition. Their biographies remain pending individual research passes. [R13, R14]\n\n## Main concepts\n\nThe linked concepts and methods above are separate research targets. A `studies` relationship records that the school investigated a concept; it does not claim that the school invented it. In particular, psychoanalysis’s use of the unconscious must not become a claim that no earlier thinker entertained unconscious mental activity. Methods are categorized separately from concepts so that the graph can later distinguish what a school proposes from how it investigates.\n\n## Criticisms and limitations\n\nThe central evidential problem is the move from an interpretation that makes clinical sense to a causal explanation that survives independent testing. A compelling case narrative does not by itself separate an interpretation from suggestion, retrospective reconstruction or alternative explanations. Clinical responses also do not automatically validate a theory of repression, dreams or development. In a 2003 review, the psychoanalytic researcher [[Psychology/People/Peter Fonagy|Peter Fonagy]] argued for stronger engagement with systematic evidence and distinguished intensive psychoanalysis from shorter psychodynamic treatments. That review is used as a dated methodological critique, not as a current survey of treatment efficacy. [R15]\n\nHistorical criticism also concerns whose experience was made authoritative. Explanations organized around sexuality, fantasy and the clinician’s reconstruction can obscure actual experiences when applied without adequate evidence. The controversy over the seduction theory is therefore both an interpretive dispute about the historical record and a question about the authority assigned to patients’ accounts. Its competing explanations should remain visible rather than being resolved through a confident founding legend. [R7]\n\n## Relationships\n\nThe registry records directed `branched_into` edges from this school to [[Psychology/Schools/Individual Psychology|Individual Psychology]] and [[Psychology/Schools/Analytical Psychology|Analytical Psychology]]. [[Psychology/People/Alfred Adler|Alfred Adler]]’s 1911 separation from the movement supports the first edge, while his independent emphasis on the social realm cautions against treating his school as merely a reduced version of psychoanalysis. [R11]\n\n[[Psychology/People/Carl Gustav Jung|Carl Gustav Jung]]’s collaboration with [[Psychology/People/Sigmund Freud|Freud]] and subsequent disagreement about sexuality and the unconscious support the second edge. Their correspondence documents the rupture in 1912–1913. The edge’s 1913 date is an approximate marker within a transition, not a claim that analytical psychology was invented on one day. Neither genealogical edge asserts that psychoanalysis was its successor’s sole intellectual source. [R12]\n\n## Further developments\n\n[[Psychology/Schools/Object Relations|Object Relations]] is queued as a later development within psychoanalysis. [[Psychology/People/Melanie Klein|Klein]]’s child analysis in the 1920s and theoretical work in the 1930s provide one documented route into it. The registry uses an approximate 1930 marker with medium confidence and an explicit review flag: this plural tradition cannot be attributed to one founder or one publication without further investigation. [R14]\n\nThe research queue proposes Individual Psychology next, followed by Analytical Psychology and then Object Relations. These periods overlap. The ordering schedules research within the present psychoanalytic lineage; it is not a universal chronology of every psychological school, and temporal ordering does not generate additional edges.\n\n## Historical significance\n\nPsychoanalysis joined a theory of conflict to an interpretive clinical practice and expanded that inquiry into dreams and ordinary mental life. Its later disagreements were productive historical events: they helped define what different researchers meant by psychological explanation. The most useful historical view therefore follows changing problems, methods and arguments rather than treating every later school as a branch of a single inevitable tree. Historical influence, theoretical coherence and empirical support remain separate questions. [R5, R12, R15]\n\n## References\n\nBibliographic authors below are exempt from automatic person linking unless discussed in the prose. All web resources were consulted on 19 October 2026. Catalog records verify publication details; primary texts verify what their authors argued, not whether the arguments are true.\n\n- [R1] Library of Congress. “The Individual: Therapy.” *Sigmund Freud: Conflict & Culture*. Curated exhibition with historical documents. [Source](https://www.loc.gov/exhibits/freud/freud02.html)\n- [R2] Breuer, Josef, and Sigmund Freud. *Studien über Hysterie*. Leipzig and Vienna: Franz Deuticke, 1895. Library of Congress catalog record. [Source](https://www.loc.gov/item/76454571/)\n- [R3] Library of Congress. “Sigmund Freud (1856 to 1939).” Collection timeline. The dated naming milestone is supported by the indexed timeline; its page did not render fully during this pass. [Source](https://www.loc.gov/collections/sigmund-freud-papers/articles-and-essays/timeline/)\n- [R4] Freud, Sigmund. *Selected Papers on Hysteria*. Translated by A. A. Brill. Project Gutenberg transcription, including “Further Observations on the Defense Neuropsychoses” (1896). A translated collection, not a facsimile of the 1895 joint book. [Source](https://www.gutenberg.org/cache/epub/75132/pg75132-images.html)\n- [R5] Freud, Sigmund. *The Interpretation of Dreams*. Translated by A. A. Brill from the third German edition. New York: Macmillan, 1913. Project Gutenberg full text. [Source](https://www.gutenberg.org/files/66048/66048-h/66048-h.htm)\n- [R6] Freud, Sigmund. *Die Traumdeutung*. Leipzig and Vienna: Franz Deuticke, 1900 [1899]. Library of Congress catalog record. [Source](https://www.loc.gov/item/77450592/)\n- [R7] Izenberg, Gerald N. “Seduced and abandoned: The rise and fall of Freud’s seduction theory.” In *The Cambridge Companion to Freud*, edited by Jerome Neu. Cambridge University Press. Online publication 28 May 2006. Publisher summary consulted; full chapter not accessed. [Source](https://www.cambridge.org/core/books/abs/cambridge-companion-to-freud/seduced-and-abandoned-the-rise-and-fall-of-freuds-seduction-theory/17E88757EF0C7D26880B49AE21E6C22C)\n- [R8] Library of Congress. “The Individual: Theory.” *Sigmund Freud: Conflict & Culture*. Curated exhibition on sexuality and later theoretical revisions. [Source](https://www.loc.gov/exhibits/freud/freud02a.html)\n- [R9] Library of Congress. “Exploded Manuscript: The Ego and the Id.” Transcript and curator’s comments, 1923. [Source](https://www.loc.gov/exhibits/freud/ex/73a.html)\n- [R10] Freud Museum London. “Freud at Home: The Wednesday Psychological Society.” 14 May 2020. Institutional history with document quotations. [Source](https://www.freud.org.uk/2020/05/14/freud-at-home-the-wednesday-psychological-society/)\n- [R11] Adler University. “Alfred Adler: Vision and Lasting Impact.” Institutional timeline; the 1911 split is used here. Some other dates on this page are internally inconsistent and were not adopted. [Source](https://www.adler.edu/about/history/alfred-adler/)\n- [R12] Library of Congress. “Before the Red Book.” *The Red Book of Carl G. Jung: Its Origins and Influence*. Includes Jung’s letter of 18 December 1912 and Freud’s letter of 3 January 1913. [Source](https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html)\n- [R13] Freud Museum London. “Anna Freud and Child Psychoanalysis.” Educational resource. [Source](https://www.freud.org.uk/schools/resources/anna-freud-life-and-work/child-psychoanalysis/)\n- [R14] Freud Museum London. “The Work of Melanie Klein (DATE CHANGE).” Specialist course description; used only for broad chronology. Full reconstruction of object relations awaits dedicated research. [Source](https://www.freud.org.uk/event/the-work-of-melanie-klein/)\n- [R15] Fonagy, Peter. “Psychoanalysis today.” *World Psychiatry* 2, no. 2 (2003): 73–80. PMCID: PMC1525087. Full-text scholarly review. [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC1525087/)\n- [R16] Freud, Sigmund. “First Lecture,” *The Origin and Development of Psychoanalysis*. Lectures delivered 1909, originally published 1910; linked scholarly edition reproduces a later English printing. [Source](https://www.freudedition.net/en/werke/first-lecture/druckschrift-0)\n- [R17] Freud Museum London. “Freud’s Method for Interpreting Dreams.” Educational resource on association and interpretation. [Source](https://www.freud.org.uk/schools/resources/the-interpretation-of-dreams/freuds-method-for-interpreting-dreams/)\n- [R18] Freud, Sigmund. *Three Essays on the Theory of Sexuality* (1905). *Standard Edition*, volume VII, translated by James Strachey. University-hosted reproduction containing later revisions and editorial notes. [Source](https://web.english.upenn.edu/~cavitch/pdf-library/Freud_SE_Three_Essays_complete.pdf)\n- [R19] Freud, Sigmund. *Beyond the Pleasure Principle* (1920). English translation by C. J. M. Hubback. New York: Boni and Liveright, 1924. Library of Congress digitized edition. [Source](https://www.loc.gov/item/25001269/)\n- [R20] Freud Museum London. “From Medicine to Psychoanalysis.” Educational history of the neurological and clinical context. [Source](https://www.freud.org.uk/schools/resources/freud-the-physician/from-medicine-to-psychoanalysis/)\n",
-      "content_hash": "8dc8f62bb36dd44ec820d7030e4cab6ade8d48a5860ab84a43149b1224d12d57",
+      "body": "\n# Psychoanalysis\n\n## Historical context\n\nPsychoanalysis emerged from late nineteenth-century clinical medicine rather than from a single experiment or a fully formed theory of personality. In Vienna, [[Psychology/People/Sigmund Freud|Sigmund Freud]] tried to understand distressing symptoms that contemporary neurology could not consistently explain through identifiable lesions. The historical category “hysteria” gathered diverse symptoms under assumptions that should not be carried uncritically into present-day diagnosis. Its patients were neither a uniform modern diagnostic group nor evidence that unexplained symptoms must be psychological. [R1]\n\nAn important antecedent was the work of [[Psychology/People/Jean-Martin Charcot|Jean-Martin Charcot]], with whom [[Psychology/People/Sigmund Freud|Freud]] studied in Paris in 1885–1886. Hypnosis and the clinical investigation of hysteria helped make the relation between mental states and bodily symptoms a serious medical question. Psychoanalysis inherited that problem; it did not create clinical interest in unconscious processes from nothing. Its emergence involved modifying existing therapeutic practices and explanations. [R20]\n\n## Origins and founding thinkers\n\n[[Psychology/People/Josef Breuer|Josef Breuer]] supplied a crucial clinical precedent. His patient [[Psychology/People/Bertha Pappenheim|Bertha Pappenheim]], presented under the pseudonym [[Psychology/People/Bertha Pappenheim|Anna O.]], was treated by [[Psychology/People/Josef Breuer|Breuer]], not by [[Psychology/People/Sigmund Freud|Freud]]. The case associated speaking about emotionally charged experiences with changes in symptoms. Its importance for the subsequent movement must be distinguished from proof of a complete or lasting cure. A published case narrative is also an interpretation of treatment, not an independently controlled outcome study. [R16]\n\nThe jointly authored *Studien über Hysterie* (*Studies on Hysteria*, 1895) is a publication landmark, while 1896 marks [[Psychology/People/Sigmund Freud|Freud]]’s first use of the term psychoanalysis. Neither date means that the later system already existed. This article therefore records a founding period of the **1890s**, with **1896 as a naming convention** for the machine-readable emergence year. [[Psychology/People/Josef Breuer|Breuer]] is represented as a contributor to its emergence; [[Psychology/People/Sigmund Freud|Freud]] as the founder of the named school. [R2, R3]\n\n## The intellectual problem\n\nThe central question was how an experience could remain psychologically active when the patient could not voluntarily recall it, or could not acknowledge the feelings connected with it. Early accounts connected symptoms to emotionally charged memories and impeded expression. [[Psychology/People/Sigmund Freud|Freud]] increasingly interpreted difficulty in remembering as an active process of defense, rather than merely missing information. [R4]\n\nThis changed the therapeutic problem. If something was kept out of awareness because it was threatening, simply instructing a patient to remember would encounter opposition. What required explanation was not just the forgotten event but the continuing organization of avoidance. The resulting account joined a theory of symptom formation to a method of investigating the obstacles to remembering. These were historical explanatory proposals, not independently established conclusions about every disorder. [R4]\n\n## Main assumptions\n\nThe [[Psychology/Concepts/Unconscious|Unconscious]] became a dynamic explanatory system: wishes and conflicts could influence thought and action without being consciously recognized. [[Psychology/Concepts/Repression|Repression]] referred to the exclusion of unacceptable mental material, while [[Psychology/Concepts/Resistance|Resistance]] concerned obstacles encountered when approaching it in treatment. Symptoms were interpreted as meaningful outcomes of conflict rather than arbitrary disturbances. [R4, R5]\n\nThe interpretation of dreams extended this reasoning beyond overt illness. In *The Interpretation of Dreams*, [[Psychology/People/Sigmund Freud|Freud]] distinguished the remembered dream from the thoughts inferred through its analysis and proposed transformations such as [[Psychology/Concepts/Condensation|condensation]] and [[Psychology/Concepts/Displacement|displacement]]. Dream interpretation thus became a way of investigating ordinary as well as symptomatic mental life. These claims belong to the school’s theory; identifying them historically does not establish that every dream is a disguised wish. [R5]\n\n## What came before?\n\nThe [[Psychology/Methods/Cathartic Method|Cathartic Method]] associated with [[Psychology/People/Josef Breuer|Breuer]] and early [[Psychology/People/Sigmund Freud|Freud]] sought therapeutic change through recollection and emotional expression. Hypnosis was an important part of the clinical background. Later retrospective accounts by [[Psychology/People/Sigmund Freud|Freud]] emphasized this beginning, but they also organized the past around the school that subsequently emerged. Such accounts are primary evidence of the founder’s understanding, not neutral histories immune to revision. [R16]\n\nThis inheritance should not be flattened into a school-to-school genealogy that the evidence does not support. Neurology, clinical hypnosis and the cathartic method were overlapping settings and practices. The graph therefore leaves this root’s `developed_from` list empty rather than inventing a predecessor school. Empty metadata means that no school-level parent is asserted here; it does not mean psychoanalysis had no intellectual antecedents.\n\n## What changed?\n\n[[Psychology/Methods/Free Association|Free Association]] shifted attention toward what a patient could say without deliberately selecting only relevant or respectable thoughts. [[Psychology/Methods/Dream Analysis|Dream Analysis]] used the patient’s associations in investigating a dream, rather than relying exclusively on a fixed dictionary of symbols. [[Psychology/People/Sigmund Freud|Freud]] interpreted the interruptions and detours as material for analysis. The novelty lay in the organization of a clinical method around conflict, interpretation and the patient’s associations, rather than the discovery that mental life could occur outside awareness. [R17]\n\n[[Psychology/Concepts/Transference|Transference]] made feelings directed toward the clinician part of the material requiring interpretation. The treatment relationship was consequently more than a neutral channel through which an explanation was delivered: it could become a setting in which older patterns were understood to recur. This theoretical interpretation of a relationship must be distinguished from evidence that any particular interpretation is correct. [R1]\n\n## Historical narrative\n\nThe 1890s were a period of revision rather than uninterrupted discovery. Early explanations foregrounded pathogenic memories and defense. The subsequent dream book widened the inquiry to ordinary mental life. Its first edition bears the date **1900**, although it appeared in **1899**; bibliographic dates must therefore be distinguished from the actual publication sequence. The accessible 1913 English translation incorporates a later German edition, and should not be treated as an exact record of everything asserted in the first edition. [R4, R5, R6]\n\nA particularly contested transition concerns the “seduction theory,” which attributed a decisive causal role to early sexual experiences. In a letter of 21 September 1897, [[Psychology/People/Sigmund Freud|Freud]] expressed loss of confidence in this theory. Later explanations gave greater weight to fantasy and infantile wishes. The reasons for that revision, the evidential status of the original case reconstructions, and its implications for recognizing actual abuse remain disputed historical questions. Neither the early theory nor its revision licenses treating all reported abuse as fantasy, or all reconstructed scenes as verified events. The Cambridge source cited here provides a chapter summary; the full chapter was not inspected. [R7]\n\n## Major theoretical developments\n\n*Three Essays on the Theory of Sexuality* (1905) made [[Psychology/Concepts/Infantile Sexuality|Infantile Sexuality]] central to a developmental account of mental life. “Sexuality” in this framework extended beyond adult genital activity to forms of pleasure and their developmental organization. The work was repeatedly revised; the available translated edition includes later additions, explicitly marked in places. It therefore supports analysis of an evolving theory, not the attribution of every later formulation to 1905. [R18]\n\nAfter the First World War, *Beyond the Pleasure Principle* (1920) investigated repetition and proposed the [[Psychology/Concepts/Death Drive|Death Drive]]. The accessible English edition is from 1924. This speculative proposal should not be retrospectively inserted into the 1890s founding doctrine. In *The Ego and the Id* (1923), [[Psychology/People/Sigmund Freud|Freud]] formulated the structural account of [[Psychology/Concepts/Id|id]], [[Psychology/Concepts/Ego|ego]] and [[Psychology/Concepts/Superego|superego]]. This was a later revision of the theory of conflict, not simply another name for conscious versus unconscious mental activity. [R8, R9, R19]\n\nInstitutional development also changed the character of the project. The Wednesday Psychological Society began meeting in 1902, providing a setting in which clinical and theoretical questions became collective discussion. An intellectual movement was forming around a method and its contested implications. Institutional membership, however, should not be mistaken for agreement on every theoretical commitment. [R10]\n\n## Main contributors\n\n[[Psychology/People/Sigmund Freud|Freud]] supplied the school’s main initial formulations; [[Psychology/People/Josef Breuer|Breuer]] contributed to its clinical beginnings. Their roles are distinct from the antecedent influence of [[Psychology/People/Jean-Martin Charcot|Charcot]] and from the experience of [[Psychology/People/Bertha Pappenheim|Pappenheim]], whose case entered the movement’s founding narrative. [R2, R16, R20]\n\nLater, [[Psychology/People/Anna Freud|Anna Freud]] systematized child psychoanalysis, while [[Psychology/People/Melanie Klein|Melanie Klein]] developed a different approach to children and early mental life. These developments should not be treated as interchangeable applications of a finished founding doctrine. They generated major disagreements within the psychoanalytic tradition. Their biographies remain pending individual research passes. [R13, R14]\n\n## Main concepts\n\nThe linked concepts and methods above are separate research targets. A `studies` relationship records that the school investigated a concept; it does not claim that the school invented it. In particular, psychoanalysis’s use of the unconscious must not become a claim that no earlier thinker entertained unconscious mental activity. Methods are categorized separately from concepts so that the graph can later distinguish what a school proposes from how it investigates.\n\n## Criticisms and limitations\n\nThe central evidential problem is the move from an interpretation that makes clinical sense to a causal explanation that survives independent testing. A compelling case narrative does not by itself separate an interpretation from suggestion, retrospective reconstruction or alternative explanations. Clinical responses also do not automatically validate a theory of repression, dreams or development. In a 2003 review, the psychoanalytic researcher [[Psychology/People/Peter Fonagy|Peter Fonagy]] argued for stronger engagement with systematic evidence and distinguished intensive psychoanalysis from shorter psychodynamic treatments. That review is used as a dated methodological critique, not as a current survey of treatment efficacy. [R15]\n\nHistorical criticism also concerns whose experience was made authoritative. Explanations organized around sexuality, fantasy and the clinician’s reconstruction can obscure actual experiences when applied without adequate evidence. The controversy over the seduction theory is therefore both an interpretive dispute about the historical record and a question about the authority assigned to patients’ accounts. Its competing explanations should remain visible rather than being resolved through a confident founding legend. [R7]\n\n## Relationships\n\nThe registry records directed `branched_into` edges from this school to [[Psychology/Schools/Individual Psychology|Individual Psychology]] and [[Psychology/Schools/Analytical Psychology|Analytical Psychology]]. [[Psychology/People/Alfred Adler|Alfred Adler]]’s 1911 separation from the movement supports the first edge, while his independent emphasis on the social realm cautions against treating his school as merely a reduced version of psychoanalysis. [R11]\n\n[[Psychology/People/Carl Gustav Jung|Carl Gustav Jung]]’s collaboration with [[Psychology/People/Sigmund Freud|Freud]] and subsequent disagreement about sexuality and the unconscious support the second edge. Their correspondence documents the rupture in 1912–1913. The edge’s 1913 date is an approximate marker within a transition, not a claim that analytical psychology was invented on one day. Neither genealogical edge asserts that psychoanalysis was its successor’s sole intellectual source. [R12]\n\n## Further developments\n\n[[Psychology/Schools/Object Relations|Object Relations]] is queued as a later development within psychoanalysis. [[Psychology/People/Melanie Klein|Klein]]’s child analysis in the 1920s and theoretical work in the 1930s provide one documented route into it. The registry uses an approximate 1930 marker with medium confidence and an explicit review flag: this plural tradition cannot be attributed to one founder or one publication without further investigation. [R14]\n\nThe research queue proposes Individual Psychology next, followed by Analytical Psychology and then Object Relations. These periods overlap. The ordering schedules research within the present psychoanalytic lineage; it is not a universal chronology of every psychological school, and temporal ordering does not generate additional edges.\n\n## Historical significance\n\nPsychoanalysis joined a theory of conflict to an interpretive clinical practice and expanded that inquiry into dreams and ordinary mental life. Its later disagreements were productive historical events: they helped define what different researchers meant by psychological explanation. The most useful historical view therefore follows changing problems, methods and arguments rather than treating every later school as a branch of a single inevitable tree. Historical influence, theoretical coherence and empirical support remain separate questions. [R5, R12, R15]\n\n## References\n\nBibliographic authors below are exempt from automatic person linking unless discussed in the prose. All web resources were consulted on 19 October 2026. Catalog records verify publication details; primary texts verify what their authors argued, not whether the arguments are true.\n\n- [R1] Library of Congress. “The Individual: Therapy.” *Sigmund Freud: Conflict & Culture*. Curated exhibition with historical documents. [Source](https://www.loc.gov/exhibits/freud/freud02.html)\n- [R2] Breuer, Josef, and Sigmund Freud. *Studien über Hysterie*. Leipzig and Vienna: Franz Deuticke, 1895. Library of Congress catalog record. [Source](https://www.loc.gov/item/76454571/)\n- [R3] Library of Congress. “Sigmund Freud (1856 to 1939).” Collection timeline. The dated naming milestone is supported by the indexed timeline; its page did not render fully during this pass. [Source](https://www.loc.gov/collections/sigmund-freud-papers/articles-and-essays/timeline/)\n- [R4] Freud, Sigmund. *Selected Papers on Hysteria*. Translated by A. A. Brill. Project Gutenberg transcription, including “Further Observations on the Defense Neuropsychoses” (1896). A translated collection, not a facsimile of the 1895 joint book. [Source](https://www.gutenberg.org/cache/epub/75132/pg75132-images.html)\n- [R5] Freud, Sigmund. *The Interpretation of Dreams*. Translated by A. A. Brill from the third German edition. New York: Macmillan, 1913. Project Gutenberg full text. [Source](https://www.gutenberg.org/files/66048/66048-h/66048-h.htm)\n- [R6] Freud, Sigmund. *Die Traumdeutung*. Leipzig and Vienna: Franz Deuticke, 1900 [1899]. Library of Congress catalog record. [Source](https://www.loc.gov/item/77450592/)\n- [R7] Izenberg, Gerald N. “Seduced and abandoned: The rise and fall of Freud’s seduction theory.” In *The Cambridge Companion to Freud*, edited by Jerome Neu. Cambridge University Press. Online publication 28 May 2006. Publisher summary consulted; full chapter not accessed. [Source](https://www.cambridge.org/core/books/abs/cambridge-companion-to-freud/seduced-and-abandoned-the-rise-and-fall-of-freuds-seduction-theory/17E88757EF0C7D26880B49AE21E6C22C)\n- [R8] Library of Congress. “The Individual: Theory.” *Sigmund Freud: Conflict & Culture*. Curated exhibition on sexuality and later theoretical revisions. [Source](https://www.loc.gov/exhibits/freud/freud02a.html)\n- [R9] Library of Congress. “Exploded Manuscript: The Ego and the Id.” Transcript and curator’s comments, 1923. [Source](https://www.loc.gov/exhibits/freud/ex/73a.html)\n- [R10] Freud Museum London. “Freud at Home: The Wednesday Psychological Society.” 14 May 2020. Institutional history with document quotations. [Source](https://www.freud.org.uk/2020/05/14/freud-at-home-the-wednesday-psychological-society/)\n- [R11] Adler University. “Alfred Adler: Vision and Lasting Impact.” Institutional timeline; the 1911 split is used here. Some other dates on this page are internally inconsistent and were not adopted. [Source](https://www.adler.edu/about/history/alfred-adler/)\n- [R12] Library of Congress. “Before the Red Book.” *The Red Book of Carl G. Jung: Its Origins and Influence*. Includes Jung’s letter of 18 December 1912 and Freud’s letter of 3 January 1913. [Source](https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html)\n- [R13] Freud Museum London. “Anna Freud and Child Psychoanalysis.” Educational resource. [Source](https://www.freud.org.uk/schools/resources/anna-freud-life-and-work/child-psychoanalysis/)\n- [R14] Freud Museum London. “The Work of Melanie Klein (DATE CHANGE).” Specialist course description; used only for broad chronology. Full reconstruction of object relations awaits dedicated research. [Source](https://www.freud.org.uk/event/the-work-of-melanie-klein/)\n- [R15] Fonagy, Peter. “Psychoanalysis today.” *World Psychiatry* 2, no. 2 (2003): 73–80. PMCID: PMC1525087. Full-text scholarly review. [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC1525087/)\n- [R16] Freud, Sigmund. “First Lecture,” *The Origin and Development of Psychoanalysis*. Lectures delivered 1909, originally published 1910; linked scholarly edition reproduces a later English printing. [Source](https://www.freudedition.net/en/werke/first-lecture/druckschrift-0)\n- [R17] Freud Museum London. “Freud’s Method for Interpreting Dreams.” Educational resource on association and interpretation. [Source](https://www.freud.org.uk/schools/resources/the-interpretation-of-dreams/freuds-method-for-interpreting-dreams/)\n- [R18] Freud, Sigmund. *Three Essays on the Theory of Sexuality* (1905). *Standard Edition*, volume VII, translated by James Strachey. University-hosted reproduction containing later revisions and editorial notes. [Source](https://web.english.upenn.edu/~cavitch/pdf-library/Freud_SE_Three_Essays_complete.pdf)\n- [R19] Freud, Sigmund. *Beyond the Pleasure Principle* (1920). English translation by C. J. M. Hubback. New York: Boni and Liveright, 1924. Library of Congress digitized edition. [Source](https://www.loc.gov/item/25001269/)\n- [R20] Freud Museum London. “From Medicine to Psychoanalysis.” Educational history of the neurological and clinical context. [Source](https://www.freud.org.uk/schools/resources/freud-the-physician/from-medicine-to-psychoanalysis/)\n",
+      "content_hash": "61ae9a156ac4f47b4c6fd229bd4cdb9db7d62d827144489502ce67a0bad1a810",
       "date_precision": "approximate; emergence_year uses first use of the term",
       "depth": 0,
       "developed_from": [],
@@ -925,6 +1475,41 @@
           "path": "Psychology/People/Peter Fonagy.md",
           "title": "Peter Fonagy",
           "type": "person"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-id",
+          "path": "Psychology/Concepts/Id.md",
+          "title": "Id",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-ego",
+          "path": "Psychology/Concepts/Ego.md",
+          "title": "Ego",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-superego",
+          "path": "Psychology/Concepts/Superego.md",
+          "title": "Superego",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-condensation",
+          "path": "Psychology/Concepts/Condensation.md",
+          "title": "Condensation",
+          "type": "concept"
+        },
+        {
+          "aliases": [],
+          "id": "psy-concept-displacement",
+          "path": "Psychology/Concepts/Displacement.md",
+          "title": "Displacement",
+          "type": "concept"
         }
       ],
       "period": "1890s",
@@ -988,6 +1573,7 @@
         {
           "confidence": "medium",
           "date": 1930,
+          "date_precision": "approximate decade marker",
           "description": "Object relations emerged within psychoanalysis through work on early relationships and child analysis. The date is a rough decade marker, not a single founding event; its multiple contributors require further research.",
           "evidence": [
             {
@@ -996,6 +1582,7 @@
             }
           ],
           "relation": "branched_into",
+          "review_required": true,
           "source": "[[psy-school-psychoanalysis]]",
           "target": "[[psy-school-object-relations]]"
         },
