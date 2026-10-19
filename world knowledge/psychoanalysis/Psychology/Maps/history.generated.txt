@@ -1,0 +1,103 @@
+# Generated historical narrative
+
+## Psychoanalysis
+
+What was believed before?
+The [[Psychology/Methods/Cathartic Method|Cathartic Method]] associated with [[Psychology/People/Josef Breuer|Breuer]] and early [[Psychology/People/Sigmund Freud|Freud]] sought therapeutic change through recollection and emotional expression. Hypnosis was an important part of the clinical background. Later retrospective accounts by [[Psychology/People/Sigmund Freud|Freud]] emphasized this beginning, but they also organized the past around the school that subsequently emerged. Such accounts are primary evidence of the founder’s understanding, not neutral histories immune to revision. [R16]
+
+This inheritance should not be flattened into a school-to-school genealogy that the evidence does not support. Neurology, clinical hypnosis and the cathartic method were overlapping settings and practices. The graph therefore leaves this root’s `developed_from` list empty rather than inventing a predecessor school. Empty metadata means that no school-level parent is asserted here; it does not mean psychoanalysis had no intellectual antecedents.
+
+What problem emerged?
+The central question was how an experience could remain psychologically active when the patient could not voluntarily recall it, or could not acknowledge the feelings connected with it. Early accounts connected symptoms to emotionally charged memories and impeded expression. [[Psychology/People/Sigmund Freud|Freud]] increasingly interpreted difficulty in remembering as an active process of defense, rather than merely missing information. [R4]
+
+This changed the therapeutic problem. If something was kept out of awareness because it was threatening, simply instructing a patient to remember would encounter opposition. What required explanation was not just the forgotten event but the continuing organization of avoidance. The resulting account joined a theory of symptom formation to a method of investigating the obstacles to remembering. These were historical explanatory proposals, not independently established conclusions about every disorder. [R4]
+
+Who proposed the approach?
+[[Psychology/People/Josef Breuer|Josef Breuer]] supplied a crucial clinical precedent. His patient [[Psychology/People/Bertha Pappenheim|Bertha Pappenheim]], presented under the pseudonym [[Psychology/People/Bertha Pappenheim|Anna O.]], was treated by [[Psychology/People/Josef Breuer|Breuer]], not by [[Psychology/People/Sigmund Freud|Freud]]. The case associated speaking about emotionally charged experiences with changes in symptoms. Its importance for the subsequent movement must be distinguished from proof of a complete or lasting cure. A published case narrative is also an interpretation of treatment, not an independently controlled outcome study. [R16]
+
+The jointly authored *Studien über Hysterie* (*Studies on Hysteria*, 1895) is a publication landmark, while 1896 marks [[Psychology/People/Sigmund Freud|Freud]]’s first use of the term psychoanalysis. Neither date means that the later system already existed. This article therefore records a founding period of the **1890s**, with **1896 as a naming convention** for the machine-readable emergence year. [[Psychology/People/Josef Breuer|Breuer]] is represented as a contributor to its emergence; [[Psychology/People/Sigmund Freud|Freud]] as the founder of the named school. [R2, R3]
+
+What assumption changed?
+[[Psychology/Methods/Free Association|Free Association]] shifted attention toward what a patient could say without deliberately selecting only relevant or respectable thoughts. [[Psychology/Methods/Dream Analysis|Dream Analysis]] used the patient’s associations in investigating a dream, rather than relying exclusively on a fixed dictionary of symbols. [[Psychology/People/Sigmund Freud|Freud]] interpreted the interruptions and detours as material for analysis. The novelty lay in the organization of a clinical method around conflict, interpretation and the patient’s associations, rather than the discovery that mental life could occur outside awareness. [R17]
+
+[[Psychology/Concepts/Transference|Transference]] made feelings directed toward the clinician part of the material requiring interpretation. The treatment relationship was consequently more than a neutral channel through which an explanation was delivered: it could become a setting in which older patterns were understood to recur. This theoretical interpretation of a relationship must be distinguished from evidence that any particular interpretation is correct. [R1]
+
+What followed?
+[[Psychology/Schools/Object Relations|Object Relations]] is queued as a later development within psychoanalysis. [[Psychology/People/Melanie Klein|Klein]]’s child analysis in the 1920s and theoretical work in the 1930s provide one documented route into it. The registry uses an approximate 1930 marker with medium confidence and an explicit review flag: this plural tradition cannot be attributed to one founder or one publication without further investigation. [R14]
+
+The research queue proposes Individual Psychology next, followed by Analytical Psychology and then Object Relations. These periods overlap. The ordering schedules research within the present psychoanalytic lineage; it is not a universal chronology of every psychological school, and temporal ordering does not generate additional edges.
+
+studies: Documented topic or method of psychoanalytic inquiry; this edge does not assert invention or empirical confirmation.
+Evidence: [{"reference": "R5", "source": "https://www.gutenberg.org/files/66048/66048-h/66048-h.htm"}]
+
+studies: Documented topic or method of psychoanalytic inquiry; this edge does not assert invention or empirical confirmation.
+Evidence: [{"reference": "R4", "source": "https://www.gutenberg.org/cache/epub/75132/pg75132-images.html"}]
+
+uses_method: Documented topic or method of psychoanalytic inquiry; this edge does not assert invention or empirical confirmation.
+Evidence: [{"reference": "R17", "source": "https://www.freud.org.uk/schools/resources/the-interpretation-of-dreams/freuds-method-for-interpreting-dreams/"}]
+
+branched_into: Adler separated from the psychoanalytic movement in 1911; his independent school emphasized a different account of individual and social life. The edge records an institutional and intellectual divergence, not exclusive derivation.
+Evidence: [{"reference": "R11", "source": "https://www.adler.edu/about/history/alfred-adler/"}]
+
+uses_method: Documented topic or method of psychoanalytic inquiry; this edge does not assert invention or empirical confirmation.
+Evidence: [{"reference": "R5", "source": "https://www.gutenberg.org/files/66048/66048-h/66048-h.htm"}]
+
+studies: Documented topic or method of psychoanalytic inquiry; this edge does not assert invention or empirical confirmation.
+Evidence: [{"reference": "R4", "source": "https://www.gutenberg.org/cache/epub/75132/pg75132-images.html"}]
+
+founded: Freud developed and named psychoanalysis across the 1890s; 1896 marks the term, not an instantaneous invention.
+Evidence: [{"reference": "R3", "source": "https://www.loc.gov/collections/sigmund-freud-papers/articles-and-essays/timeline/"}]
+
+branched_into: Object relations emerged within psychoanalysis through work on early relationships and child analysis. The date is a rough decade marker, not a single founding event; its multiple contributors require further research.
+Evidence: [{"reference": "R14", "source": "https://www.freud.org.uk/event/the-work-of-melanie-klein/"}]
+
+branched_into: Jung developed an independent analytical psychology through disagreements about sexuality, libido and the unconscious; the 1913 correspondence documents the personal rupture within a longer transition.
+Evidence: [{"reference": "R12", "source": "https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html"}]
+
+contributed_to: Breuer coauthored Studies on Hysteria and contributed the cathartic clinical work from which psychoanalysis emerged. This does not imply endorsement of all later Freudian theory.
+Evidence: [{"reference": "R2", "source": "https://www.loc.gov/item/76454571/"}]
+
+studies: Documented topic or method of psychoanalytic inquiry; this edge does not assert invention or empirical confirmation.
+Evidence: [{"reference": "R18", "source": "https://web.english.upenn.edu/~cavitch/pdf-library/Freud_SE_Three_Essays_complete.pdf"}]
+
+studies: Documented topic or method of psychoanalytic inquiry; this edge does not assert invention or empirical confirmation.
+Evidence: [{"reference": "R1", "source": "https://www.loc.gov/exhibits/freud/freud02.html"}]
+
+studies: Documented topic or method of psychoanalytic inquiry; this edge does not assert invention or empirical confirmation.
+Evidence: [{"reference": "R19", "source": "https://www.loc.gov/item/25001269/"}]
+
+### Source references
+Bibliographic authors below are exempt from automatic person linking unless discussed in the prose. All web resources were consulted on 19 October 2026. Catalog records verify publication details; primary texts verify what their authors argued, not whether the arguments are true.
+
+- [R1] Library of Congress. “The Individual: Therapy.” *Sigmund Freud: Conflict & Culture*. Curated exhibition with historical documents. [Source](https://www.loc.gov/exhibits/freud/freud02.html)
+- [R2] Breuer, Josef, and Sigmund Freud. *Studien über Hysterie*. Leipzig and Vienna: Franz Deuticke, 1895. Library of Congress catalog record. [Source](https://www.loc.gov/item/76454571/)
+- [R3] Library of Congress. “Sigmund Freud (1856 to 1939).” Collection timeline. The dated naming milestone is supported by the indexed timeline; its page did not render fully during this pass. [Source](https://www.loc.gov/collections/sigmund-freud-papers/articles-and-essays/timeline/)
+- [R4] Freud, Sigmund. *Selected Papers on Hysteria*. Translated by A. A. Brill. Project Gutenberg transcription, including “Further Observations on the Defense Neuropsychoses” (1896). A translated collection, not a facsimile of the 1895 joint book. [Source](https://www.gutenberg.org/cache/epub/75132/pg75132-images.html)
+- [R5] Freud, Sigmund. *The Interpretation of Dreams*. Translated by A. A. Brill from the third German edition. New York: Macmillan, 1913. Project Gutenberg full text. [Source](https://www.gutenberg.org/files/66048/66048-h/66048-h.htm)
+- [R6] Freud, Sigmund. *Die Traumdeutung*. Leipzig and Vienna: Franz Deuticke, 1900 [1899]. Library of Congress catalog record. [Source](https://www.loc.gov/item/77450592/)
+- [R7] Izenberg, Gerald N. “Seduced and abandoned: The rise and fall of Freud’s seduction theory.” In *The Cambridge Companion to Freud*, edited by Jerome Neu. Cambridge University Press. Online publication 28 May 2006. Publisher summary consulted; full chapter not accessed. [Source](https://www.cambridge.org/core/books/abs/cambridge-companion-to-freud/seduced-and-abandoned-the-rise-and-fall-of-freuds-seduction-theory/17E88757EF0C7D26880B49AE21E6C22C)
+- [R8] Library of Congress. “The Individual: Theory.” *Sigmund Freud: Conflict & Culture*. Curated exhibition on sexuality and later theoretical revisions. [Source](https://www.loc.gov/exhibits/freud/freud02a.html)
+- [R9] Library of Congress. “Exploded Manuscript: The Ego and the Id.” Transcript and curator’s comments, 1923. [Source](https://www.loc.gov/exhibits/freud/ex/73a.html)
+- [R10] Freud Museum London. “Freud at Home: The Wednesday Psychological Society.” 14 May 2020. Institutional history with document quotations. [Source](https://www.freud.org.uk/2020/05/14/freud-at-home-the-wednesday-psychological-society/)
+- [R11] Adler University. “Alfred Adler: Vision and Lasting Impact.” Institutional timeline; the 1911 split is used here. Some other dates on this page are internally inconsistent and were not adopted. [Source](https://www.adler.edu/about/history/alfred-adler/)
+- [R12] Library of Congress. “Before the Red Book.” *The Red Book of Carl G. Jung: Its Origins and Influence*. Includes Jung’s letter of 18 December 1912 and Freud’s letter of 3 January 1913. [Source](https://www.loc.gov/exhibits/red-book-of-carl-jung/before-the-red-book.html)
+- [R13] Freud Museum London. “Anna Freud and Child Psychoanalysis.” Educational resource. [Source](https://www.freud.org.uk/schools/resources/anna-freud-life-and-work/child-psychoanalysis/)
+- [R14] Freud Museum London. “The Work of Melanie Klein (DATE CHANGE).” Specialist course description; used only for broad chronology. Full reconstruction of object relations awaits dedicated research. [Source](https://www.freud.org.uk/event/the-work-of-melanie-klein/)
+- [R15] Fonagy, Peter. “Psychoanalysis today.” *World Psychiatry* 2, no. 2 (2003): 73–80. PMCID: PMC1525087. Full-text scholarly review. [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC1525087/)
+- [R16] Freud, Sigmund. “First Lecture,” *The Origin and Development of Psychoanalysis*. Lectures delivered 1909, originally published 1910; linked scholarly edition reproduces a later English printing. [Source](https://www.freudedition.net/en/werke/first-lecture/druckschrift-0)
+- [R17] Freud Museum London. “Freud’s Method for Interpreting Dreams.” Educational resource on association and interpretation. [Source](https://www.freud.org.uk/schools/resources/the-interpretation-of-dreams/freuds-method-for-interpreting-dreams/)
+- [R18] Freud, Sigmund. *Three Essays on the Theory of Sexuality* (1905). *Standard Edition*, volume VII, translated by James Strachey. University-hosted reproduction containing later revisions and editorial notes. [Source](https://web.english.upenn.edu/~cavitch/pdf-library/Freud_SE_Three_Essays_complete.pdf)
+- [R19] Freud, Sigmund. *Beyond the Pleasure Principle* (1920). English translation by C. J. M. Hubback. New York: Boni and Liveright, 1924. Library of Congress digitized edition. [Source](https://www.loc.gov/item/25001269/)
+- [R20] Freud Museum London. “From Medicine to Psychoanalysis.” Educational history of the neurological and clinical context. [Source](https://www.freud.org.uk/schools/resources/freud-the-physician/from-medicine-to-psychoanalysis/)
+
+## Individual Psychology
+
+Pending research. No historical account available.
+
+## Analytical Psychology
+
+Pending research. No historical account available.
+
+## Object Relations
+
+Pending research. No historical account available.

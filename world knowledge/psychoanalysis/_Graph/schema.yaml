@@ -1,0 +1,130 @@
+version: 1
+node_types:
+  school:
+    color: '#2563eb'
+  person:
+    color: '#d97706'
+  concept:
+    color: '#9333ea'
+  theory:
+    color: '#16a34a'
+  method:
+    color: '#0d9488'
+  period:
+    color: '#6b7280'
+traditions:
+- depth-psychology
+- psychodynamic
+- behavioral
+- cognitive
+- humanistic
+- developmental
+- biological
+- social
+- integrative
+primary_tag_dimensions:
+- domain
+- type
+- tradition
+- period
+tag_policy: Schools require four dimensions; people require domain and type.
+relations:
+  developed_from:
+    inverse: branched_into
+    symmetric: false
+    genealogical: true
+  branched_into:
+    inverse: developed_from
+    symmetric: false
+    genealogical: true
+  influenced:
+    inverse: influenced_by
+    symmetric: false
+    genealogical: false
+  influenced_by:
+    inverse: influenced
+    symmetric: false
+    genealogical: false
+  reacted_against:
+    inverse: null
+    symmetric: false
+    genealogical: false
+  extends:
+    inverse: null
+    symmetric: false
+    genealogical: false
+  revises:
+    inverse: null
+    symmetric: false
+    genealogical: false
+  contradicts:
+    inverse: contradicts
+    symmetric: true
+    genealogical: false
+  integrates:
+    inverse: null
+    symmetric: false
+    genealogical: false
+  shares_assumption_with:
+    inverse: shares_assumption_with
+    symmetric: true
+    genealogical: false
+  contemporary_of:
+    inverse: contemporary_of
+    symmetric: true
+    genealogical: false
+  associated_with_period:
+    inverse: null
+    symmetric: false
+    genealogical: false
+  founded_by:
+    inverse: founded
+    symmetric: false
+    genealogical: false
+  founded:
+    inverse: founded_by
+    symmetric: false
+    genealogical: false
+  studies:
+    inverse: null
+    symmetric: false
+    genealogical: false
+  introduces_concept:
+    inverse: null
+    symmetric: false
+    genealogical: false
+  applies_to:
+    inverse: null
+    symmetric: false
+    genealogical: false
+  related_to:
+    inverse: related_to
+    symmetric: true
+    genealogical: false
+  developed:
+    inverse: null
+    symmetric: false
+    genealogical: false
+  criticized:
+    inverse: null
+    symmetric: false
+    genealogical: false
+  contributed_to:
+    inverse: null
+    symmetric: false
+    genealogical: false
+  collaborated_with:
+    inverse: collaborated_with
+    symmetric: true
+    genealogical: false
+  uses_method:
+    inverse: used_by
+    symmetric: false
+    genealogical: false
+  used_by:
+    inverse: uses_method
+    symmetric: false
+    genealogical: false
+relation_aliases:
+  branched_from: developed_from
+  introduced: introduces_concept

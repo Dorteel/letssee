@@ -1,0 +1,139 @@
+completed:
+- psy-school-psychoanalysis
+pending:
+- id: psy-school-individual-psychology
+  title: Individual Psychology
+  type: school
+  path: Psychology/Schools/Individual Psychology.md
+  status: pending
+  sort_year: 1911
+  emergence_year: 1911
+  founding_period: 1911–1912
+  priority: high
+- id: psy-school-analytical-psychology
+  title: Analytical Psychology
+  type: school
+  path: Psychology/Schools/Analytical Psychology.md
+  status: pending
+  sort_year: 1912
+  emergence_year: 1912
+  founding_period: 1912–1914
+  priority: high
+- id: psy-school-object-relations
+  title: Object Relations
+  type: school
+  path: Psychology/Schools/Object Relations.md
+  status: pending
+  sort_year: 1930
+  emergence_year: 1930
+  founding_period: 1920s–1940s
+  priority: high
+- id: psy-concept-death-drive
+  title: Death Drive
+  type: concept
+  path: Psychology/Concepts/Death Drive.md
+  status: pending
+  priority: normal
+- id: psy-concept-infantile-sexuality
+  title: Infantile Sexuality
+  type: concept
+  path: Psychology/Concepts/Infantile Sexuality.md
+  status: pending
+  priority: normal
+- id: psy-concept-repression
+  title: Repression
+  type: concept
+  path: Psychology/Concepts/Repression.md
+  status: pending
+  priority: normal
+- id: psy-concept-resistance
+  title: Resistance
+  type: concept
+  path: Psychology/Concepts/Resistance.md
+  status: pending
+  priority: normal
+- id: psy-concept-transference
+  title: Transference
+  type: concept
+  path: Psychology/Concepts/Transference.md
+  status: pending
+  priority: normal
+- id: psy-concept-unconscious
+  title: Unconscious
+  type: concept
+  path: Psychology/Concepts/Unconscious.md
+  status: pending
+  priority: normal
+- id: psy-method-cathartic-method
+  title: Cathartic Method
+  type: method
+  path: Psychology/Methods/Cathartic Method.md
+  status: pending
+  priority: normal
+- id: psy-method-dream-analysis
+  title: Dream Analysis
+  type: method
+  path: Psychology/Methods/Dream Analysis.md
+  status: pending
+  priority: normal
+- id: psy-method-free-association
+  title: Free Association
+  type: method
+  path: Psychology/Methods/Free Association.md
+  status: pending
+  priority: normal
+- id: psy-person-alfred-adler
+  title: Alfred Adler
+  type: person
+  path: Psychology/People/Alfred Adler.md
+  status: pending
+  priority: normal
+- id: psy-person-anna-freud
+  title: Anna Freud
+  type: person
+  path: Psychology/People/Anna Freud.md
+  status: pending
+  priority: normal
+- id: psy-person-bertha-pappenheim
+  title: Bertha Pappenheim
+  type: person
+  path: Psychology/People/Bertha Pappenheim.md
+  status: pending
+  priority: normal
+- id: psy-person-carl-jung
+  title: Carl Gustav Jung
+  type: person
+  path: Psychology/People/Carl Gustav Jung.md
+  status: pending
+  priority: normal
+- id: psy-person-jean-martin-charcot
+  title: Jean-Martin Charcot
+  type: person
+  path: Psychology/People/Jean-Martin Charcot.md
+  status: pending
+  priority: normal
+- id: psy-person-josef-breuer
+  title: Josef Breuer
+  type: person
+  path: Psychology/People/Josef Breuer.md
+  status: pending
+  priority: normal
+- id: psy-person-melanie-klein
+  title: Melanie Klein
+  type: person
+  path: Psychology/People/Melanie Klein.md
+  status: pending
+  priority: normal
+- id: psy-person-peter-fonagy
+  title: Peter Fonagy
+  type: person
+  path: Psychology/People/Peter Fonagy.md
+  status: pending
+  priority: normal
+- id: psy-person-sigmund-freud
+  title: Sigmund Freud
+  type: person
+  path: Psychology/People/Sigmund Freud.md
+  status: pending
+  priority: normal
+next_proposed_target: psy-school-individual-psychology
